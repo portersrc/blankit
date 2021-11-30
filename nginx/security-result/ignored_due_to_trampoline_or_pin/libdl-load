@@ -1,0 +1,167 @@
+Image name is: /lib/x86_64-linux-gnu/libdl.so.2
+image_load()
+RTN name: .text  not adding probe. failed checks.
+RTN name: dlopen
+  copy address: 0x7f37c0ae90d0
+  addr_base:    0x7f37ad117f70
+  size_cp:      70
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad117000
+  aligned_addr_end:  0x7f37ad117000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad117000
+  aligned_addr_end:  0x7f37ad117000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: dlclose
+  copy address: 0x7f37c0ae30b0
+  addr_base:    0x7f37ad117fe0
+  size_cp:      40
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad117000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad117000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: dlsym
+  copy address: 0x7f37c0ad7010
+  addr_base:    0x7f37ad118040
+  size_cp:      113
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: dlvsym
+  copy address: 0x7f37c0ad7088
+  addr_base:    0x7f37ad1180e0
+  size_cp:      113
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: dlerror
+  copy address: 0x7f37c0ad5040
+  addr_base:    0x7f37ad1182b0
+  size_cp:      565
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: dladdr
+  copy address: 0x7f37ad5d1020
+  addr_base:    0x7f37ad118690
+  size_cp:      16
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: dladdr1
+  copy address: 0x7f37c0ae30d8
+  addr_base:    0x7f37ad1186b0
+  size_cp:      40
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: dlinfo
+  copy address: 0x7f37c0ae9118
+  addr_base:    0x7f37ad1187f0
+  size_cp:      71
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: dlmopen
+  copy address: 0x7f37c0ad4010
+  addr_base:    0x7f37ad118920
+  size_cp:      78
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ad118000
+  aligned_addr_end:  0x7f37ad118000
+  size_to_remap:     4096
+  mprotect succeeded
+done image_load()
+load time for /lib/x86_64-linux-gnu/libdl.so.2 (us): 5537

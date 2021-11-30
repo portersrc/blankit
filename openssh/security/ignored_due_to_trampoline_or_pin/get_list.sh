@@ -1,0 +1,1 @@
+/home/rudy/debloat/pin_probe_debloat_experiments/nginx/security-result/ignored_due_to_trampoline_or_pin/get_list.sh

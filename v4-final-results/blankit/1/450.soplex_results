@@ -1,0 +1,61 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/450.soplex
+benchmark:        450.soplex_embedpin
+benchmark args:   -s1 -e -m45000 pds-50.mps
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/450.soplex ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/450.soplex/450.soplex_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/450.soplex/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/450.soplex/approved_list_libm.txt
+BLANKIT_APPROVED_LIST_LIBGCC: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/450.soplex/approved_list_libgcc.txt
+BLANKIT_APPROVED_LIST_LIBSTDCPP: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/450.soplex/approved_list_libstdcpp.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/450.soplex/string2id_map.csv
+BLANKIT_LAZY: 1
+pin main time (us): 20161
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/450.soplex/450.soplex_embedpin (us): 1
+load time for /lib64/ld-linux-x86-64.so.2 (us): 1
+load time for [vdso] (us): 0
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 165
+load time for /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (us): 2011614
+load time for /lib/x86_64-linux-gnu/libm.so.6 (us): 441838
+load time for /lib/x86_64-linux-gnu/libgcc_s.so.1 (us): 142761
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1767752
+Delta   =     1.000000e-06
+Epsilon =     1.000000e-17
+Leaving algorithm
+Column representation
+Forest-Tomlin update
+Steep pricing
+Fast ratiotest
+No scaling
+General simplifier
+Weight starter
+loading LP file pds-50.mps
+LP has 83060	rows and
+       270095	columns
+solving LP
+SPxRem1SM:	removed 1237 row(s)
+SPxRem1SM:	removed 1014 column(s)
+SPxRem1SM:	removed 290 row(s)
+SPxRem1SM:	removed 132 column(s)
+SPxRem1SM:	removed 99 row(s)
+SPxRem1SM:	removed 99 column(s)
+SPxAggregateSM:	removed 11543 row(s) and column(s)
+SPxAggregateSM:	delta = -9.870000e+07
+SPxRedundantSM: removed 803 column(s)
+SPxRedundantSM:	removed 292 row(s)
+SPxAggregateSM:	removed 29828 row(s) and column(s)
+SPxAggregateSM:	delta = -5.289000e+08
+SPxAggregateSM:	removed 861 row(s) and column(s)
+SPxAggregateSM:	delta = -5.289000e+08
+removed 44150 rows
+removed 44280 columns
+Finished solving (status=-6)
+aborted due to iteration limit
+solution value is: 1.5022603e+10
+
+
+real	2m40.624s
+user	2m24.691s
+sys	0m15.846s
+~/debloat/pin_probe_debloat_experiments

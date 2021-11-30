@@ -1,0 +1,12 @@
+__libc_start_main
+_IO_fgets
+_IO_padn
+_IO_puts
+__libc_calloc
+__default_morecore
+strlen
+strtok
+bzero
+setrlimit
+brk
+__sbrk

@@ -1,0 +1,13 @@
+A couple important notes about this one:
+
+1. had to build it on ashwa in prithayan's folder
+/home/prithayan/project/llvm/llvm5/lib/Transforms/audit/audit_runtime
+
+2. sshd dumps its output in the communcation with the client. The normal
+stdout printf version of the library doesn't work. fprintf also has issues.
+stderr worked. It didn't crash sshd. The client gets some of the AUDIT_NANOSECONDS
+crap but it doesn't mess up the connection.
+
+3. prithayan's source code got modified for this, but it should be relatively
+clear what i did based on filenames.
+*sshd_stderr is the version that writes to stderr so that sshd will work.

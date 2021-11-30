@@ -1,0 +1,16 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/462.libquantum
+benchmark:        462.libquantum_wopin
+benchmark args:   1397 8
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/462.libquantum ~/debloat/pin_probe_debloat_experiments
+N = 1397, 56 qubits required
+Random seed: 8
+Measured 1468006 (0.700000), fractional approximation is 7/10.
+Possible period is 10.
+1397 = 11 * 127
+
+real	6m24.473s
+user	6m23.962s
+sys	0m0.260s
+~/debloat/pin_probe_debloat_experiments

@@ -1,0 +1,6 @@
+
+;_IO_default_xsputn;_IO_do_write;_IO_doallocbuf;_IO_file_overflow;_IO_file_write;_IO_file_xsputn;_IO_fprintf;_IO_vfprintf;strchrnul;write;,2
+;_IO_do_write;_IO_file_overflow;_IO_file_write;_IO_file_xsputn;fwrite;write;,3
+;getenv;strlen;,0
+;strlen;,1
+;,387

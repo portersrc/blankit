@@ -1,0 +1,442 @@
+Image name is: /lib/x86_64-linux-gnu/libpcre.so.3
+image_load()
+RTN name: .text  not adding probe. failed checks.
+RTN name: pcre_pattern_to_host_byte_order
+  copy address: 0x7f37ad0ac1a8
+  addr_base:    0x7f37ab932830
+  size_cp:      214
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab932000
+  aligned_addr_end:  0x7f37ab932000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab932000
+  aligned_addr_end:  0x7f37ab932000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_compile2
+  copy address: 0x7f37ad115010
+  addr_base:    0x7f37ab93bd50
+  size_cp:      5496
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab93b000
+  aligned_addr_end:  0x7f37ab93d000
+  size_to_remap:     12288
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab93b000
+  aligned_addr_end:  0x7f37ab93d000
+  size_to_remap:     12288
+  mprotect succeeded
+RTN name: pcre_compile
+  copy address: 0x7f37ad5cf0b0
+  addr_base:    0x7f37ab93d2e0
+  size_cp:      2
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab93d000
+  aligned_addr_end:  0x7f37ab93d000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab93d000
+  aligned_addr_end:  0x7f37ab93d000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_config
+  copy address: 0x7f37ad089258
+  addr_base:    0x7f37ab93d2f0
+  size_cp:      147
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab93d000
+  aligned_addr_end:  0x7f37ab93d000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab93d000
+  aligned_addr_end:  0x7f37ab93d000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_dfa_exec
+  copy address: 0x7f37ad113010
+  addr_base:    0x7f37ab943ba0
+  size_cp:      4639
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab943000
+  aligned_addr_end:  0x7f37ab944000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab943000
+  aligned_addr_end:  0x7f37ab944000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: pcre_exec
+  copy address: 0x7f37ad110010
+  addr_base:    0x7f37ab955e40
+  size_cp:      5458
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab955000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     12288
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab955000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     12288
+  mprotect succeeded
+RTN name: pcre_fullinfo
+  copy address: 0x7f37ad0a9880
+  addr_base:    0x7f37ab9573a0
+  size_cp:      626
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_get_stringnumber
+  copy address: 0x7f37ad0d05e0
+  addr_base:    0x7f37ab957620
+  size_cp:      274
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_get_stringtable_entries
+  copy address: 0x7f37ad0b02e0
+  addr_base:    0x7f37ab957740
+  size_cp:      642
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_copy_substring
+  copy address: 0x7f37c0ae9550
+  addr_base:    0x7f37ab9579d0
+  size_cp:      72
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_copy_named_substring
+  copy address: 0x7f37ad0b7100
+  addr_base:    0x7f37ab957a30
+  size_cp:      95
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_get_substring_list
+  copy address: 0x7f37ad0ad270
+  addr_base:    0x7f37ab957aa0
+  size_cp:      244
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_get_substring
+  copy address: 0x7f37ad09c180
+  addr_base:    0x7f37ab957bb0
+  size_cp:      121
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_get_named_substring
+  copy address: 0x7f37ad0b7160
+  addr_base:    0x7f37ab957c40
+  size_cp:      89
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_free_substring
+  not adding probe. copy size is too small
+RTN name: pcre_free_substring_list  not adding probe. failed checks.
+RTN name: pcre_info
+  copy address: 0x7f37c0ae9598
+  addr_base:    0x7f37ab957cd0
+  size_cp:      66
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab957000
+  aligned_addr_end:  0x7f37ab957000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_jit_exec
+  copy address: 0x7f37ad0a1780
+  addr_base:    0x7f37ab97e590
+  size_cp:      514
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_jit_stack_alloc
+  copy address: 0x7f37ad0d0700
+  addr_base:    0x7f37ab97e7c0
+  size_cp:      277
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_jit_stack_free
+  copy address: 0x7f37ad5d01a8
+  addr_base:    0x7f37ab97e8f0
+  size_cp:      22
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_assign_jit_stack
+  copy address: 0x7f37ad5d10d0
+  addr_base:    0x7f37ab97e920
+  size_cp:      15
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_jit_free_unused_memory
+  copy address: 0x7f37ad09c200
+  addr_base:    0x7f37ab97e940
+  size_cp:      123
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_maketables
+  copy address: 0x7f37ad10e060
+  addr_base:    0x7f37ab97e9d0
+  size_cp:      792
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97e000
+  aligned_addr_end:  0x7f37ab97e000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_refcount
+  copy address: 0x7f37ad0b3450
+  addr_base:    0x7f37ab97f1c0
+  size_cp:      81
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97f000
+  aligned_addr_end:  0x7f37ab97f000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab97f000
+  aligned_addr_end:  0x7f37ab97f000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_free_study
+  copy address: 0x7f37c0ae3240
+  addr_base:    0x7f37ab9804e0
+  size_cp:      36
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab980000
+  aligned_addr_end:  0x7f37ab980000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab980000
+  aligned_addr_end:  0x7f37ab980000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_study
+  copy address: 0x7f37ad10d200
+  addr_base:    0x7f37ab980520
+  size_cp:      1779
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab980000
+  aligned_addr_end:  0x7f37ab980000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab980000
+  aligned_addr_end:  0x7f37ab980000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pcre_version
+  not adding probe. copy size is too small
+done image_load()
+load time for /lib/x86_64-linux-gnu/libpcre.so.3 (us): 113960

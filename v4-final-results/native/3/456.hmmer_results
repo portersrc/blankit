@@ -1,0 +1,29 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/456.hmmer
+benchmark:        456.hmmer_wopin
+benchmark args:   --fixed 0 --mean 500 --num 500000 --sd 350 --seed 0 retro.hmm
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/456.hmmer ~/debloat/pin_probe_debloat_experiments
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 retro.hmm
+Length distribution mean: 500
+Length distribution s.d.: 350
+Number of samples:        500000
+random seed:              0
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+HMM    : Retrotrans_gag
+mu     :   -48.936745
+lambda :     0.235556
+max    :    -8.243000
+//
+
+real	3m5.145s
+user	3m5.112s
+sys	0m0.008s
+~/debloat/pin_probe_debloat_experiments

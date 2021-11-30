@@ -1,0 +1,7 @@
+__ctype_init
+__cxa_atexit
+getenv
+_init
+rindex
+_setjmp
+__sigsetjmp

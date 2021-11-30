@@ -1,0 +1,1195 @@
+Image name is: /lib/x86_64-linux-gnu/libz.so.1
+image_load()
+RTN name: .text  not adding probe. failed checks.
+RTN name: adler32
+  copy address: 0x7f37ad0f6400
+  addr_base:    0x7f37ab718eb0
+  size_cp:      1536
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab718000
+  aligned_addr_end:  0x7f37ab719000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab718000
+  aligned_addr_end:  0x7f37ab719000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: adler32_combine
+  copy address: 0x7f37ad0cd2e0
+  addr_base:    0x7f37ab7194c0
+  size_cp:      235
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab719000
+  aligned_addr_end:  0x7f37ab719000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab719000
+  aligned_addr_end:  0x7f37ab719000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: adler32_combine64
+  copy address: 0x7f37ad0cd3d0
+  addr_base:    0x7f37ab7195c0
+  size_cp:      235
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab719000
+  aligned_addr_end:  0x7f37ab719000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab719000
+  aligned_addr_end:  0x7f37ab719000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: get_crc_table
+  not adding probe. copy size is too small
+RTN name: crc32
+  copy address: 0x7f37ad0c8400
+  addr_base:    0x7f37ab719890
+  size_cp:      739
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab719000
+  aligned_addr_end:  0x7f37ab719000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab719000
+  aligned_addr_end:  0x7f37ab719000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: crc32_combine  not adding probe. failed checks.
+RTN name: crc32_combine64  not adding probe. failed checks.
+RTN name: deflateSetDictionary
+  copy address: 0x7f37ad0a19a0
+  addr_base:    0x7f37ab71b170
+  size_cp:      539
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflateResetKeep
+  copy address: 0x7f37ad075040
+  addr_base:    0x7f37ab71b3a0
+  size_cp:      191
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflateReset
+  copy address: 0x7f37ad094128
+  addr_base:    0x7f37ab71b470
+  size_cp:      198
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflateSetHeader
+  copy address: 0x7f37c0aea280
+  addr_base:    0x7f37ab71b550
+  size_cp:      26
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflatePending
+  copy address: 0x7f37ad0b40d0
+  addr_base:    0x7f37ab71b580
+  size_cp:      48
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflatePrime
+  copy address: 0x7f37ad095240
+  addr_base:    0x7f37ab71b5c0
+  size_cp:      156
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflateTune
+  copy address: 0x7f37c0ae3268
+  addr_base:    0x7f37ab71b670
+  size_cp:      40
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflateBound
+  copy address: 0x7f37ad0cc4c0
+  addr_base:    0x7f37ab71b6b0
+  size_cp:      308
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71b000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflate
+  copy address: 0x7f37ad073010
+  addr_base:    0x7f37ab71b800
+  size_cp:      5872
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71c000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71b000
+  aligned_addr_end:  0x7f37ab71c000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: deflateParams
+  copy address: 0x7f37ad0cc600
+  addr_base:    0x7f37ab71cf00
+  size_cp:      306
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71c000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71c000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: deflateEnd
+  copy address: 0x7f37ad0b5300
+  addr_base:    0x7f37ab71d040
+  size_cp:      208
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflateInit2_
+  copy address: 0x7f37ad0631a0
+  addr_base:    0x7f37ab71d120
+  size_cp:      721
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflateInit_
+  copy address: 0x7f37ad5d01c0
+  addr_base:    0x7f37ab71d400
+  size_cp:      21
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: deflateCopy
+  copy address: 0x7f37ad0a4420
+  addr_base:    0x7f37ab71d430
+  size_cp:      601
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateBackInit_
+  copy address: 0x7f37ad0cd4c0
+  addr_base:    0x7f37ab71d6a0
+  size_cp:      239
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71d000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateBack
+  copy address: 0x7f37ad061010
+  addr_base:    0x7f37ab71d7a0
+  size_cp:      5829
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71e000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71d000
+  aligned_addr_end:  0x7f37ab71e000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: inflateBackEnd
+  copy address: 0x7f37c0ae3290
+  addr_base:    0x7f37ab71ee80
+  size_cp:      40
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71e000
+  aligned_addr_end:  0x7f37ab71e000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab71e000
+  aligned_addr_end:  0x7f37ab71e000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateResetKeep
+  copy address: 0x7f37ad0952e0
+  addr_base:    0x7f37ab720a00
+  size_cp:      160
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateReset
+  copy address: 0x7f37c0ae32b8
+  addr_base:    0x7f37ab720ab0
+  size_cp:      40
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateReset2
+  copy address: 0x7f37ad0892f0
+  addr_base:    0x7f37ab720af0
+  size_cp:      152
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateInit2_
+  copy address: 0x7f37ad0cd5b0
+  addr_base:    0x7f37ab720ba0
+  size_cp:      239
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateInit_
+  copy address: 0x7f37ad5cf0b8
+  addr_base:    0x7f37ab720ca0
+  size_cp:      1
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflatePrime
+  copy address: 0x7f37ad0b71c0
+  addr_base:    0x7f37ab720cb0
+  size_cp:      96
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab720000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflate
+  copy address: 0x7f37ad05c010
+  addr_base:    0x7f37ab720d20
+  size_cp:      9409
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     16384
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab720000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     16384
+  mprotect succeeded
+RTN name: inflateEnd
+  copy address: 0x7f37c0ae95e0
+  addr_base:    0x7f37ab7231f0
+  size_cp:      72
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateGetDictionary
+  copy address: 0x7f37ad5d2230
+  addr_base:    0x7f37ab723250
+  size_cp:      99
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateSetDictionary
+  copy address: 0x7f37ad0bd270
+  addr_base:    0x7f37ab7232d0
+  size_cp:      493
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateGetHeader
+  copy address: 0x7f37c0aea2a0
+  addr_base:    0x7f37ab7234d0
+  size_cp:      32
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateSync
+  copy address: 0x7f37ad0a9b00
+  addr_base:    0x7f37ab723500
+  size_cp:      626
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateSyncPoint
+  copy address: 0x7f37c0ae32e0
+  addr_base:    0x7f37ab723780
+  size_cp:      40
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateCopy
+  copy address: 0x7f37ad0a1bc0
+  addr_base:    0x7f37ab7237c0
+  size_cp:      513
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateUndermine
+  copy address: 0x7f37ad5d01d8
+  addr_base:    0x7f37ab7239d0
+  size_cp:      22
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: inflateMark
+  copy address: 0x7f37c0ad4740
+  addr_base:    0x7f37ab723a00
+  size_cp:      74
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab723000
+  aligned_addr_end:  0x7f37ab723000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: zlibVersion
+  not adding probe. copy size is too small
+RTN name: zlibCompileFlags
+  not adding probe. copy size is too small
+RTN name: zError
+  copy address: 0x7f37ad5cf0c0
+  addr_base:    0x7f37ab726b80
+  size_cp:      7
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab726000
+  aligned_addr_end:  0x7f37ab726000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab726000
+  aligned_addr_end:  0x7f37ab726000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzflags
+  not adding probe. copy size is too small
+RTN name: compress2
+  copy address: 0x7f37ad0ac280
+  addr_base:    0x7f37ab726bd0
+  size_cp:      210
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab726000
+  aligned_addr_end:  0x7f37ab726000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab726000
+  aligned_addr_end:  0x7f37ab726000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: compress
+  not adding probe. copy size is too small
+RTN name: compressBound
+  copy address: 0x7f37ad5d10e0
+  addr_base:    0x7f37ab726cc0
+  size_cp:      16
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab726000
+  aligned_addr_end:  0x7f37ab726000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab726000
+  aligned_addr_end:  0x7f37ab726000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: uncompress
+  copy address: 0x7f37ad09b180
+  addr_base:    0x7f37ab726ce0
+  size_cp:      226
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab726000
+  aligned_addr_end:  0x7f37ab726000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab726000
+  aligned_addr_end:  0x7f37ab726000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzclose
+  copy address: 0x7f37ad5d01f0
+  addr_base:    0x7f37ab726dd0
+  size_cp:      21
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab726000
+  aligned_addr_end:  0x7f37ab726000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab726000
+  aligned_addr_end:  0x7f37ab726000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzopen
+  not adding probe. copy size is too small
+RTN name: gzopen64
+  not adding probe. copy size is too small
+RTN name: gzdopen
+  copy address: 0x7f37ad5d2298
+  addr_base:    0x7f37ab727170
+  size_cp:      102
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzbuffer
+  copy address: 0x7f37ad0d21c8
+  addr_base:    0x7f37ab7271f0
+  size_cp:      49
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzrewind
+  copy address: 0x7f37ad08d240
+  addr_base:    0x7f37ab727230
+  size_cp:      169
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzseek64
+  copy address: 0x7f37ad0fe1f0
+  addr_base:    0x7f37ab7272f0
+  size_cp:      397
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzseek  not adding probe. failed checks.
+RTN name: gztell64
+  copy address: 0x7f37ad0b4100
+  addr_base:    0x7f37ab7274a0
+  size_cp:      47
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gztell  not adding probe. failed checks.
+RTN name: gzoffset64
+  copy address: 0x7f37c0ad4790
+  addr_base:    0x7f37ab7274f0
+  size_cp:      75
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzoffset  not adding probe. failed checks.
+RTN name: gzeof
+  copy address: 0x7f37ad5d10f0
+  addr_base:    0x7f37ab727560
+  size_cp:      14
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzerror
+  copy address: 0x7f37ad0d2200
+  addr_base:    0x7f37ab727580
+  size_cp:      54
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzclearerr
+  copy address: 0x7f37ad0b7220
+  addr_base:    0x7f37ab7275d0
+  size_cp:      94
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab727000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzread
+  copy address: 0x7f37ad10e380
+  addr_base:    0x7f37ab727da0
+  size_cp:      781
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab727000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: gzgetc
+  copy address: 0x7f37ad089388
+  addr_base:    0x7f37ab7280c0
+  size_cp:      146
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzgetc_  not adding probe. failed checks.
+RTN name: gzungetc
+  copy address: 0x7f37ad09f7b0
+  addr_base:    0x7f37ab728170
+  size_cp:      293
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzgets
+  copy address: 0x7f37ad0a4680
+  addr_base:    0x7f37ab7282b0
+  size_cp:      592
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzdirect
+  copy address: 0x7f37ad0b4130
+  addr_base:    0x7f37ab728510
+  size_cp:      45
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzclose_r
+  copy address: 0x7f37ad0d12b8
+  addr_base:    0x7f37ab728550
+  size_cp:      129
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzwrite
+  copy address: 0x7f37ad0a07c0
+  addr_base:    0x7f37ab728a50
+  size_cp:      686
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzputc
+  copy address: 0x7f37ad0ad368
+  addr_base:    0x7f37ab728d10
+  size_cp:      242
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzputs
+  copy address: 0x7f37ad0b4160
+  addr_base:    0x7f37ab728e10
+  size_cp:      42
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab728000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzvprintf
+  copy address: 0x7f37c0ad5700
+  addr_base:    0x7f37ab728e50
+  size_cp:      555
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab729000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab728000
+  aligned_addr_end:  0x7f37ab729000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: gzprintf
+  copy address: 0x7f37ad0cb310
+  addr_base:    0x7f37ab729090
+  size_cp:      178
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab729000
+  aligned_addr_end:  0x7f37ab729000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab729000
+  aligned_addr_end:  0x7f37ab729000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzflush
+  copy address: 0x7f37ad0a0a80
+  addr_base:    0x7f37ab729150
+  size_cp:      681
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab729000
+  aligned_addr_end:  0x7f37ab729000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab729000
+  aligned_addr_end:  0x7f37ab729000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzsetparams
+  copy address: 0x7f37ad05a040
+  addr_base:    0x7f37ab729410
+  size_cp:      445
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab729000
+  aligned_addr_end:  0x7f37ab729000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab729000
+  aligned_addr_end:  0x7f37ab729000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: gzclose_w
+  copy address: 0x7f37c0ad5940
+  addr_base:    0x7f37ab7295e0
+  size_cp:      546
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab729000
+  aligned_addr_end:  0x7f37ab729000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37ab729000
+  aligned_addr_end:  0x7f37ab729000
+  size_to_remap:     4096
+  mprotect succeeded
+done image_load()
+load time for /lib/x86_64-linux-gnu/libz.so.1 (us): 132405

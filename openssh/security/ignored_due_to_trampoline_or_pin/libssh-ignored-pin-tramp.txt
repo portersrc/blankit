@@ -1,0 +1,3 @@
+ssh_packet_payload
+tun_open
+ssh_hmac_bytes

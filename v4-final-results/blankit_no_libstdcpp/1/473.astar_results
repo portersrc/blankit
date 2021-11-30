@@ -1,0 +1,67 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/473.astar
+benchmark:        473.astar_embedpin
+benchmark args:   BigLakes2048.cfg
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/473.astar ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/473.astar/473.astar_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/473.astar/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/473.astar/approved_list_libm.txt
+BLANKIT_APPROVED_LIST_LIBGCC: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/473.astar/approved_list_libgcc.txt
+BLANKIT_APPROVED_LIST_LIBSTDCPP: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/473.astar/approved_list_libstdcpp.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/473.astar/string2id_map.csv
+BLANKIT_LAZY: 1
+pin main time (us): 15643
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/473.astar/473.astar_embedpin (us): 1
+load time for /lib64/ld-linux-x86-64.so.2 (us): 1
+load time for [vdso] (us): 1
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 145
+load time for /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (us): 1
+load time for /lib/x86_64-linux-gnu/libm.so.6 (us): 442032
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1536715
+load time for /lib/x86_64-linux-gnu/libgcc_s.so.1 (us): 140165
+Small Path Finding Library
+Read configuration file
+Create ways
+BigLakes2048.bin
+Create regional map time : 0
+
+Create ways time : 0
+Ways quantity : 468
+Total way length : 761939
+
+Create reg ways time : 0
+Reg ways quantity : 4603
+Total reg way length : 1417263
+
+Create river ways time : 0
+River ways quantity : 100
+Total river way length : 173223
+Create land ways time : 0
+Land ways quantity : 100
+Total land way length : 148092
+
+Create ways
+Random map
+Create regional map time : 0
+
+Create ways time : 0
+Ways quantity : 236
+Total way length : 252563
+
+Create reg ways time : 0
+Reg ways quantity : 15899
+Total reg way length : 1970873
+
+Create river ways time : 0
+River ways quantity : 0
+Total river way length : 0
+Create land ways time : 0
+Land ways quantity : 0
+Total land way length : 0
+
+
+real	2m20.274s
+user	2m19.794s
+sys	0m0.419s
+~/debloat/pin_probe_debloat_experiments

@@ -1,0 +1,3 @@
+_IO_fgets
+_IO_puts
+bzero

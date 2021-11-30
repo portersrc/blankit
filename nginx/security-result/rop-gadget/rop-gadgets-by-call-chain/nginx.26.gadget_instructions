@@ -1,0 +1,5 @@
+0x00000000000f14a8 : cmp eax, 0xfffff001 ; jae 0xf14b7 ; ret
+0x00000000000f14a7 : cmp rax, -0xfff ; jae 0xf14b8 ; ret
+0x00000000000f14ad : jae 0xf14b2 ; ret
+0x00000000000f14a0 : mov eax, 0x29 ; syscall
+0x00000000000f14a1 : sub dword ptr [rax], eax ; add byte ptr [rax], al ; syscall

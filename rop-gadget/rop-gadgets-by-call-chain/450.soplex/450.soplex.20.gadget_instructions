@@ -1,0 +1,5 @@
+0x00000000000bf5bb : add byte ptr [rax], al ; add byte ptr [rax + 0xf], cl ; ret 0xfc3
+0x00000000000bf5a0 : mov eax, 0x64 ; syscall
+0x00000000000bf5ec : mov eax, 0xfffffff2 ; ret
+0x00000000000bf5b9 : mov edx, 0 ; cmove rax, rdx ; ret
+0x00000000000bf5eb : mov rax, -0xe ; ret

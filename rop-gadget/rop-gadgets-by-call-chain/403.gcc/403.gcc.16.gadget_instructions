@@ -1,0 +1,7 @@
+0x00000000000e2c35 : cmp eax, 0xfffff000 ; ja 0xe2c47 ; ret
+0x00000000000e2c34 : cmp rax, -0x1000 ; ja 0xe2c48 ; ret
+0x00000000000e2c9f : fdivr dword ptr [rax + 0x20] ; syscall
+0x00000000000e2c3a : ja 0xe2c42 ; ret
+0x00000000000e2c67 : mov edx, eax ; mov eax, 3 ; syscall
+0x00000000000e2c65 : movsxd rdi, ebx ; mov edx, eax ; mov eax, 3 ; syscall
+0x00000000000e2c66 : sti ; mov edx, eax ; mov eax, 3 ; syscall

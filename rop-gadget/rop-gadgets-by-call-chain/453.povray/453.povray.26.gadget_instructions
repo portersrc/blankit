@@ -1,0 +1,12 @@
+0x00000000000e3290 : and al, 0xb8 ; add dword ptr [rcx], eax ; add byte ptr [rax], al ; syscall
+0x00000000000e334a : and al, 0xb8 ; add eax, dword ptr [rax] ; add byte ptr [rax], al ; syscall
+0x00000000000e328f : cmp al, 0x24 ; mov eax, 0x101 ; syscall
+0x00000000000e3349 : cmp al, 0x24 ; mov eax, 3 ; syscall
+0x00000000000e2ee3 : mov eax, 0x4f ; syscall
+0x00000000000e2ee1 : mov edi, ebp ; mov eax, 0x4f ; syscall
+0x00000000000e2ee0 : mov rdi, rbp ; mov eax, 0x4f ; syscall
+0x00000000000e328d : movsxd rdi, dword ptr [rsp] ; mov eax, 0x101 ; syscall
+0x00000000000e3347 : movsxd rdi, dword ptr [rsp] ; mov eax, 3 ; syscall
+0x00000000000e2ee2 : out dx, eax ; mov eax, 0x4f ; syscall
+0x00000000000e3135 : ret 0x4164
+0x00000000000e2edf : std ; mov rdi, rbp ; mov eax, 0x4f ; syscall

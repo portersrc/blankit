@@ -1,0 +1,12 @@
+0x000000000006c251 : cmc ; pop rbp ; pop r12 ; pop r13 ; ret
+0x000000000006c250 : div ebp ; pop rbp ; pop r12 ; pop r13 ; ret
+0x000000000006c24f : div rbp ; pop rbp ; pop r12 ; pop r13 ; ret
+0x000000000006c275 : mov eax, ebp ; pop rbx ; pop rbp ; pop r12 ; pop r13 ; ret
+0x000000000006c274 : mov rax, r13 ; pop rbx ; pop rbp ; pop r12 ; pop r13 ; ret
+0x000000000006c24e : pop rbx ; div rbp ; pop rbp ; pop r12 ; pop r13 ; ret
+0x000000000007976d : add esp, 0x20 ; pop rbx ; jmp rax
+0x000000000007976c : add rsp, 0x20 ; pop rbx ; jmp rax
+0x000000000007979d : and al, 8 ; add rsp, 0x20 ; pop rbx ; jmp rax
+0x0000000000079769 : mov eax, dword ptr [rbx + 0x40] ; add rsp, 0x20 ; pop rbx ; jmp rax
+0x000000000007979b : mov edi, dword ptr [rsp + 8] ; add rsp, 0x20 ; pop rbx ; jmp rax
+0x0000000000079768 : mov rax, qword ptr [rbx + 0x40] ; add rsp, 0x20 ; pop rbx ; jmp rax

@@ -1,0 +1,5 @@
+0x000000000002135a : add al, 0x25 ; add byte ptr [rax], al ; add byte ptr [rax], al ; ret
+0x0000000000021359 : add eax, dword ptr [0] ; ret
+0x0000000000021358 : add rax, qword ptr [0] ; ret
+0x0000000000021357 : add rax, qword ptr fs:[0] ; ret
+0x000000000002135b : and eax, 0 ; ret

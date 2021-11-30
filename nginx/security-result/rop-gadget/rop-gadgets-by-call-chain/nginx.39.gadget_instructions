@@ -1,0 +1,1 @@
+0x00000000000c06a0 : mov eax, 0x6b ; syscall

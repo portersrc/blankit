@@ -1,0 +1,6 @@
+0x00000000000afbaa : adc byte ptr [rsp - 0x10], al ; ret
+0x00000000000afba6 : and al, 0xf0 ; movsd xmm0, qword ptr [rsp - 0x10] ; ret
+0x00000000000afbac : and al, 0xf0 ; ret
+0x00000000000afba8 : movsd xmm0, qword ptr [rsp - 0x10] ; ret
+0x00000000000afba9 : movups xmm0, xmmword ptr [rsp - 0x10] ; ret
+0x00000000000afba5 : pop rsp ; and al, 0xf0 ; movsd xmm0, qword ptr [rsp - 0x10] ; ret

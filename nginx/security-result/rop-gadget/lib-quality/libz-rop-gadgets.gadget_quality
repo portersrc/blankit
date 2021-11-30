@@ -1,0 +1,19 @@
+Arithmetic Gadgets: 479
+Data-Move Gadgets: 298
+Control-Flow Gadgets: 158
+Logic Gadgets: 149
+RETs: 245
+Shift/Rot Gadgets: 56
+Flag Gadgets: 49
+String Gadgets: 22
+NOP Gadgets: 12
+Floating Point: 8
+Misc Gadgets: 40
+Total: 1516
+Gadgets for loading params:
+Good gadgets: rcx: 0; rdx: 0; r8: 0; r9: 0
+Bad gadgets: rcx: 1; rdx: 4; r8: 0; r9: 0
+Good / bad stack pivots: 0 / 43
+Call reg: 12
+Kept 400 gadgets.
+Average gadget score: 0.7095959595959596

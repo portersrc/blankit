@@ -1,0 +1,2 @@
+.text
+__res_ownok

@@ -1,0 +1,2 @@
+0x0000000000083fb9 : add eax, 0xfcf2 ; cmove rax, rdx ; ret
+0x0000000000083fbb : cld ; add byte ptr [rax], al ; cmove rax, rdx ; ret

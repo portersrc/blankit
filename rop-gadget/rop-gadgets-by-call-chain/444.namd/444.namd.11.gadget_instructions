@@ -1,0 +1,8 @@
+0x000000000006bb85 : add byte ptr [rax], al ; mov rax, rbp ; pop rbx ; pop rbp ; pop r12 ; ret
+0x000000000006bb1f : add dh, dh ; ret 0x7420
+0x000000000006bb13 : je 0x6bb51 ; mov rax, rbp ; pop rbx ; pop rbp ; pop r12 ; ret
+0x000000000006bb15 : mov rax, rbp ; pop rbx ; pop rbp ; pop r12 ; ret
+0x000000000006bb21 : ret 0x7420
+0x0000000000084e10 : add eax, 0x904b ; cmove rax, rdx ; ret
+0x0000000000084e12 : nop ; add byte ptr [rax], al ; cmove rax, rdx ; ret
+0x0000000000084e11 : xchg rax, r8 ; add byte ptr [rax], al ; cmove rax, rdx ; ret

@@ -1,0 +1,6 @@
+create_bin.c
+    Short program for generating binary input files that nginx can serve.  
+    Build:
+        $ gcc create_bin.c
+    Run:
+        $ ./a.out # will dump usage

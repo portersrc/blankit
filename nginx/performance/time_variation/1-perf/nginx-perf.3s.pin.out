@@ -1,0 +1,17 @@
+
+ Performance counter stats for process id '23169':
+
+       3006.616838      task-clock (msec)         #    0.976 CPUs utilized          
+               443      context-switches          #    0.147 K/sec                  
+                26      cpu-migrations            #    0.009 K/sec                  
+                46      page-faults               #    0.015 K/sec                  
+    10,720,064,659      cycles                    #    3.565 GHz                      (83.18%)
+       780,884,804      stalled-cycles-frontend   #    7.28% frontend cycles idle     (83.22%)
+     2,498,383,823      stalled-cycles-backend    #   23.31% backend cycles idle      (83.29%)
+     6,869,249,287      instructions              #    0.64  insn per cycle         
+                                                  #    0.36  stalled cycles per insn  (83.43%)
+     1,285,001,870      branches                  #  427.391 M/sec                    (83.45%)
+        84,136,070      branch-misses             #    6.55% of all branches          (83.44%)
+
+       3.080785455 seconds time elapsed
+

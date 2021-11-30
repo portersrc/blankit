@@ -1,0 +1,17 @@
+
+ Performance counter stats for process id '25044':
+
+      30003.425238      task-clock (msec)         #    0.998 CPUs utilized          
+             3,999      context-switches          #    0.133 K/sec                  
+               116      cpu-migrations            #    0.004 K/sec                  
+               265      page-faults               #    0.009 K/sec                  
+   109,424,682,786      cycles                    #    3.647 GHz                      (83.33%)
+    13,465,833,821      stalled-cycles-frontend   #   12.31% frontend cycles idle     (83.34%)
+    31,099,315,697      stalled-cycles-backend    #   28.42% backend cycles idle      (83.33%)
+   111,496,048,365      instructions              #    1.02  insn per cycle         
+                                                  #    0.28  stalled cycles per insn  (83.33%)
+    20,876,031,631      branches                  #  695.788 M/sec                    (83.35%)
+       293,240,226      branch-misses             #    1.40% of all branches          (83.32%)
+
+      30.048907223 seconds time elapsed
+

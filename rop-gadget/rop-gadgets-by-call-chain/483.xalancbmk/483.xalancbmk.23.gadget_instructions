@@ -1,0 +1,9 @@
+0x000000000002bfa9 : adc eax, 0x381bef ; ret
+0x000000000002be7d : add byte ptr [rax + 0x440ffff9], al ; retf 0xd88
+0x000000000002be7b : add byte ptr [rax], al ; add byte ptr [rax + 0x440ffff9], al ; retf 0xd88
+0x000000000002bfa6 : cmp byte ptr [rax], al ; mov byte ptr [rip + 0x381bef], dl ; ret
+0x000000000002be80 : dec dword ptr [rdi] ; retf 0xd88
+0x000000000002bfa8 : mov byte ptr [rip + 0x381bef], dl ; ret
+0x000000000002be93 : or dword ptr [rax + 0x440ffff9], eax ; retf 0xd88
+0x000000000002be83 : retf 0xd88
+0x000000000002be7f : stc ; dec dword ptr [rdi] ; retf 0xd88

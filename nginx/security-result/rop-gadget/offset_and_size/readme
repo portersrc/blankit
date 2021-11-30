@@ -1,0 +1,8 @@
+offset-and-size.sh was originally from:
+  pin_probe_debloat_experiments/offset_and_size
+i think there is more info there and examples (?) of how the output looks
+without awk.
+
+I copied the script here and modified to suit the needs of nginx.
+
+after running, had to trim top 5 or so lines manually.

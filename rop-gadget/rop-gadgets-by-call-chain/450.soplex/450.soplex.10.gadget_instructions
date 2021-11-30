@@ -1,0 +1,35 @@
+0x000000000002c3e1 : add byte ptr [rcx - 0x7d], cl ; mov byte ptr [rcx], 0x83 ; ret
+0x000000000002c3df : add dword ptr [rax], eax ; add byte ptr [rcx - 0x7d], cl ; mov byte ptr [rcx], 0x83 ; ret
+0x000000000002c3e4 : mov byte ptr [rcx], 0x83 ; ret
+0x000000000002c110 : ret 0x100
+0x000000000002c2d5 : test byte ptr [rsi - 0x7c000002], cl ; ret
+0x000000000009fb0b : add esp, 0x50 ; pop rbx ; pop rbp ; pop r12 ; ret
+0x000000000009fb0a : add rsp, 0x50 ; pop rbx ; pop rbp ; pop r12 ; ret
+0x000000000009fbaf : and al, 0x28 ; lea rcx, qword ptr [rax + 1] ; call rbx
+0x000000000009fbb2 : lea ecx, dword ptr [rax + 1] ; call rbx
+0x000000000009fbad : lea ecx, dword ptr [rsp + 0x28] ; lea rcx, qword ptr [rax + 1] ; call rbx
+0x000000000009fbac : lea r9, qword ptr [rsp + 0x28] ; lea rcx, qword ptr [rax + 1] ; call rbx
+0x000000000009fbb1 : lea rcx, qword ptr [rax + 1] ; call rbx
+0x000000000009fb0d : push rax ; pop rbx ; pop rbp ; pop r12 ; ret
+0x0000000000083f93 : add byte ptr [rax + 0xf], cl ; ret 0x48c3
+0x0000000000083f92 : add byte ptr [rax], al ; cmove rax, rdx ; ret
+0x0000000000083f8f : add eax, 0xfb7c ; cmove rax, rdx ; ret
+0x0000000000083f90 : jl 0x83f95 ; add byte ptr [rax], al ; cmove rax, rdx ; ret
+0x0000000000083f97 : ret 0x48c3
+0x0000000000083f91 : sti ; add byte ptr [rax], al ; cmove rax, rdx ; ret
+0x000000000002c9ab : cmove eax, edx ; ret
+0x000000000002c9aa : cmove rax, rdx ; ret
+0x000000000002c9a9 : dec dword ptr [rax + 0xf] ; ret 0x90c3
+0x000000000002c9ad : ret 0x90c3
+0x000000000002c9a5 : ret 0xffff
+0x000000000002c9a2 : ror byte ptr [rax - 0x39], 1 ; ret 0xffff
+0x000000000002c99f : xor dword ptr [rax + 0x39], ecx ; ror byte ptr [rax - 0x39], 1 ; ret 0xffff
+0x000000000009fc17 : add byte ptr [rax], al ; cmp edi, 0x7f ; ja 0x9fc31 ; mov eax, edi ; ret
+0x000000000009fc18 : add byte ptr [rbx + 0xa777fff], al ; mov eax, edi ; ret
+0x000000000009fcdb : and al, 0x20 ; lea rcx, qword ptr [rax + 4] ; call rbx
+0x000000000009fc19 : cmp edi, 0x7f ; ja 0x9fc2f ; mov eax, edi ; ret
+0x000000000009fc1c : ja 0x9fc2c ; mov eax, edi ; ret
+0x000000000009fcde : lea ecx, dword ptr [rax + 4] ; call rbx
+0x000000000009fcd9 : lea ecx, dword ptr [rsp + 0x20] ; lea rcx, qword ptr [rax + 4] ; call rbx
+0x000000000009fcd8 : lea r9, qword ptr [rsp + 0x20] ; lea rcx, qword ptr [rax + 4] ; call rbx
+0x000000000009fcdd : lea rcx, qword ptr [rax + 4] ; call rbx

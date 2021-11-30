@@ -1,0 +1,10 @@
+0x0000000000127889 : add byte ptr [rax - 0x77], cl ; fisttp word ptr [rax - 0x75] ; and al, 0x10 ; call rax
+0x000000000012788c : fisttp word ptr [rax - 0x75] ; and al, 0x10 ; call rax
+0x000000000012788b : mov edi, ebx ; mov rax, qword ptr [rsp + 0x10] ; call rax
+0x000000000012788a : mov rdi, rbx ; mov rax, qword ptr [rsp + 0x10] ; call rax
+0x0000000000083f93 : add byte ptr [rax + 0xf], cl ; ret 0x48c3
+0x0000000000083f92 : add byte ptr [rax], al ; cmove rax, rdx ; ret
+0x0000000000083f8f : add eax, 0xfb7c ; cmove rax, rdx ; ret
+0x0000000000083f90 : jl 0x83f95 ; add byte ptr [rax], al ; cmove rax, rdx ; ret
+0x0000000000083f97 : ret 0x48c3
+0x0000000000083f91 : sti ; add byte ptr [rax], al ; cmove rax, rdx ; ret

@@ -1,0 +1,10 @@
+.text
+dlopen
+dlclose
+dlsym
+dlvsym
+dlerror
+dladdr
+dladdr1
+dlinfo
+dlmopen

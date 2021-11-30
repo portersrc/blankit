@@ -1,0 +1,4 @@
+0x00000000000e7efe : je 0xe7f05 ; ret
+0x00000000000e7ef8 : mov eax, dword ptr [rax + 0x18] ; test rax, rax ; je 0xe7f0b ; ret
+0x00000000000e7efc : test eax, eax ; je 0xe7f07 ; ret
+0x00000000000e7efb : test rax, rax ; je 0xe7f08 ; ret

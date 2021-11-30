@@ -1,0 +1,15 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/483.xalancbmk
+benchmark:        483.xalancbmk_wopin
+benchmark args:   -v t5.xml xalanc.xsl
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/483.xalancbmk ~/debloat/pin_probe_debloat_experiments
+<html xmlns:spec="http://www.schemaTest.org/100mb">
+<body>
+</body>
+</html>
+
+real	3m40.789s
+user	3m40.122s
+sys	0m0.524s
+~/debloat/pin_probe_debloat_experiments

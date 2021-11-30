@@ -1,0 +1,15 @@
+0x0000000000010d78 : adc ecx, dword ptr [rcx - 0x77] ; retf 0x12b8
+0x0000000000010d98 : and al, 0x49 ; mov edx, ecx ; mov eax, 0x12 ; syscall
+0x0000000000010d8e : in al, dx ; or al, ch ; retf
+0x0000000000010d8f : or al, ch ; retf
+0x0000000000010da9 : ret 0x11e8
+0x0000000000010dc2 : ret 0x2071
+0x0000000000010d72 : sub dword ptr [rsi + 0x75000020], esi ; adc ecx, dword ptr [rcx - 0x77] ; retf 0x12b8
+0x0000000000010d7d : adc al, byte ptr [rax] ; add byte ptr [rax], al ; syscall
+0x0000000000010d84 : cmp eax, 0xfffff001 ; jae 0x10dc6 ; ret
+0x0000000000010d83 : cmp rax, -0xfff ; jae 0x10dc7 ; ret
+0x0000000000010d89 : jae 0x10dc1 ; ret
+0x0000000000010d7c : mov eax, 0x12 ; syscall
+0x0000000000010d7a : mov edx, ecx ; mov eax, 0x12 ; syscall
+0x0000000000010d79 : mov r10, rcx ; mov eax, 0x12 ; syscall
+0x0000000000010d7b : retf 0x12b8

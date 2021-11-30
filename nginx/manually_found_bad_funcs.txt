@@ -1,0 +1,11 @@
+_IO_puts
+_IO_fgets
+bzero
+
+
+removed due to perf reasons:
+    realloc
+    __libc_malloc
+    posix_memalign
+    bind
+    cfree

@@ -1,0 +1,22 @@
+0x00000000000376ff : cmovbe edx, eax ; xor eax, eax ; mov qword ptr [rdi + 8], rdx ; ret
+0x0000000000037732 : jg 0x3777b ; mov dword ptr [rax], edx ; mov dword ptr [rsi], edx ; ret
+0x0000000000037733 : mov dword ptr [r8], edx ; mov dword ptr [rsi], edx ; ret
+0x0000000000037734 : mov dword ptr [rax], edx ; mov dword ptr [rsi], edx ; ret
+0x0000000000037714 : mov dword ptr [rdi + 8], edx ; mov qword ptr [rdi], rax ; xor eax, eax ; ret
+0x0000000000037705 : mov dword ptr [rdi + 8], edx ; ret
+0x0000000000037718 : mov dword ptr [rdi], eax ; xor eax, eax ; ret
+0x0000000000037736 : mov dword ptr [rsi], edx ; ret
+0x0000000000037713 : mov qword ptr [rdi + 8], rdx ; mov qword ptr [rdi], rax ; xor eax, eax ; ret
+0x0000000000037704 : mov qword ptr [rdi + 8], rdx ; ret
+0x0000000000037717 : mov qword ptr [rdi], rax ; xor eax, eax ; ret
+0x0000000000037728 : ret 0x3039
+0x0000000000037702 : xor eax, eax ; mov qword ptr [rdi + 8], rdx ; ret
+0x00000000000373b2 : retf 0x3771
+0x00000000000377be : adc byte ptr [rcx], ch ; ret 0xc269
+0x00000000000377a8 : add dword ptr [rbp - 0x77], ecx ; retf
+0x00000000000377bd : cli ; adc byte ptr [rcx], ch ; ret 0xc269
+0x00000000000377a4 : or dword ptr [rcx - 0x7d], 0xfffffff9 ; add dword ptr [rbp - 0x77], ecx ; retf
+0x00000000000377a3 : or qword ptr [rcx - 0x7d], 0xfffffffffffffff9 ; add dword ptr [rbp - 0x77], ecx ; retf
+0x00000000000377c0 : ret 0xc269
+0x000000000003782c : ror byte ptr [rax - 0x7d], 0xc4 ; adc byte ptr [rbx + 0x5d], bl ; pop r12 ; ret
+0x00000000000377a7 : stc ; add dword ptr [rbp - 0x77], ecx ; retf

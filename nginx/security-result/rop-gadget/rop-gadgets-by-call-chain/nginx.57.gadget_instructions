@@ -1,0 +1,9 @@
+0x00000000000344eb : add bh, byte ptr [rax - 1] ; ret
+0x00000000000344d1 : cmp eax, 0xfffff000 ; ja 0x344e8 ; ret
+0x00000000000344d0 : cmp rax, -0x1000 ; ja 0x344e9 ; ret
+0x00000000000344e8 : fsub dword ptr [rcx + rcx*4 + 2] ; mov eax, 0xffffffff ; ret
+0x00000000000344d6 : ja 0x344e3 ; ret
+0x00000000000344ea : mov dword ptr [rdx], eax ; mov eax, 0xffffffff ; ret
+0x00000000000344e9 : mov dword ptr fs:[rdx], eax ; mov eax, 0xffffffff ; ret
+0x00000000000344c7 : movsxd rdi, edi ; mov eax, 0xe ; syscall
+0x00000000000344d5 : push qword ptr [rdi + 8] ; ret

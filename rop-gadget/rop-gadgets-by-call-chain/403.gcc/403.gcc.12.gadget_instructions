@@ -1,0 +1,8 @@
+0x000000000006b72d : add esp, 8 ; mov eax, edx ; pop rbx ; pop rbp ; ret
+0x000000000006b72c : add rsp, 8 ; mov eax, edx ; pop rbx ; pop rbp ; ret
+0x000000000006b72b : je 0x6b77e ; add esp, 8 ; mov eax, edx ; pop rbx ; pop rbp ; ret
+0x000000000006b730 : mov eax, edx ; pop rbx ; pop rbp ; ret
+0x000000000006b731 : rcr byte ptr [rbx + 0x5d], 1 ; ret
+0x000000000006b71e : ror byte ptr [rdi], 0x95 ; ret 0xdaf7
+0x000000000006b720 : xchg eax, ebp ; ret 0xdaf7
+0x0000000000076450 : sbb byte ptr [rax - 1], bh ; pop rbx ; pop rbp ; ret

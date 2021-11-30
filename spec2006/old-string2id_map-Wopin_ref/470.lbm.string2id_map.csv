@@ -1,0 +1,14 @@
+
+;.plt.got;_IO_default_uflow;_IO_doallocbuf;_IO_file_doallocate;_IO_file_read;_IO_file_stat;_IO_file_underflow;_IO_getc;_IO_setb;_IO_switch_to_get_mode;__fxstat;__libc_malloc;__uflow;read;,5
+;.plt.got;_IO_file_fopen;_IO_file_init;_IO_file_open;_IO_link_in;__libc_malloc;fopen;open;,4
+;.plt;.plt.got;_IO_default_xsputn;_IO_do_write;_IO_doallocbuf;_IO_file_doallocate;_IO_file_overflow;_IO_file_stat;_IO_file_xsputn;_IO_printf;_IO_setb;_IO_vfprintf;__default_morecore;__fxstat;__libc_malloc;__printf_fp;__sbrk;_dl_addr;_dl_find_dso_for_object@plt;brk;strchrnul;strlen;,2
+;_IO_default_finish;_IO_fclose;_IO_file_close;_IO_file_close_it;_IO_file_finish;_IO_setb;_IO_un_link;_IO_unsave_markers;cfree;,8
+;_IO_default_uflow;_IO_file_read;_IO_file_underflow;_IO_getc;_IO_switch_to_get_mode;__uflow;read;,7
+;_IO_file_xsputn;_IO_padn;_IO_printf;_IO_vfprintf;__printf_fp;strchrnul;strlen;,9
+;_IO_file_xsputn;_IO_printf;_IO_vfprintf;strchrnul;,10
+;_IO_getc;,6
+;__libc_malloc;mmap64;,3
+;__xstat64;,1
+;cfree;munmap;,11
+;strtol;,0
+;,395

@@ -1,0 +1,3 @@
+0x0000000000080cc3 : and al, 0x18 ; add rsp, 0x10 ; pop rbx ; jmp rax
+0x0000000000080cc1 : mov esi, dword ptr [rsp + 0x18] ; add rsp, 0x10 ; pop rbx ; jmp rax
+0x0000000000080ccc : nop dword ptr [rax] ; add rsp, 0x10 ; pop rbx ; ret

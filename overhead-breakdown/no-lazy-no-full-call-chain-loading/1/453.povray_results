@@ -1,0 +1,26 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/453.povray
+benchmark:        453.povray_embedpin
+benchmark args:   SPEC-benchmark-ref.ini
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/453.povray ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/453.povray/453.povray_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/453.povray/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/453.povray/approved_list_libm.txt
+BLANKIT_APPROVED_LIST_LIBGCC: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/453.povray/approved_list_libgcc.txt
+BLANKIT_APPROVED_LIST_LIBSTDCPP: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/453.povray/approved_list_libstdcpp.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/453.povray/string2id_map.csv
+pin main time (us): 17262
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/453.povray/453.povray_embedpin (us): 2
+load time for /lib64/ld-linux-x86-64.so.2 (us): 1
+load time for [vdso] (us): 0
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 272
+load time for /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (us): 1892102
+load time for /lib/x86_64-linux-gnu/libm.so.6 (us): 431538
+load time for /lib/x86_64-linux-gnu/libgcc_s.so.1 (us): 137392
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1654751
+
+real	2m33.990s
+user	2m17.840s
+sys	0m16.085s
+~/debloat/pin_probe_debloat_experiments

@@ -1,0 +1,79 @@
+#define  _GNU_SOURCE
+#include  <stdio.h>
+#include <sched.h>
+#include <stdlib.h>
+//#define _POSIX_C_SOURCE >= 199309L
+
+
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+
+#define KEY  1018
+#define SHMSZ 200
+#define SHM_PERM  0666 //(S_IRUSR|S_IWUSR|S_IRGRP|S_IWGRP|S_IROTH|S_IWOTH)
+
+
+int shmid;
+key_t key = KEY;
+char *shm = NULL;
+int shmFlags = IPC_CREAT | SHM_PERM;
+
+#ifdef BLANKIT_DBG
+#define blankit_printf_dbg(...) printf(__VA_ARGS__)
+#else
+#define blankit_printf_dbg(...)
+#endif
+
+
+/*********************************
+ * initialize the shared memory
+ * ****************************/
+void blankit_init(void)
+{
+
+    if ((shmid = shmget(key, SHMSZ, shmFlags)) < 0) {//same as 0666 | IPC_CREAT
+        perror("shmget");
+        return ;
+    }
+
+    if ((shm = shmat(shmid, NULL, 0)) == (char *) -1) {
+        perror("shmat");
+        return ;
+    }
+
+    blankit_printf_dbg("In debloat shm = %p\n", shm);
+
+}
+
+static inline
+void verifyCopy(void)
+{
+    int i = 0;
+    blankit_printf_dbg("Verfiying copy \n");
+    while(shm[i] != '\0'){
+     if(shm[i] == ';'){
+         puts("\n");
+     }
+     putchar(shm[i]);
+     ++i;
+   }
+   blankit_printf_dbg("done verifying\n");
+
+}
+
+/*******************************************
+ * initialize shared memory once, if not done earlier
+ * copy the predict set into shared memory
+ * ****************************************/
+void blankit_predict(char * predict_set)
+{
+    blankit_printf_dbg("Before copying %s\n",predict_set);
+    memcpy(shm, predict_set, strlen(predict_set) + 1);
+#ifdef BLANKIT_DBG
+    verifyCopy();
+#endif
+}

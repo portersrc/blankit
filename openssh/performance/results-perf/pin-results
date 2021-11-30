@@ -1,0 +1,74 @@
+pin one:
+root@sloppyjoe:/home/rudy/debloat/pin_probe_debloat_experiments/openssh# perf stat -p 21003
+^C
+ Performance counter stats for process id '21003':
+
+      51021.046891      task-clock (msec)         #    0.852 CPUs utilized
+           118,888      context-switches          #    0.002 M/sec
+            26,080      cpu-migrations            #    0.511 K/sec
+        13,805,581      page-faults               #    0.271 M/sec
+   100,933,440,673      cycles                    #    1.978 GHz                      (83.47%)
+     8,823,379,811      stalled-cycles-frontend   #    8.74% frontend cycles idle     (83.74%)
+    46,494,084,837      stalled-cycles-backend    #   46.06% backend cycles idle      (83.90%)
+    84,602,360,494      instructions              #    0.84  insn per cycle
+                                                  #    0.55  stalled cycles per insn  (84.21%)
+    16,076,515,520      branches                  #  315.096 M/sec                    (82.61%)
+       421,784,078      branch-misses             #    2.62% of all branches          (82.07%)
+
+      59.911344709 seconds time elapsed
+
+real    0m50.544s
+user    0m0.051s
+sys     0m0.066s
+
+
+
+pin two:
+root@sloppyjoe:/home/rudy/debloat/pin_probe_debloat_experiments/openssh# perf stat -p 6094
+^C
+ Performance counter stats for process id '6094':
+
+      50645.402298      task-clock (msec)         #    0.930 CPUs utilized
+           118,833      context-switches          #    0.002 M/sec
+            25,756      cpu-migrations            #    0.509 K/sec
+        13,708,025      page-faults               #    0.271 M/sec
+   100,158,681,744      cycles                    #    1.978 GHz                      (83.28%)
+     8,684,856,796      stalled-cycles-frontend   #    8.67% frontend cycles idle     (83.28%)
+    46,163,765,139      stalled-cycles-backend    #   46.09% backend cycles idle      (83.29%)
+    83,847,464,648      instructions              #    0.84  insn per cycle
+                                                  #    0.55  stalled cycles per insn  (83.56%)
+    15,937,876,477      branches                  #  314.695 M/sec                    (83.11%)
+       418,624,958      branch-misses             #    2.63% of all branches          (83.48%)
+
+      54.483560754 seconds time elapsed
+
+real    0m50.154s
+user    0m0.036s
+sys     0m0.082s
+
+
+
+pin three
+root@sloppyjoe:/home/rudy/debloat/pin_probe_debloat_experiments/openssh# perf stat -p 23105
+^C
+ Performance counter stats for process id '23105':
+
+      50711.993684      task-clock (msec)         #    0.914 CPUs utilized
+           118,734      context-switches          #    0.002 M/sec
+            26,030      cpu-migrations            #    0.513 K/sec
+        13,758,138      page-faults               #    0.271 M/sec
+   100,281,576,706      cycles                    #    1.977 GHz                      (84.58%)
+     8,586,253,260      stalled-cycles-frontend   #    8.56% frontend cycles idle     (84.16%)
+    46,355,592,589      stalled-cycles-backend    #   46.23% backend cycles idle      (82.25%)
+    84,022,182,836      instructions              #    0.84  insn per cycle
+                                                  #    0.55  stalled cycles per insn  (82.30%)
+    15,981,229,518      branches                  #  315.137 M/sec                    (83.25%)
+       417,577,641      branch-misses             #    2.61% of all branches          (83.47%)
+
+      55.502284699 seconds time elapsed
+
+real    0m50.212s
+user    0m0.061s
+sys     0m0.057s
+
+

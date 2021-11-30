@@ -1,0 +1,27 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/483.xalancbmk
+benchmark:        483.xalancbmk_embedpin
+benchmark args:   -v t5.xml xalanc.xsl
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/483.xalancbmk ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/483.xalancbmk/483.xalancbmk_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/483.xalancbmk/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/483.xalancbmk/approved_list_libm.txt
+BLANKIT_APPROVED_LIST_LIBGCC: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/483.xalancbmk/approved_list_libgcc.txt
+BLANKIT_APPROVED_LIST_LIBSTDCPP: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/483.xalancbmk/approved_list_libstdcpp.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/483.xalancbmk/string2id_map.csv
+pin main time (us): 15979
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/483.xalancbmk/483.xalancbmk_embedpin (us): 1
+load time for /lib64/ld-linux-x86-64.so.2 (us): 1
+load time for [vdso] (us): 0
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 149
+load time for /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (us): 1878729
+load time for /lib/x86_64-linux-gnu/libm.so.6 (us): 438328
+load time for /lib/x86_64-linux-gnu/libgcc_s.so.1 (us): 138015
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1637722
+./drive_blankit.sh: line 240: 12040 Segmentation fault      (core dumped) $PIN_ROOT/pin -t $PIN_ROOT/source/tools/Probes/obj-intel64/decrypt_probe.so -- ./$BENCHMARK $BENCHMARK_ARGS
+
+real	0m6.980s
+user	0m6.373s
+sys	0m0.501s
+~/debloat/pin_probe_debloat_experiments

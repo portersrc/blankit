@@ -1,0 +1,34 @@
+
+Example usage
+-------------
+
+In terminal 1, start nginx:
+    $ mkdir test-wiki
+    $ cd test-wiki
+    $ ../runme/run_nginx_with_pinjit.sh &> pinjit_test_wiki.out
+
+In terminal 2, make sure you're getting output.
+    $ cd test-wiki
+    $ tail -f pinjit_test_wiki.out
+
+In terminal 3, execute the wrk benchmark
+    $ cd test-wiki
+    $ ../runme/drive_wrk.sh test wiki
+
+Probably want to hit ^C in termainl 2 to stop getting spammed.
+Then check it again soon after terminal 3 completes (30s for test-wiki).
+Once nginx's output has caught up, then hit ^C in termainal 1. If you're still
+tailing in terminal 2, you should see it spit out a few more lines.
+
+Now get the accuracy:
+    $ source env/bin/activate
+    (env) $ ../runme/get_accuracy.sh pinjit_test_wiki.out test.csv ../train/train.csv test.csv
+
+
+
+
+Here's what the get_accuracy command looks like for train:
+    (env) $ ../runme/get_accuracy.sh pinjit_train.out train.csv train.csv train.csv
+
+And for test-1mb:
+    (env) $ ../runme/get_accuracy.sh pinjit_test_1mb.out test.csv ../train/train.csv test.csv

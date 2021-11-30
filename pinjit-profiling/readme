@@ -1,0 +1,16 @@
+cporter 2019.05.30
+
+grabbed this from:
+ashwa:/home/prithayan/project/pintool/pin-3.6-97554-g31f0a167d-gcc-linux/source/tools/ManualExamples/proccount.cpp
+
+Looks like Prithayan just hijacked that file to use for his pin jit profiling
+runs. So we copy it into version control here.
+This is also from pin 3.6, but in source/Tools/ManualExamples
+
+To rebuild the .so, you navigate to that folder and do:
+    $ make obj-intel64/proccount.so
+NOTE: His tool didn't compile out-of-the-box. So I took his proccount.so from
+ashwa, and I manually placed it in source/Tools/ManualExamples/obj-intel64
+(not tracked here... which, if it works, might be good to put in version
+control)
+

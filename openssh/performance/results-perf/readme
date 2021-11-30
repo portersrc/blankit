@@ -1,0 +1,5 @@
+These results were gotten for the PLDI 2020 shepherding period. See notes
+for more details, but the general experiment setup was a docker container
+with sshd, and a second bash shell on the same container running dijkstra
+over ssh localhost.
+Perf result gotten by attaching from the host

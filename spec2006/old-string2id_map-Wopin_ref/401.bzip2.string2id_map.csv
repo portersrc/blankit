@@ -1,0 +1,15 @@
+
+;.plt;.plt.got;_IO_default_xsputn;_IO_do_write;_IO_doallocbuf;_IO_file_doallocate;_IO_file_overflow;_IO_file_stat;_IO_file_xsputn;_IO_puts;_IO_setb;__default_morecore;__fxstat;__libc_malloc;__sbrk;_dl_addr;_dl_find_dso_for_object@plt;brk;strlen;,1
+;_IO_default_xsputn;_IO_do_write;_IO_doallocbuf;_IO_file_overflow;_IO_file_write;_IO_file_xsputn;_IO_fprintf;_IO_vfprintf;strchrnul;write;,12
+;_IO_file_xsputn;_IO_printf;_IO_vfprintf;strchrnul;,7
+;_IO_file_xsputn;_IO_puts;strlen;,3
+;__close;,6
+;__default_morecore;__libc_malloc;__sbrk;brk;,11
+;__libc_malloc;,8
+;__libc_malloc;mmap64;,2
+;cfree;,10
+;cfree;munmap;,9
+;open;,4
+;read;,5
+;strtol;,0
+;,396

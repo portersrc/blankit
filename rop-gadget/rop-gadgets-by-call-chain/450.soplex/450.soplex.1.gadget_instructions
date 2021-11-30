@@ -1,0 +1,9 @@
+0x0000000000081483 : and al, 0x28 ; mov rdi, rbp ; call rax
+0x0000000000081482 : je 0x814ae ; sub byte ptr [rax - 0x77], cl ; out dx, eax ; call rax
+0x0000000000081481 : mov esi, dword ptr [rsp + 0x28] ; mov rdi, rbp ; call rax
+0x0000000000081485 : mov rdi, rbp ; call rax
+0x0000000000081480 : mov rsi, qword ptr [rsp + 0x28] ; mov rdi, rbp ; call rax
+0x000000000008147f : nop ; mov rsi, qword ptr [rsp + 0x28] ; mov rdi, rbp ; call rax
+0x00000000000811ee : ret 0x1f76
+0x0000000000081305 : ret 0x7402
+0x0000000000081484 : sub byte ptr [rax - 0x77], cl ; out dx, eax ; call rax

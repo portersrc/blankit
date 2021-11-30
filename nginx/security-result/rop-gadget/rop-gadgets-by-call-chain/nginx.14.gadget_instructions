@@ -1,0 +1,21 @@
+0x00000000000e2a84 : add bh, byte ptr [rax - 1] ; jmp 0xe2a56
+0x00000000000e2a50 : add esp, 0x68 ; ret
+0x00000000000e2a4f : add rsp, 0x68 ; ret
+0x00000000000e2aac : and al, 0xc ; mov eax, 0x48 ; syscall
+0x00000000000e2adf : fnstsw dword ptr [rax + 0x49] ; syscall
+0x00000000000e2a8a : jmp 0xe2a50
+0x00000000000e2a83 : mov dword ptr [rdx], eax ; mov eax, 0xffffffff ; jmp 0xe2a57
+0x00000000000e2a82 : mov dword ptr fs:[rdx], eax ; mov eax, 0xffffffff ; jmp 0xe2a58
+0x00000000000e2a85 : mov eax, 0xffffffff ; jmp 0xe2a55
+0x00000000000e2a5a : ret 0x2ced
+0x00000000000106b6 : adc al, 0x89 ; ret 0xdaf7
+0x0000000000010700 : add byte ptr [rax + 0x63], cl ; sti ; mov eax, 0x48 ; syscall
+0x00000000000106bf : add cl, byte ptr [rdi] ; ret 0x8348
+0x0000000000010690 : add esp, 0x60 ; pop rbx ; ret
+0x000000000001068f : add rsp, 0x60 ; pop rbx ; ret
+0x00000000000106bd : and al, 0x10 ; add cl, byte ptr [rdi] ; ret 0x8348
+0x00000000000106c0 : cmove eax, edx ; add rsp, 0x60 ; pop rbx ; ret
+0x000000000001068d : ja 0x106d7 ; add rsp, 0x60 ; pop rbx ; ret
+0x0000000000010702 : movsxd rdi, ebx ; mov eax, 0x48 ; syscall
+0x000000000001068c : push qword ptr [rdi + 0x41] ; add rsp, 0x60 ; pop rbx ; ret
+0x0000000000010703 : sti ; mov eax, 0x48 ; syscall

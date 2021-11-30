@@ -1,0 +1,17 @@
+0x00000000000bf6bb : cmp eax, 0xfffff000 ; ja 0xbf6cf ; ret
+0x00000000000bf6ba : cmp rax, -0x1000 ; ja 0xbf6d0 ; ret
+0x00000000000bf6c0 : ja 0xbf6ca ; ret
+0x00000000000bf702 : movsxd rdi, ebx ; mov eax, 0x3d ; syscall
+0x00000000000bf6b1 : movsxd rdi, edi ; mov eax, 0x3d ; syscall
+0x00000000000bf722 : or al, 0x48 ; add esp, 0x10 ; pop rbx ; pop rbp ; pop r12 ; ret
+0x00000000000bf700 : out dx, al ; movsxd rdi, ebx ; mov eax, 0x3d ; syscall
+0x00000000000bf6bf : push qword ptr [rdi + 6] ; ret
+0x00000000000bf703 : sti ; mov eax, 0x3d ; syscall
+0x0000000000010f2b : cmp eax, 0xfffff000 ; ja 0x10f3f ; ret
+0x0000000000010f2a : cmp rax, -0x1000 ; ja 0x10f40 ; ret
+0x0000000000010f30 : ja 0x10f3a ; ret
+0x0000000000010f72 : movsxd rdi, ebx ; mov eax, 0x3d ; syscall
+0x0000000000010f21 : movsxd rdi, edi ; mov eax, 0x3d ; syscall
+0x0000000000010f92 : or al, 0x48 ; add esp, 0x10 ; pop rbx ; pop rbp ; pop r12 ; ret
+0x0000000000010f70 : out dx, al ; movsxd rdi, ebx ; mov eax, 0x3d ; syscall
+0x0000000000010f73 : sti ; mov eax, 0x3d ; syscall

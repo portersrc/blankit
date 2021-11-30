@@ -1,0 +1,13 @@
+0x00000000000fd374 : add byte ptr [rax - 0x77], cl ; out dx, al ; movsxd rdi, ebx ; mov eax, ecx ; syscall
+0x00000000000fd33d : add byte ptr [rax], al ; test rax, rax ; je 0xfd377 ; call rax
+0x00000000000fd385 : ja 0xfd35c ; add rsp, 8 ; pop rbx ; pop rbp ; ret
+0x00000000000fd342 : je 0xfd372 ; call rax
+0x00000000000fd376 : mov esi, ebp ; movsxd rdi, ebx ; mov eax, ecx ; syscall
+0x00000000000fd375 : mov rsi, rbp ; movsxd rdi, ebx ; mov eax, ecx ; syscall
+0x00000000000fd379 : movsxd rdi, ebx ; mov eax, ecx ; syscall
+0x00000000000fd377 : out dx, al ; movsxd rdi, ebx ; mov eax, ecx ; syscall
+0x00000000000fd384 : push qword ptr [rdi - 0x33] ; add rsp, 8 ; pop rbx ; pop rbp ; ret
+0x00000000000fd37a : sti ; mov eax, ecx ; syscall
+0x00000000000fd340 : test eax, eax ; je 0xfd374 ; call rax
+0x00000000000fd33f : test rax, rax ; je 0xfd375 ; call rax
+0x00000000000fd33b : xor byte ptr [rax], al ; add byte ptr [rax], al ; test rax, rax ; je 0xfd379 ; call rax

@@ -1,0 +1,22 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/403.gcc
+benchmark:        403.gcc_embedpin
+benchmark args:   166.i -o 166.s
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/403.gcc ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/403.gcc/403.gcc_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/403.gcc/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/403.gcc/approved_list_libm.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/403.gcc/string2id_map.csv
+BLANKIT_LAZY: 1
+pin main time (us): 18530
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/403.gcc/403.gcc_embedpin (us): 2
+load time for /lib64/ld-linux-x86-64.so.2 (us): 0
+load time for [vdso] (us): 0
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 177
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 253238
+
+real	0m35.781s
+user	0m34.989s
+sys	0m0.783s
+~/debloat/pin_probe_debloat_experiments

@@ -1,0 +1,109 @@
+
+
+
+count_gadgets.py
+----------------
+
+Hacked up python script for counting gadgets
+
+
+
+
+
+run-gality-on-all-benchmarks-and-chains.sh
+------------------------------------------
+Does what the name of the file says it does. Check its source code comments
+for more details.
+
+
+
+
+
+
+
+lib-rop-gadgets/
+----------------
+
+libc-rop-gadget was gotten by running ROPGadget.py on
+../libc/libc.so, and then by stripping the top:
+    Gadgets information
+    ============================================================
+and the bottom:
+
+    Unique gadgets found: 26144
+
+
+Similar for the other libraries but with the following numbers:
+
+    libm
+    Unique gadgets found: 16396
+
+    libgcc
+    Unique gadgets found: 1918
+
+    libstdcpp
+    Unique gadgets found: 15187
+
+
+
+
+
+
+
+
+
+
+gadget_instructions_output/
+---------------------------
+
+are the saved output files from running
+count_gadgets.py for pldi 2019 deadline.
+-- 2019.02.20 update: I don't think these were ever used, though; i didn't
+use them for the usenix 2019 submission
+
+
+
+
+
+
+
+
+rop-gadgets-by-call-chain/
+--------------------------
+These were gotten after running the count_gadgets.py with the usenix security
+2019 changes. There was a little grooming (like having to create folders and
+having to delete the worst-case file which was also included in the output).
+
+
+
+
+
+
+lib-quality/
+------------
+These were gotten for usenix security 2019 deadline by running Gality on
+the lib-rop-gadget/ files. It basically tells you the quality of the gadgets
+in the libraries so that you can compare later against the quality after
+blankit has done its job.
+
+
+
+
+
+quality/
+--------
+These were for usenix security 2019 deadline. Gotten after running Gality on
+the files of gadgets based on the call chains (which were gotten from
+count-gadgets.py). Notice that these were produced by running
+run-gality-on-all-benchmarks-and-chains.sh
+
+    - contains a script, get_avg_scores.py, which I believe parses the
+      gality output files to get the average quality scores for each
+      benchmarks.
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+.plt.got,_IO_default_uflow,_IO_doallocbuf,_IO_file_doallocate,_IO_file_read,_IO_file_stat,_IO_file_underflow,_IO_setb,_IO_sputbackc,_IO_switch_to_get_mode,_IO_vfscanf,__fxstat,__isoc99_fscanf,__libc_malloc,__strtod_internal,__uflow,read,strlen

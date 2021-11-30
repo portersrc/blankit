@@ -1,0 +1,12 @@
+brk
+__call_tls_dtors
+cfree
+__ctype_init
+__cxa_atexit
+__cxa_finalize
+__default_morecore
+_dl_addr
+exit
+_Exit
+fopen
+fputc

@@ -1,0 +1,12 @@
+0x0000000000034497 : or cl, ch ; ret
+0x0000000000011577 : add byte ptr [rax], al ; add rsp, 0xd0 ; ret
+0x0000000000011485 : add byte ptr [rax], al ; movsxd rdi, edi ; mov eax, ecx ; syscall
+0x000000000001157a : add esp, 0xd0 ; ret
+0x0000000000011579 : add rsp, 0xd0 ; ret
+0x0000000000011493 : dec dword ptr [rax - 0x77] ; ret 0x870f
+0x0000000000011488 : movsxd rdi, edi ; mov eax, ecx ; syscall
+0x0000000000011483 : or byte ptr [rax], al ; add byte ptr [rax], al ; movsxd rdi, edi ; mov eax, ecx ; syscall
+0x0000000000011496 : ret 0x870f
+0x000000000001157c : rol byte ptr [rax], 1 ; add byte ptr [rax], al ; ret
+0x00000000000114a7 : ror byte ptr [rdi], 0x88 ; retf
+0x00000000000115d7 : or cl, ch ; ret

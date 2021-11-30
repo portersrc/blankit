@@ -1,0 +1,7 @@
+0x0000000000034bd1 : add byte ptr [rax - 0x2d], cl ; loopne 0x34c27 ; or dword ptr [rdi], eax ; xor eax, eax ; ret
+0x0000000000034bd4 : loopne 0x34c24 ; or dword ptr [rdi], eax ; xor eax, eax ; ret
+0x0000000000034bd6 : or dword ptr [rdi], eax ; xor eax, eax ; ret
+0x0000000000034bd5 : or qword ptr [rdi], rax ; xor eax, eax ; ret
+0x0000000000034bd3 : shl eax, cl ; or qword ptr [rdi], rax ; xor eax, eax ; ret
+0x0000000000034bd2 : shl rax, cl ; or qword ptr [rdi], rax ; xor eax, eax ; ret
+0x0000000000034bd8 : xor eax, eax ; ret

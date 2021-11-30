@@ -1,0 +1,40 @@
++ PIN_ROOT=/home/rudy/else/pin-3.6-97554-g31f0a167d-gcc-linux
++ NGINX_ROOT=/home/rudy/debloat/nginx
++ BENCHMARK=/home/rudy/debloat/nginx/objs/nginx
++ BENCHMARK_ARGS='-c /home/rudy/debloat/nginx/conf/nginx.conf -p /home/rudy/debloat/nginx'
++ BLANKIT_NGINX_ROOT=/home/rudy/debloat/pin_probe_debloat_experiments/nginx
++ export BLANKIT_APP_NAME=/home/rudy/debloat/nginx//home/rudy/debloat/nginx/objs/nginx
++ BLANKIT_APP_NAME=/home/rudy/debloat/nginx//home/rudy/debloat/nginx/objs/nginx
++ export BLANKIT_APPROVED_LIST=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/approved_list.txt
++ BLANKIT_APPROVED_LIST=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/approved_list.txt
++ export BLANKIT_APPROVED_LIST_LIBDL=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libdl.txt
++ BLANKIT_APPROVED_LIST_LIBDL=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libdl.txt
++ export BLANKIT_APPROVED_LIST_LIBPTHREAD=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libpthread.txt
++ BLANKIT_APPROVED_LIST_LIBPTHREAD=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libpthread.txt
++ export BLANKIT_APPROVED_LIST_LIBCRYPT=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libcrypt.txt
++ BLANKIT_APPROVED_LIST_LIBCRYPT=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libcrypt.txt
++ export BLANKIT_APPROVED_LIST_LIBPCRE=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libpcre.txt
++ BLANKIT_APPROVED_LIST_LIBPCRE=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libpcre.txt
++ export BLANKIT_APPROVED_LIST_LIBZ=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libz.txt
++ BLANKIT_APPROVED_LIST_LIBZ=/home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libz.txt
++ '[' pin == nopin ']'
++ echo 'Running with pin'
+Running with pin
++ /home/rudy/else/pin-3.6-97554-g31f0a167d-gcc-linux/pin -t /home/rudy/else/pin-3.6-97554-g31f0a167d-gcc-linux/source/tools/Probes/obj-intel64/decrypt_probe.so -- /home/rudy/debloat/nginx/objs/nginx -c /home/rudy/debloat/nginx/conf/nginx.conf -p /home/rudy/debloat/nginx
+BLANKIT_APP_NAME: /home/rudy/debloat/nginx//home/rudy/debloat/nginx/objs/nginx
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/nginx/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBDL: /home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libdl.txt
+BLANKIT_APPROVED_LIST_LIBPTHREAD: /home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libpthread.txt
+BLANKIT_APPROVED_LIST_LIBCRYPT: /home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libcrypt.txt
+BLANKIT_APPROVED_LIST_LIBPCRE: /home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libpcre.txt
+BLANKIT_APPROVED_LIST_LIBZ: /home/rudy/debloat/pin_probe_debloat_experiments/nginx/other-approved-lists/approved_list_libz.txt
+pin main time (us): 16864
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/nginx/bin/nginx (us): 2
+load time for /lib64/ld-linux-x86-64.so.2 (us): 2
+load time for [vdso] (us): 0
+load time for /lib/x86_64-linux-gnu/libdl.so.2 (us): 5148
+load time for /lib/x86_64-linux-gnu/libpthread.so.0 (us): 165114
+load time for /lib/x86_64-linux-gnu/libcrypt.so.1 (us): 37649
+load time for /lib/x86_64-linux-gnu/libpcre.so.3 (us): 114320
+load time for /lib/x86_64-linux-gnu/libz.so.1 (us): 131263
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1688541

@@ -1,0 +1,2 @@
+0x000000000008407a : add eax, 0xf7a1 ; cmove rax, rdx ; ret
+0x000000000008407c : test dword ptr [rax], 0x440f4800 ; ret 0x48c3

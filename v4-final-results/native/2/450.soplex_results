@@ -1,0 +1,45 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/450.soplex
+benchmark:        450.soplex_wopin
+benchmark args:   -s1 -e -m45000 pds-50.mps
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/450.soplex ~/debloat/pin_probe_debloat_experiments
+Delta   =     1.000000e-06
+Epsilon =     1.000000e-17
+Leaving algorithm
+Column representation
+Forest-Tomlin update
+Steep pricing
+Fast ratiotest
+No scaling
+General simplifier
+Weight starter
+loading LP file pds-50.mps
+LP has 83060	rows and
+       270095	columns
+solving LP
+SPxRem1SM:	removed 1237 row(s)
+SPxRem1SM:	removed 1014 column(s)
+SPxRem1SM:	removed 290 row(s)
+SPxRem1SM:	removed 132 column(s)
+SPxRem1SM:	removed 99 row(s)
+SPxRem1SM:	removed 99 column(s)
+SPxAggregateSM:	removed 11543 row(s) and column(s)
+SPxAggregateSM:	delta = -9.870000e+07
+SPxRedundantSM: removed 803 column(s)
+SPxRedundantSM:	removed 292 row(s)
+SPxAggregateSM:	removed 29828 row(s) and column(s)
+SPxAggregateSM:	delta = -5.289000e+08
+SPxAggregateSM:	removed 861 row(s) and column(s)
+SPxAggregateSM:	delta = -5.289000e+08
+removed 44150 rows
+removed 44280 columns
+Finished solving (status=-6)
+aborted due to iteration limit
+solution value is: 1.5022603e+10
+
+
+real	2m5.454s
+user	2m5.332s
+sys	0m0.040s
+~/debloat/pin_probe_debloat_experiments

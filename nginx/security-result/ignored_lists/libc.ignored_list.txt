@@ -1,0 +1,8 @@
+_IO_puts
+_IO_fgets
+bzero
+realloc
+__libc_malloc
+posix_memalign
+bind
+cfree

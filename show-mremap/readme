@@ -1,0 +1,5 @@
+2020.02.04 cporter
+See notes from 2020.02.03 for description of experiments. Experiment 7 is
+the one we're ultimately interested in. Should be able to remap a "good" page
+on top of one with a blanked function, and still have the function call
+succeed.

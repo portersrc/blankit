@@ -1,0 +1,21 @@
+0x00000000000e1e96 : cmp eax, 0xfffff000 ; ja 0xe1ea8 ; ret
+0x00000000000e1e95 : cmp rax, -0x1000 ; ja 0xe1ea9 ; ret
+0x00000000000e1e9b : ja 0xe1ea3 ; ret
+0x00000000000e1e8e : mov eax, 6 ; syscall
+0x00000000000e1e8c : mov esi, edx ; mov eax, 6 ; syscall
+0x00000000000e1e8b : mov rsi, rdx ; mov eax, 6 ; syscall
+0x00000000000e1e8d : salc ; mov eax, 6 ; syscall
+0x00000000000e3290 : and al, 0xb8 ; add dword ptr [rcx], eax ; add byte ptr [rax], al ; syscall
+0x00000000000e334a : and al, 0xb8 ; add eax, dword ptr [rax] ; add byte ptr [rax], al ; syscall
+0x00000000000e328f : cmp al, 0x24 ; mov eax, 0x101 ; syscall
+0x00000000000e3349 : cmp al, 0x24 ; mov eax, 3 ; syscall
+0x00000000000e2ee3 : mov eax, 0x4f ; syscall
+0x00000000000e2ee1 : mov edi, ebp ; mov eax, 0x4f ; syscall
+0x00000000000e2ee0 : mov rdi, rbp ; mov eax, 0x4f ; syscall
+0x00000000000e328d : movsxd rdi, dword ptr [rsp] ; mov eax, 0x101 ; syscall
+0x00000000000e3347 : movsxd rdi, dword ptr [rsp] ; mov eax, 3 ; syscall
+0x00000000000e2ee2 : out dx, eax ; mov eax, 0x4f ; syscall
+0x00000000000e3135 : ret 0x4164
+0x00000000000e2edf : std ; mov rdi, rbp ; mov eax, 0x4f ; syscall
+0x000000000008667d : add eax, 0x7b0e ; cmove rax, rdx ; ret
+0x000000000008667f : jnp 0x86687 ; add byte ptr [rax + 0xf], cl ; ret 0x48c3

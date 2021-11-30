@@ -1,0 +1,75 @@
+
+create_approved_list.py
+    creates an approved list.
+    First iteration is to take the list of glibc routines and remove all
+    the called funcs.
+
+called_funcs.txt
+    manually retrieved.
+    I ran nginx with BLANKIT_TRACE=1, parsed the output, and put together
+    a rough list of functions that were called.
+
+manually_found_bad_funcs.txt
+    funcs that crash nginx.
+    Manually ran and reran nginx to find which funcs in the approved-list were
+    still causing it to crash.
+
+a note on function counts:
+    looks like there were 14 functions that repeat in the glibc-routine-list.txt:
+        fmemopen
+        realpath
+        regexec
+        sched_getaffinity
+        sched_setaffinity
+        posix_spawn
+        posix_spawnp
+        nftw
+        pthread_cond_broadcast
+        pthread_cond_destroy
+        pthread_cond_init
+        pthread_cond_signal
+        pthread_cond_wait
+        pthread_cond_timedwait
+
+    I saw 99 calls in the TRACE run, and there were 1630 funcs in the original
+    approved list:
+      >>> 1630 + 99 + 14
+    comes to 1743 (size of the glibc routine list)
+
+other-approved-lists
+    approved lists for nginx libraries other than glibc.
+
+complete-lists
+    unmodified function lists for nginx libraries other than glibc.
+
+
+
+
+
+approved_list.txt.orig
+    list after running create-approved-list.py and removing called funcs
+    (also removes functions that are listed double in glibc routine list)
+    = glibc_routine_list.txt - called_funcs.txt
+    --- update: 
+
+approved_list.txt.v1
+    first cut of big list that works.
+    = glibc_routine_list.txt - called_funcs.txt - manually_found_bad_funcs.txt
+    Notice that I haven't tried yet to re-add the called_funcs.
+    I tested this with `wrk` for 30s.
+
+approved_list.txt.v2
+    = glibc_routine_list.txt - manually_found_bad_funcs.txt - doubles
+    >>> 1743 - 14 - 2
+    1727
+
+approved_list.txt.v3
+    same as v2 but without bzero.
+    Nondeterminism must have caused me to miss this til later.
+
+approved_list.txt.v4
+    same as v3 but tuned for perf.
+
+approved_list.txt
+    list of functions to instrument at runtime.
+    Gets passed to pin runtime.

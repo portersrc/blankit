@@ -1,0 +1,2 @@
+0x0000000000073864 : loop 0x7386b ; mov eax, edx ; ret
+0x0000000000073860 : shr edx, 5 ; and edx, 1 ; mov eax, edx ; ret

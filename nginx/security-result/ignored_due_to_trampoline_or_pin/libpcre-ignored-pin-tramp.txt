@@ -1,0 +1,2 @@
+.text
+pcre_free_substring_list

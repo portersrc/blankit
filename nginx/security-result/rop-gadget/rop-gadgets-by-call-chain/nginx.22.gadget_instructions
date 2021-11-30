@@ -1,0 +1,24 @@
+0x00000000000e0bfd : adc dword ptr [rax], eax ; add byte ptr [rax], al ; syscall
+0x00000000000e0bf8 : adc ecx, dword ptr [rcx - 0x77] ; retf 0x11b8
+0x00000000000e0c18 : and al, 0x49 ; mov edx, ecx ; mov eax, 0x11 ; syscall
+0x00000000000e0c04 : cmp eax, 0xfffff001 ; jae 0xe0c46 ; ret
+0x00000000000e0c03 : cmp rax, -0xfff ; jae 0xe0c47 ; ret
+0x00000000000e0c09 : jae 0xe0c41 ; ret
+0x00000000000e0bfc : mov eax, 0x11 ; syscall
+0x00000000000e0bfa : mov edx, ecx ; mov eax, 0x11 ; syscall
+0x00000000000e0bf9 : mov r10, rcx ; mov eax, 0x11 ; syscall
+0x00000000000e0c08 : push qword ptr [rbx + 0x34] ; ret
+0x00000000000e0c29 : ret 0xe1e8
+0x00000000000e0bfb : retf 0x11b8
+0x0000000000010d1d : adc dword ptr [rax], eax ; add byte ptr [rax], al ; syscall
+0x0000000000010d18 : adc ecx, dword ptr [rcx - 0x77] ; retf 0x11b8
+0x0000000000010d38 : and al, 0x49 ; mov edx, ecx ; mov eax, 0x11 ; syscall
+0x0000000000010d24 : cmp eax, 0xfffff001 ; jae 0x10d66 ; ret
+0x0000000000010d23 : cmp rax, -0xfff ; jae 0x10d67 ; ret
+0x0000000000010d29 : jae 0x10d61 ; ret
+0x0000000000010d12 : mov dword ptr [rsi + 0x75000020], esi ; adc ecx, dword ptr [rcx - 0x77] ; retf 0x11b8
+0x0000000000010d1c : mov eax, 0x11 ; syscall
+0x0000000000010d1a : mov edx, ecx ; mov eax, 0x11 ; syscall
+0x0000000000010d19 : mov r10, rcx ; mov eax, 0x11 ; syscall
+0x0000000000010d49 : ret 0x71e8
+0x0000000000010d1b : retf 0x11b8

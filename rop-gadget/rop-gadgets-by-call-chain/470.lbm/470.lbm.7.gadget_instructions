@@ -1,0 +1,11 @@
+0x0000000000073f05 : add byte ptr [rax + 0x1d740000], al ; mov eax, edx ; pop rbx ; ret
+0x0000000000073f06 : add byte ptr [rax], 0 ; je 0x73f30 ; mov eax, edx ; pop rbx ; ret
+0x0000000000073f07 : add byte ptr [rax], al ; je 0x73f2f ; mov eax, edx ; pop rbx ; ret
+0x0000000000073f09 : je 0x73f2d ; mov eax, edx ; pop rbx ; ret
+0x0000000000073e80 : mov dh, 0x10 ; mov eax, edx ; ret
+0x0000000000073e7c : mov dword ptr [rdi + 8], ecx ; movzx edx, byte ptr [rax] ; mov eax, edx ; ret
+0x0000000000073e7b : mov qword ptr [rdi + 8], rcx ; movzx edx, byte ptr [rax] ; mov eax, edx ; ret
+0x0000000000073e7f : movzx edx, byte ptr [rax] ; mov eax, edx ; ret
+0x0000000000073e7d : or byte ptr [r15], r9b ; mov dh, 0x10 ; mov eax, edx ; ret
+0x0000000000073e7e : or byte ptr [rdi], cl ; mov dh, 0x10 ; mov eax, edx ; ret
+0x0000000000073f21 : ret 0xdfeb

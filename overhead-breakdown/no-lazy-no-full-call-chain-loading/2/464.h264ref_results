@@ -1,0 +1,200 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/464.h264ref
+benchmark:        464.h264ref_embedpin
+benchmark args:   -d foreman_ref_encoder_baseline.cfg
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/464.h264ref ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/464.h264ref/464.h264ref_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/464.h264ref/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/464.h264ref/approved_list_libm.txt
+BLANKIT_APPROVED_LIST_LIBGCC: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/464.h264ref/approved_list_libgcc.txt
+BLANKIT_APPROVED_LIST_LIBSTDCPP: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/464.h264ref/approved_list_libstdcpp.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/464.h264ref/string2id_map.csv
+pin main time (us): 17923
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/464.h264ref/464.h264ref_embedpin (us): 1
+load time for /lib64/ld-linux-x86-64.so.2 (us): 1
+load time for [vdso] (us): 1
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 145
+load time for /lib/x86_64-linux-gnu/libm.so.6 (us): 470977
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1811609
+Setting Default Parameters...
+Parsing Configfile foreman_ref_encoder_baseline.cfg.....................................................................................................
+
+------------------------------- JM 9.3 (FRExt) --------------------------------
+ Input YUV file                    : foreman_qcif.yuv 
+ Output H.264 bitstream            : foreman_qcif.264 
+ YUV Format                        : YUV 4:2:0 
+ Frames to be encoded I-P/B        : 120/0
+ PicInterlace / MbInterlace        : 0/0
+ Transform8x8Mode                  : 0
+-------------------------------------------------------------------------------
+  Frame  Bit/pic WP QP   SnrY    SnrU    SnrV    Time(ms) MET(ms) Frm/Fld   I D
+-------------------------------------------------------------------------------
+0000(NVB)     176 
+0000(IDR)   21952 0 28  37.383  41.260  42.850        0       0     FRM    99
+0001(P)      3024 0 28  36.868  41.036  42.720        0       0     FRM     0
+0002(P)      4120 0 28  36.875  40.936  42.683        0       0     FRM     2
+0003(P)      4552 0 28  36.851  40.950  42.670        0       0     FRM     2
+0004(P)      4952 0 28  36.848  40.815  42.407        0       0     FRM     2
+0005(P)      4448 0 28  36.775  40.691  42.386        0       0     FRM     1
+0006(P)      3944 0 28  36.689  40.740  42.206        0       0     FRM     1
+0007(P)      4040 0 28  36.698  40.821  42.262        0       0     FRM     0
+0008(P)      4104 0 28  36.751  40.824  42.114        0       0     FRM     0
+0009(P)      4576 0 28  36.724  40.773  41.954        0       0     FRM     1
+0010(P)      4504 0 28  36.701  40.618  41.919        0       0     FRM     1
+0011(P)      4120 0 28  36.695  40.745  41.882        0       0     FRM     0
+0012(P)      5128 0 28  36.709  40.792  42.289        0       0     FRM     0
+0013(P)      5680 0 28  36.651  40.754  42.503        0       0     FRM     1
+0014(P)      5784 0 28  36.617  40.751  42.436        0       0     FRM     1
+0015(P)      5536 0 28  36.598  40.758  42.418        0       0     FRM     0
+0016(P)      4616 0 28  36.413  40.683  42.375        0       0     FRM     0
+0017(P)      4384 0 28  36.410  40.609  42.341        0       0     FRM     0
+0018(P)      3840 0 28  36.437  40.610  42.225        0       0     FRM     2
+0019(P)      3432 0 28  36.484  40.704  42.084        0       0     FRM     0
+0020(P)      3048 0 28  36.505  40.650  42.206        0       0     FRM     0
+0021(P)      3304 0 28  36.571  40.518  42.277        0       0     FRM     1
+0022(P)      3880 0 28  36.568  40.456  42.220        0       0     FRM     1
+0023(P)      3648 0 28  36.518  40.410  42.155        0       0     FRM     2
+0024(P)      3928 0 28  36.469  40.600  42.122        0       0     FRM     0
+0025(P)      3824 0 28  36.474  40.490  42.078        0       0     FRM     1
+0026(P)      2896 0 28  36.383  40.557  42.160        0       0     FRM     0
+0027(P)      1552 0 28  36.304  40.589  42.156        0       0     FRM     0
+0028(P)      1832 0 28  36.281  40.608  42.009        0       0     FRM     0
+0029(P)      2136 0 28  36.339  40.679  42.032        0       0     FRM     0
+0030(P)      2248 0 28  36.383  40.773  42.062        0       0     FRM     0
+0031(P)      3032 0 28  36.528  40.727  42.051        0       0     FRM     1
+0032(P)      3504 0 28  36.421  40.801  42.127        0       0     FRM     0
+0033(P)      4440 0 28  36.591  40.669  42.130        0       0     FRM     1
+0034(P)      3800 0 28  36.550  40.754  42.101        0       0     FRM     2
+0035(P)      3712 0 28  36.533  40.813  42.065        0       0     FRM     1
+0036(P)      3984 0 28  36.478  40.898  42.169        0       0     FRM     1
+0037(P)      4360 0 28  36.561  41.059  42.105        0       0     FRM     3
+0038(P)      3552 0 28  36.484  40.924  41.929        0       0     FRM     0
+0039(P)      2992 0 28  36.601  40.780  41.884        0       0     FRM     0
+0040(P)      2504 0 28  36.613  40.709  41.938        0       0     FRM     0
+0041(P)      3568 0 28  36.719  40.960  41.814        0       0     FRM     2
+0042(P)      3504 0 28  36.663  40.869  41.673        0       0     FRM     0
+0043(P)      3040 0 28  36.614  41.105  41.890        0       0     FRM     4
+0044(P)      3424 0 28  36.636  41.193  41.794        0       0     FRM     2
+0045(P)      3304 0 28  36.716  41.203  41.680        0       0     FRM     1
+0046(P)      3304 0 28  36.785  41.120  41.647        0       0     FRM     0
+0047(P)      4072 0 28  36.778  40.996  41.646        0       0     FRM     0
+0048(P)      4464 0 28  36.675  40.855  41.625        0       0     FRM     0
+0049(P)      4424 0 28  36.579  40.609  41.598        0       0     FRM     0
+0050(P)      3880 0 28  36.445  40.529  41.606        0       0     FRM     1
+0051(P)      3792 0 28  36.487  40.307  41.706        0       0     FRM     0
+0052(P)      3968 0 28  36.530  40.442  41.566        0       0     FRM     0
+0053(P)      4120 0 28  36.383  40.339  41.767        0       0     FRM     1
+0054(P)      4720 0 28  36.238  40.259  41.887        0       0     FRM     0
+0055(P)      4504 0 28  36.127  40.228  41.802        0       0     FRM     0
+0056(P)      4208 0 28  36.176  40.217  41.790        0       0     FRM     0
+0057(P)      3664 0 28  36.200  40.277  41.793        0       0     FRM     0
+0058(P)      4072 0 28  36.399  40.222  41.671        0       0     FRM     0
+0059(P)      3120 0 28  36.387  40.315  41.489        0       0     FRM     0
+0060(P)      3488 0 28  36.487  40.362  41.779        0       0     FRM     1
+0061(P)      3408 0 28  36.380  40.461  41.780        0       0     FRM     0
+0062(P)      3944 0 28  36.576  40.507  41.825        0       0     FRM     0
+0063(P)      3264 0 28  36.537  40.540  41.792        0       0     FRM     0
+0064(P)      4080 0 28  36.582  40.497  41.555        0       0     FRM     2
+0065(P)      4264 0 28  36.563  40.524  41.512        0       0     FRM     2
+0066(P)      4776 0 28  36.590  40.633  41.245        0       0     FRM     1
+0067(P)      4984 0 28  36.656  40.729  41.448        0       0     FRM     2
+0068(P)      4328 0 28  36.628  40.748  41.485        0       0     FRM     1
+0069(P)      4064 0 28  36.612  40.636  41.513        0       0     FRM     1
+0070(P)      4688 0 28  36.644  40.540  41.466        0       0     FRM     2
+0071(P)      4584 0 28  36.599  40.737  41.756        0       0     FRM     3
+0072(P)      4992 0 28  36.745  40.879  41.875        0       0     FRM     4
+0073(P)      4312 0 28  36.651  40.961  41.916        0       0     FRM     5
+0074(P)      3544 0 28  36.649  40.729  41.640        0       0     FRM     0
+0075(P)      3288 0 28  36.651  40.702  41.666        0       0     FRM     0
+0076(P)      4240 0 28  36.882  40.688  41.416        0       0     FRM     0
+0077(P)      4440 0 28  36.824  40.621  41.248        0       0     FRM     0
+0078(P)      4672 0 28  36.760  40.704  41.252        0       0     FRM     0
+0079(P)      4392 0 28  36.674  40.469  41.068        0       0     FRM     2
+0080(P)      5112 0 28  36.504  40.404  41.010        0       0     FRM     1
+0081(P)      5504 0 28  36.371  40.158  40.790        0       0     FRM     3
+0082(P)      5208 0 28  36.381  40.002  40.771        0       0     FRM     2
+0083(P)      4720 0 28  36.196  40.020  41.047        0       0     FRM     0
+0084(P)      5504 0 28  36.115  40.170  41.185        0       0     FRM     0
+0085(P)      5768 0 28  36.047  39.894  41.097        0       0     FRM     0
+0086(P)      5272 0 28  35.957  39.856  41.237        0       0     FRM     0
+0087(P)      4744 0 28  35.987  39.920  40.956        0       0     FRM     0
+0088(P)      4760 0 28  36.127  39.989  40.982        0       0     FRM     2
+0089(P)      5216 0 28  36.228  40.225  41.332        0       0     FRM     4
+0090(P)      5696 0 28  36.504  40.527  41.872        0       0     FRM     3
+0091(P)      5736 0 28  36.433  40.570  41.626        0       0     FRM     2
+0092(P)      6128 0 28  36.603  40.445  41.383        0       0     FRM     7
+0093(P)      6856 0 28  36.631  40.480  41.186        0       0     FRM     7
+0094(P)      6848 0 28  36.603  40.629  41.516        0       0     FRM     7
+0095(P)      4744 0 28  36.487  40.541  41.447        0       0     FRM     1
+0096(P)      4184 0 28  36.598  40.403  41.246        0       0     FRM     1
+0097(P)      2952 0 28  36.463  40.558  41.371        0       0     FRM     0
+0098(P)      3200 0 28  36.556  40.655  41.425        0       0     FRM     2
+0099(P)      2560 0 28  36.552  40.736  41.548        0       0     FRM     0
+0100(P)      2424 0 28  36.555  40.642  41.549        0       0     FRM     2
+0101(P)      2704 0 28  36.658  40.633  41.528        0       0     FRM     0
+0102(P)      2600 0 28  36.748  40.570  41.583        0       0     FRM     0
+0103(P)      2288 0 28  36.659  40.555  41.473        0       0     FRM     0
+0104(P)      2800 0 28  36.700  40.652  41.272        0       0     FRM     0
+0105(P)      2616 0 28  36.687  40.553  41.666        0       0     FRM     1
+0106(P)      1792 0 28  36.589  40.722  41.537        0       0     FRM     0
+0107(P)      1432 0 28  36.645  40.781  41.594        0       0     FRM     0
+0108(P)      1944 0 28  36.705  40.740  41.351        0       0     FRM     0
+0109(P)      2464 0 28  36.689  40.759  41.561        0       0     FRM     0
+0110(P)      1976 0 28  36.762  40.740  41.422        0       0     FRM     0
+0111(P)      2376 0 28  36.801  40.745  41.364        0       0     FRM     0
+0112(P)      2568 0 28  36.861  40.766  41.402        0       0     FRM     0
+0113(P)      2336 0 28  36.842  40.698  41.436        0       0     FRM     0
+0114(P)      2208 0 28  36.741  40.655  41.272        0       0     FRM     0
+0115(P)      2248 0 28  36.724  40.683  41.448        0       0     FRM     0
+0116(P)      2456 0 28  36.770  40.595  41.278        0       0     FRM     0
+0117(P)      1504 0 28  36.663  40.560  41.223        0       0     FRM     0
+0118(P)      2464 0 28  36.832  40.600  41.408        0       0     FRM     0
+0119(P)      2552 0 28  36.757  40.564  41.473        0       0     FRM     0
+-------------------------------------------------------------------------------
+ Total Frames:  120 (120) 
+ Leaky BucketRateFile does not have valid entries;
+ using rate calculated from avg. rate 
+ Number Leaky Buckets: 8 
+     Rmin     Bmin     Fmin 
+   119550    41256    41256 
+   149430    21952    21952 
+   179310    21952    21952 
+   209190    21952    21952 
+   239070    21952    21952 
+   268950    21952    21952 
+   298830    21952    21952 
+   328710    21952    21952 
+-------------------------------------------------------------------------------
+ Freq. for encoded bitstream       : 30
+ Hadamard transform                : Used
+ Image format                      : 176x144
+ Error robustness                  : Off
+ Search range                      : 16
+ Total number of references        : 10
+ References for P slices           : 10
+ Total encoding time for the seq.  : 0.000 sec 
+ Total ME time for sequence        : 0.000 sec 
+ Sequence type                     : IPPP (QP: I 28, P 28) 
+ Entropy coding method             : CAVLC
+ Profile/Level IDC                 : (66,30)
+ Search range restrictions         : none
+ RD-optimized mode decision        : used
+ Data Partitioning Mode            : 1 partition 
+ Output File Format                : H.264 Bit Stream File Format 
+ Residue Color Transform           : not used
+------------------ Average data all frames  -----------------------------------
+ SNR Y(dB)                         : 36.57
+ SNR U(dB)                         : 40.62
+ SNR V(dB)                         : 41.74
+ Total bits                        : 478456 (I 21952, P 456328, NVB 176) 
+ Bit rate (kbit/s)  @ 30.00 Hz     : 119.61
+ Bits to avoid Startcode Emulation : 0 
+ Bits for parameter sets           : 176 
+-------------------------------------------------------------------------------
+Exit JM 9 (FRExt) encoder ver 9.3 
+
+real	0m55.825s
+user	0m49.471s
+sys	0m6.334s
+~/debloat/pin_probe_debloat_experiments

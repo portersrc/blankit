@@ -1,0 +1,7 @@
+0x00000000000e74ba : add byte ptr [rax], al ; xor edi, edi ; syscall
+0x00000000000e74c1 : cmp eax, 0xfffff000 ; ja 0xe74d8 ; ret
+0x00000000000e74c0 : cmp rax, -0x1000 ; ja 0xe74d9 ; ret
+0x00000000000e74c6 : ja 0xe74d3 ; ret
+0x00000000000e74b7 : mov eax, 0x12e ; xor edi, edi ; syscall
+0x00000000000e74b5 : mov esi, edi ; mov eax, 0x12e ; xor edi, edi ; syscall
+0x00000000000e74bc : xor edi, edi ; syscall

@@ -1,0 +1,9 @@
+0x00000000000e1def : add al, 0 ; add byte ptr [rax], al ; syscall
+0x00000000000e1df6 : cmp eax, 0xfffff000 ; ja 0xe1e08 ; ret
+0x00000000000e1df5 : cmp rax, -0x1000 ; ja 0xe1e09 ; ret
+0x00000000000e1dfb : ja 0xe1e03 ; ret
+0x00000000000e1dee : mov eax, 4 ; syscall
+0x00000000000e1dec : mov esi, edx ; mov eax, 4 ; syscall
+0x00000000000e1deb : mov rsi, rdx ; mov eax, 4 ; syscall
+0x00000000000e1dfa : push qword ptr [rdi + 3] ; ret
+0x00000000000e1ded : salc ; mov eax, 4 ; syscall

@@ -1,0 +1,9 @@
+0x00000000000e1e39 : clc ; mov rsi, rdx ; mov eax, 5 ; syscall
+0x00000000000e1e45 : cmp eax, 0xfffff000 ; ja 0xe1e58 ; ret
+0x00000000000e1e44 : cmp rax, -0x1000 ; ja 0xe1e59 ; ret
+0x00000000000e1e4a : ja 0xe1e53 ; ret
+0x00000000000e1e3d : mov eax, 5 ; syscall
+0x00000000000e1e3b : mov esi, edx ; mov eax, 5 ; syscall
+0x00000000000e1e3a : mov rsi, rdx ; mov eax, 5 ; syscall
+0x00000000000e1e49 : push qword ptr [rdi + 4] ; ret
+0x00000000000e1e3c : salc ; mov eax, 5 ; syscall

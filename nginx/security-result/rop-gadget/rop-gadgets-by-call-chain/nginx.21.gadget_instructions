@@ -1,0 +1,12 @@
+0x0000000000010c58 : adc byte ptr [rax + 2], bh ; syscall
+0x0000000000010c74 : add al, 0x24 ; mov eax, 2 ; syscall
+0x0000000000010c55 : add byte ptr [rax], al ; jne 0x10c72 ; mov eax, 2 ; syscall
+0x0000000000010c56 : add byte ptr [rbp + 0x10], dh ; mov eax, 2 ; syscall
+0x0000000000010c75 : and al, 0xb8 ; add al, byte ptr [rax] ; add byte ptr [rax], al ; syscall
+0x0000000000010c57 : jne 0x10c70 ; mov eax, 2 ; syscall
+0x0000000000010c73 : mov dword ptr [rsp], eax ; mov eax, 2 ; syscall
+0x0000000000010c72 : mov qword ptr [rsp], rax ; mov eax, 2 ; syscall
+0x0000000000010c61 : cmp eax, 0xfffff001 ; jae 0x10ca0 ; ret
+0x0000000000010c60 : cmp rax, -0xfff ; jae 0x10ca1 ; ret
+0x0000000000010c66 : jae 0x10c9b ; ret
+0x0000000000010c59 : mov eax, 2 ; syscall

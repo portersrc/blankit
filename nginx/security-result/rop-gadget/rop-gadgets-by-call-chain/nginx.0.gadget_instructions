@@ -1,0 +1,61 @@
+0x00000000000bfd1f : add byte ptr [rax - 0x77], cl ; xlatb ; mov eax, esi ; syscall
+0x00000000000bfd1d : add byte ptr [rax], al ; add byte ptr [rax - 0x77], cl ; xlatb ; mov eax, esi ; syscall
+0x00000000000bfd1c : add byte ptr [rax], al ; add byte ptr [rax], al ; mov rdi, rdx ; mov eax, esi ; syscall
+0x00000000000bfd1e : add byte ptr [rax], al ; mov rdi, rdx ; mov eax, esi ; syscall
+0x00000000000bfd2e : and esp, esi ; mov rdi, rdx ; mov eax, r8d ; syscall
+0x00000000000bfd2f : hlt ; mov rdi, rdx ; mov eax, r8d ; syscall
+0x00000000000bfd2d : ja 0xbfd59 ; hlt ; mov rdi, rdx ; mov eax, r8d ; syscall
+0x00000000000bfd21 : mov edi, edx ; mov eax, esi ; syscall
+0x00000000000bfd31 : mov edi, edx ; mov eax, r8d ; syscall
+0x00000000000bfd20 : mov rdi, rdx ; mov eax, esi ; syscall
+0x00000000000bfd30 : mov rdi, rdx ; mov eax, r8d ; syscall
+0x00000000000bfd22 : xlatb ; mov eax, esi ; syscall
+0x00000000000bfd32 : xlatb ; mov eax, r8d ; syscall
+0x0000000000037066 : add byte ptr [rax], al ; mov qword ptr fs:[rbp], rdx ; call rax
+0x000000000003708c : jne 0x37058 ; add rsp, 8 ; pop rbx ; pop rbp ; ret
+0x000000000003706a : mov dword ptr [rbp], edx ; call rax
+0x0000000000037069 : mov qword ptr [rbp], rdx ; call rax
+0x0000000000037068 : mov qword ptr fs:[rbp], rdx ; call rax
+0x0000000000037064 : xor byte ptr [rax], al ; add byte ptr [rax], al ; mov qword ptr fs:[rbp], rdx ; call rax
+0x00000000000fcb78 : jne 0xfcb84 ; xor eax, eax ; ret
+0x00000000000fcb74 : sub eax, dword ptr [rax] ; test eax, eax ; jne 0xfcb88 ; xor eax, eax ; ret
+0x00000000000fcb73 : sub r8, qword ptr [rax] ; test eax, eax ; jne 0xfcb89 ; xor eax, eax ; ret
+0x00000000000fcb76 : test eax, eax ; jne 0xfcb86 ; xor eax, eax ; ret
+0x00000000000fcba8 : jne 0xfcbb4 ; xor eax, eax ; ret
+0x00000000000fcba4 : sub eax, dword ptr [rax] ; test eax, eax ; jne 0xfcbb8 ; xor eax, eax ; ret
+0x00000000000fcba3 : sub r8, qword ptr [rax] ; test eax, eax ; jne 0xfcbb9 ; xor eax, eax ; ret
+0x00000000000fcba6 : test eax, eax ; jne 0xfcbb6 ; xor eax, eax ; ret
+0x0000000000005b3d : adc dword ptr [rcx], eax ; add byte ptr [rax], al ; syscall
+0x0000000000005b39 : add al, byte ptr [rax] ; add byte ptr [rax + 0x111], bh ; syscall
+0x0000000000005b3b : add byte ptr [rax + 0x111], bh ; syscall
+0x0000000000005b3a : add byte ptr [rax], al ; mov eax, 0x111 ; syscall
+0x0000000000005b3f : add byte ptr [rax], al ; syscall
+0x0000000000005b38 : loopne 0x5b45 ; add byte ptr [rax], al ; mov eax, 0x111 ; syscall
+0x0000000000005b3c : mov eax, 0x111 ; syscall
+0x0000000000005b41 : syscall
+0x00000000000068cb : add al, byte ptr [rax] ; add byte ptr [rax + 0x39], cl ; ret 0x850f
+0x00000000000068cd : add byte ptr [rax + 0x39], cl ; ret 0x850f
+0x000000000000689f : add byte ptr [rax - 0x7b], cl ; sal byte ptr [rsi + rbx*2 + 0x48], 0x89 ; ret 0x8348
+0x00000000000069dd : add byte ptr [rax], al ; add dword ptr [rax - 0x7d], ecx ; ret 0x4c08
+0x00000000000068bd : add byte ptr [rbp - 0x77], cl ; retf 0x8b48
+0x00000000000069df : add dword ptr [rax - 0x7d], ecx ; ret 0x4c08
+0x0000000000006b05 : add eax, 0x2157b2 ; add byte ptr [rax], al ; add byte ptr [rax], al ; ret
+0x0000000000006b08 : and dword ptr [rax], eax ; add byte ptr [rax], al ; add byte ptr [rax], al ; ret
+0x00000000000068c7 : enter -0x7bf1, 0x77 ; add al, byte ptr [rax] ; add byte ptr [rax + 0x39], cl ; ret 0x850f
+0x0000000000006b06 : mov dl, 0x57 ; and dword ptr [rax], eax ; add byte ptr [rax], al ; add byte ptr [rax], al ; ret
+0x0000000000006b07 : push rdi ; and dword ptr [rax], eax ; add byte ptr [rax], al ; add byte ptr [rax], al ; ret
+0x00000000000069e2 : ret 0x4c08
+0x00000000000068a7 : ret 0x8348
+0x00000000000068d0 : ret 0x850f
+0x00000000000068c0 : retf 0x8b48
+0x00000000000068a2 : sal byte ptr [rsi + rbx*2 + 0x48], 0x89 ; ret 0x8348
+0x00000000000068bb : sbb dword ptr [rcx], esp ; add byte ptr [rbp - 0x77], cl ; retf 0x8b48
+0x00000000000069da : xchg byte ptr [rax + 3], dl ; add byte ptr [rax], al ; add dword ptr [rax - 0x7d], ecx ; ret 0x4c08
+0x0000000000009f0c : add byte ptr [rax], al ; add byte ptr [rcx], ch ; ret 0xc189
+0x0000000000009f0e : add byte ptr [rcx], ch ; ret 0xc189
+0x0000000000009f07 : mov edi, 0x8be1440 ; add byte ptr [rax], al ; add byte ptr [rcx], ch ; ret 0xc189
+0x0000000000009de1 : nop ; xor eax, eax ; add rsp, 8 ; ret
+0x0000000000009ddf : or al, 1 ; nop ; xor eax, eax ; add rsp, 8 ; ret
+0x0000000000009ece : ret 0x8d01
+0x0000000000009ec8 : xor byte ptr [rbp - 0x7cc78b40], al ; ret 0x8d01
+0x000000000000b57e : retf 0x8d48

@@ -1,0 +1,6 @@
+write
+__write_nocancel
+__open_nocancel
+__pread_nocancel
+__pwrite_nocancel
+__errno_location

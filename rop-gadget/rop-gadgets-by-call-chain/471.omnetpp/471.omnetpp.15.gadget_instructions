@@ -1,0 +1,9 @@
+0x0000000000073762 : add al, 0x83 ; loop 0x7376d ; mov eax, edx ; ret
+0x000000000007374e : add esp, 0x80 ; mov eax, edx ; ret
+0x000000000007374d : add rsp, 0x80 ; mov eax, edx ; ret
+0x0000000000073763 : and edx, 1 ; mov eax, edx ; ret
+0x0000000000073764 : loop 0x7376b ; mov eax, edx ; ret
+0x00000000000736fe : mov byte ptr [rax - 0x77000000], cl ; retf -0x76b3
+0x00000000000736fb : or byte ptr [rbp - 0x75], cl ; mov byte ptr [rax - 0x77000000], cl ; retf -0x76b3
+0x0000000000073719 : ret 0x6075
+0x0000000000073760 : shr edx, 4 ; and edx, 1 ; mov eax, edx ; ret

@@ -1,0 +1,7 @@
+0x00000000000e22ba : add byte ptr [rax], al ; add rsp, 0x68 ; pop rbx ; pop rbp ; ret
+0x00000000000e22bd : add esp, 0x68 ; pop rbx ; pop rbp ; ret
+0x00000000000e22bc : add rsp, 0x68 ; pop rbx ; pop rbp ; ret
+0x00000000000e2337 : and al, 8 ; add rsp, 0x68 ; pop rbx ; pop rbp ; ret
+0x00000000000e22a8 : mov edi, 0xffffff9c ; syscall
+0x00000000000e22a5 : mov esi, edi ; mov rdi, -0x64 ; syscall
+0x00000000000e22a7 : mov rdi, -0x64 ; syscall

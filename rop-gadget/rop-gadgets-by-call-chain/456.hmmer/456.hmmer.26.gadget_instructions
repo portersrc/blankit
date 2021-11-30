@@ -1,0 +1,33 @@
+0x0000000000081edd : add byte ptr [rax - 0x7d], cl ; clc ; dec dword ptr [rax + 0xf] ; ret 0x8348
+0x0000000000081ee0 : clc ; dec dword ptr [rax + 0xf] ; ret 0x8348
+0x0000000000081ee2 : cmove rax, rdx ; add rsp, 8 ; ret
+0x0000000000081ee1 : dec dword ptr [rax + 0xf] ; ret 0x8348
+0x00000000000e79aa : dec dword ptr [rax - 0x77] ; fcomp dword ptr [rbx + 0x5d] ; pop r12 ; ret
+0x00000000000e79db : js 0xe79ad ; mov rax, rbx ; pop rbx ; pop rbp ; pop r12 ; ret
+0x00000000000e7991 : rol byte ptr [rax + rax*8 - 0x74b7c58c], 5 ; retf
+0x00000000000e7990 : xchg eax, edx ; rol byte ptr [rax + rax*8 - 0x74b7c58c], 5 ; retf
+0x00000000000e790d : adc byte ptr [rcx], dh ; ror byte ptr [rax + 0x39], 0xd7 ; ja 0xe7949 ; ret
+0x00000000000e7911 : cmp edi, edx ; ja 0xe7945 ; ret
+0x00000000000e7910 : cmp rdi, rdx ; ja 0xe7946 ; ret
+0x00000000000e78fe : dec dword ptr [rax - 0x77] ; ret 0x1c77
+0x00000000000e7913 : ja 0xe7943 ; ret
+0x00000000000e7934 : mov dword ptr [rax], 0xffffffff ; xor eax, eax ; ret
+0x00000000000e78f0 : mov ecx, 0xc ; mov eax, ecx ; syscall
+0x00000000000e7933 : mov qword ptr [rax], -1 ; xor eax, eax ; ret
+0x00000000000e794a : or al, 0 ; add byte ptr [rax], al ; mov eax, 0xffffffff ; ret
+0x00000000000e78f1 : or al, 0 ; add byte ptr [rax], al ; mov eax, ecx ; syscall
+0x00000000000e7901 : ret 0x1c77
+0x00000000000e790f : ror byte ptr [rax + 0x39], 0xd7 ; ja 0xe7947 ; ret
+0x00000000000e7914 : sub esi, ebx ; ret
+0x00000000000e7912 : xlatb ; ja 0xe7944 ; ret
+0x00000000000e790e : xor eax, eax ; cmp rdi, rdx ; ja 0xe7948 ; ret
+0x0000000000080f9e : fisttp qword ptr [rax + 0x39] ; ret 0x860f
+0x0000000000080f8b : pop r12 ; pop r13 ; pop r14 ; pop r15 ; jmp rax
+0x0000000000080f8d : pop r13 ; pop r14 ; pop r15 ; jmp rax
+0x0000000000080f8f : pop r14 ; pop r15 ; jmp rax
+0x0000000000080f91 : pop r15 ; jmp rax
+0x0000000000080f8a : pop rbp ; pop r12 ; pop r13 ; pop r14 ; pop r15 ; jmp rax
+0x0000000000080f8e : pop rbp ; pop r14 ; pop r15 ; jmp rax
+0x0000000000080f92 : pop rdi ; jmp rax
+0x0000000000080f90 : pop rsi ; pop r15 ; jmp rax
+0x0000000000080f8c : pop rsp ; pop r13 ; pop r14 ; pop r15 ; jmp rax

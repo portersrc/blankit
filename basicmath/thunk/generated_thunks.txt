@@ -1,0 +1,544 @@
+
+int __isnan (double x)
+{
+    static int (*glibc___isnan) (double x) = NULL;
+    static int (*ref_glibc___isnan) (double x) = NULL;
+    int func_size = 36;
+    char *error;
+
+    printf("thunk __isnan()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk __isnan(): setting func ptr\n");
+    glibc___isnan = dlsym(thunk_dlopen_handle, "__isnan");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk __isnan(): setting ref func ptr\n");
+    ref_glibc___isnan = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk __isnan(): copying function back into place\n");
+    memcpy(glibc___isnan, ref_glibc___isnan, func_size);
+
+    printf("thunk __isnan(): calling real version\n");
+    return glibc___isnan(x);
+}
+
+
+char * strrchr (const char *s, int c)
+{
+    static char * (*glibc_strrchr) (const char *s, int c) = NULL;
+    static char * (*ref_glibc_strrchr) (const char *s, int c) = NULL;
+    int func_size = 42;
+    char *error;
+
+    printf("thunk strrchr()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk strrchr(): setting func ptr\n");
+    glibc_strrchr = dlsym(thunk_dlopen_handle, "strrchr");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk strrchr(): setting ref func ptr\n");
+    ref_glibc_strrchr = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk strrchr(): copying function back into place\n");
+    memcpy(glibc_strrchr, ref_glibc_strrchr, func_size);
+
+    printf("thunk strrchr(): calling real version\n");
+    return glibc_strrchr(s, c);
+}
+
+
+int _IO_puts (const char *str)
+{
+    static int (*glibc__IO_puts) (const char *str) = NULL;
+    static int (*ref_glibc__IO_puts) (const char *str) = NULL;
+    int func_size = 547;
+    char *error;
+
+    printf("thunk _IO_puts()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk _IO_puts(): setting func ptr\n");
+    glibc__IO_puts = dlsym(thunk_dlopen_handle, "_IO_puts");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk _IO_puts(): setting ref func ptr\n");
+    ref_glibc__IO_puts = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk _IO_puts(): copying function back into place\n");
+    memcpy(glibc__IO_puts, ref_glibc__IO_puts, func_size);
+
+    printf("thunk _IO_puts(): calling real version\n");
+    return glibc__IO_puts(str);
+}
+
+
+void attribute_hidden _init (int argc, char **argv, char **envp)
+{
+    static void attribute_hidden (*glibc__init) (int argc, char **argv, char **envp) = NULL;
+    static void attribute_hidden (*ref_glibc__init) (int argc, char **argv, char **envp) = NULL;
+    int func_size = 395;
+    char *error;
+
+    printf("thunk _init()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk _init(): setting func ptr\n");
+    glibc__init = dlsym(thunk_dlopen_handle, "_init");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk _init(): setting ref func ptr\n");
+    ref_glibc__init = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk _init(): copying function back into place\n");
+    memcpy(glibc__init, ref_glibc__init, func_size);
+
+    printf("thunk _init(): calling real version\n");
+    return glibc__init(argc, argv, envp);
+}
+
+
+int attribute_hidden printf (const char *fmt, ...)
+{
+    static int attribute_hidden (*glibc_printf) (const char *fmt, ...) = NULL;
+    static int attribute_hidden (*ref_glibc_printf) (const char *fmt, ...) = NULL;
+    int func_size = 161;
+    char *error;
+
+    printf("thunk printf()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk printf(): setting func ptr\n");
+    glibc_printf = dlsym(thunk_dlopen_handle, "printf");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk printf(): setting ref func ptr\n");
+    ref_glibc_printf = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk printf(): copying function back into place\n");
+    memcpy(glibc_printf, ref_glibc_printf, func_size);
+
+    printf("thunk printf(): calling real version\n");
+    return glibc_printf(fmt, ...);
+}
+
+
+int _IO_file_doallocate (_IO_FILE *fp)
+{
+    static int (*glibc__IO_file_doallocate) (_IO_FILE *fp) = NULL;
+    static int (*ref_glibc__IO_file_doallocate) (_IO_FILE *fp) = NULL;
+    int func_size = 296;
+    char *error;
+
+    printf("thunk _IO_file_doallocate()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk _IO_file_doallocate(): setting func ptr\n");
+    glibc__IO_file_doallocate = dlsym(thunk_dlopen_handle, "_IO_file_doallocate");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk _IO_file_doallocate(): setting ref func ptr\n");
+    ref_glibc__IO_file_doallocate = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk _IO_file_doallocate(): copying function back into place\n");
+    memcpy(glibc__IO_file_doallocate, ref_glibc__IO_file_doallocate, func_size);
+
+    printf("thunk _IO_file_doallocate(): calling real version\n");
+    return glibc__IO_file_doallocate(fp);
+}
+
+
+void * mmap (void *start, size_t len, int prot, int flags, int fd, off_t offset)
+{
+    static void * (*glibc_mmap) (void *start, size_t len, int prot, int flags, int fd, off_t offset) = NULL;
+    static void * (*ref_glibc_mmap) (void *start, size_t len, int prot, int flags, int fd, off_t offset) = NULL;
+    int func_size = 249;
+    char *error;
+
+    printf("thunk mmap()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk mmap(): setting func ptr\n");
+    glibc_mmap = dlsym(thunk_dlopen_handle, "mmap");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk mmap(): setting ref func ptr\n");
+    ref_glibc_mmap = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk mmap(): copying function back into place\n");
+    memcpy(glibc_mmap, ref_glibc_mmap, func_size);
+
+    printf("thunk mmap(): calling real version\n");
+    return glibc_mmap(start, len, prot, flags, fd, offset);
+}
+
+
+int putchar (int c)
+{
+    static int (*glibc_putchar) (int c) = NULL;
+    static int (*ref_glibc_putchar) (int c) = NULL;
+    int func_size = 334;
+    char *error;
+
+    printf("thunk putchar()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk putchar(): setting func ptr\n");
+    glibc_putchar = dlsym(thunk_dlopen_handle, "putchar");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk putchar(): setting ref func ptr\n");
+    ref_glibc_putchar = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk putchar(): copying function back into place\n");
+    memcpy(glibc_putchar, ref_glibc_putchar, func_size);
+
+    printf("thunk putchar(): calling real version\n");
+    return glibc_putchar(c);
+}
+
+
+int __fxstat64 (int vers, int fd, struct stat64 *buf)
+{
+    static int (*glibc___fxstat64) (int vers, int fd, struct stat64 *buf) = NULL;
+    static int (*ref_glibc___fxstat64) (int vers, int fd, struct stat64 *buf) = NULL;
+    int func_size = 76;
+    char *error;
+
+    printf("thunk __fxstat64()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk __fxstat64(): setting func ptr\n");
+    glibc___fxstat64 = dlsym(thunk_dlopen_handle, "__fxstat64");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk __fxstat64(): setting ref func ptr\n");
+    ref_glibc___fxstat64 = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk __fxstat64(): copying function back into place\n");
+    memcpy(glibc___fxstat64, ref_glibc___fxstat64, func_size);
+
+    printf("thunk __fxstat64(): calling real version\n");
+    return glibc___fxstat64(vers, fd, buf);
+}
+
+
+int _setjmp (jmp_buf env)
+{
+    static int (*glibc__setjmp) (jmp_buf env) = NULL;
+    static int (*ref_glibc__setjmp) (jmp_buf env) = NULL;
+    int func_size = 7;
+    char *error;
+
+    printf("thunk _setjmp()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk _setjmp(): setting func ptr\n");
+    glibc__setjmp = dlsym(thunk_dlopen_handle, "_setjmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk _setjmp(): setting ref func ptr\n");
+    ref_glibc__setjmp = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk _setjmp(): copying function back into place\n");
+    memcpy(glibc__setjmp, ref_glibc__setjmp, func_size);
+
+    printf("thunk _setjmp(): calling real version\n");
+    return glibc__setjmp(env);
+}
+
+
+void __ctype_init (void)
+{
+    static void (*glibc___ctype_init) (void) = NULL;
+    static void (*ref_glibc___ctype_init) (void) = NULL;
+    int func_size = 80;
+    char *error;
+
+    printf("thunk __ctype_init()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk __ctype_init(): setting func ptr\n");
+    glibc___ctype_init = dlsym(thunk_dlopen_handle, "__ctype_init");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk __ctype_init(): setting ref func ptr\n");
+    ref_glibc___ctype_init = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk __ctype_init(): copying function back into place\n");
+    memcpy(glibc___ctype_init, ref_glibc___ctype_init, func_size);
+
+    printf("thunk __ctype_init(): calling real version\n");
+    return glibc___ctype_init();
+}
+
+
+size_t strlen (const char *str)
+{
+    static size_t (*glibc_strlen) (const char *str) = NULL;
+    static size_t (*ref_glibc_strlen) (const char *str) = NULL;
+    int func_size = 42;
+    char *error;
+
+    printf("thunk strlen()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk strlen(): setting func ptr\n");
+    glibc_strlen = dlsym(thunk_dlopen_handle, "strlen");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk strlen(): setting ref func ptr\n");
+    ref_glibc_strlen = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk strlen(): copying function back into place\n");
+    memcpy(glibc_strlen, ref_glibc_strlen, func_size);
+
+    printf("thunk strlen(): calling real version\n");
+    return glibc_strlen(str);
+}
+
+
+int __isinf (double x)
+{
+    static int (*glibc___isinf) (double x) = NULL;
+    static int (*ref_glibc___isinf) (double x) = NULL;
+    int func_size = 53;
+    char *error;
+
+    printf("thunk __isinf()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk __isinf(): setting func ptr\n");
+    glibc___isinf = dlsym(thunk_dlopen_handle, "__isinf");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk __isinf(): setting ref func ptr\n");
+    ref_glibc___isinf = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk __isinf(): copying function back into place\n");
+    memcpy(glibc___isinf, ref_glibc___isinf, func_size);
+
+    printf("thunk __isinf(): calling real version\n");
+    return glibc___isinf(x);
+}
+
+
+int attribute_hidden __printf_fp (FILE *fp, const struct printf_info *info, const void *const *args)
+{
+    static int attribute_hidden (*glibc___printf_fp) (FILE *fp, const struct printf_info *info, const void *const *args) = NULL;
+    static int attribute_hidden (*ref_glibc___printf_fp) (FILE *fp, const struct printf_info *info, const void *const *args) = NULL;
+    int func_size = 25;
+    char *error;
+
+    printf("thunk __printf_fp()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk __printf_fp(): setting func ptr\n");
+    glibc___printf_fp = dlsym(thunk_dlopen_handle, "__printf_fp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk __printf_fp(): setting ref func ptr\n");
+    ref_glibc___printf_fp = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk __printf_fp(): copying function back into place\n");
+    memcpy(glibc___printf_fp, ref_glibc___printf_fp, func_size);
+
+    printf("thunk __printf_fp(): calling real version\n");
+    return glibc___printf_fp(fp, info, args);
+}
+
+
+int __libc_start_main (int argc, char **argv, char **ev, ElfW (auxv_t) * auxvec, void (*rtld_fini) (void), struct startup_info *stinfo, char **stack_on_entry)
+{
+    static int (*glibc___libc_start_main) (int argc, char **argv, char **ev, ElfW (auxv_t) * auxvec, void (*rtld_fini) (void), struct startup_info *stinfo, char **stack_on_entry) = NULL;
+    static int (*ref_glibc___libc_start_main) (int argc, char **argv, char **ev, ElfW (auxv_t) * auxvec, void (*rtld_fini) (void), struct startup_info *stinfo, char **stack_on_entry) = NULL;
+    int func_size = 458;
+    char *error;
+
+    printf("thunk __libc_start_main()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk __libc_start_main(): setting func ptr\n");
+    glibc___libc_start_main = dlsym(thunk_dlopen_handle, "__libc_start_main");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk __libc_start_main(): setting ref func ptr\n");
+    ref_glibc___libc_start_main = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk __libc_start_main(): copying function back into place\n");
+    memcpy(glibc___libc_start_main, ref_glibc___libc_start_main, func_size);
+
+    printf("thunk __libc_start_main(): calling real version\n");
+    return glibc___libc_start_main(argc, argv, ev, auxv_t auxvec, rtld_fini void, stinfo, stack_on_entry);
+}
+
+
+int __cxa_atexit (void (*func) (void *), void *arg, void *d)
+{
+    static int (*glibc___cxa_atexit) (void (*func) (void *), void *arg, void *d) = NULL;
+    static int (*ref_glibc___cxa_atexit) (void (*func) (void *), void *arg, void *d) = NULL;
+    int func_size = 79;
+    char *error;
+
+    printf("thunk __cxa_atexit()\n");
+
+    if(thunk_dlopen_handle == NULL){
+        init_thunk();
+    }
+
+    printf("thunk __cxa_atexit(): setting func ptr\n");
+    glibc___cxa_atexit = dlsym(thunk_dlopen_handle, "__cxa_atexit");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+    printf("thunk __cxa_atexit(): setting ref func ptr\n");
+    ref_glibc___cxa_atexit = dlsym(ref_handle, "strcmp");
+    if((error = dlerror()) != NULL){
+        fprintf(stderr, "%s\n", error);
+        exit(1);
+    }
+
+    printf("thunk __cxa_atexit(): copying function back into place\n");
+    memcpy(glibc___cxa_atexit, ref_glibc___cxa_atexit, func_size);
+
+    printf("thunk __cxa_atexit(): calling real version\n");
+    return glibc___cxa_atexit(func , arg, d);
+}
+

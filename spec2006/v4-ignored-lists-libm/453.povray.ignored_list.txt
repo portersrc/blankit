@@ -1,0 +1,6 @@
+pow
+acos
+fmod
+__fmod_finite
+exp
+log

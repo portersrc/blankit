@@ -1,0 +1,1 @@
+.plt.got,_IO_default_uflow,_IO_doallocbuf,_IO_fgets,_IO_file_doallocate,_IO_file_read,_IO_file_stat,_IO_file_underflow,_IO_getline,_IO_getline_info,_IO_setb,_IO_switch_to_get_mode,__fxstat,__libc_malloc,__uflow,memchr,read

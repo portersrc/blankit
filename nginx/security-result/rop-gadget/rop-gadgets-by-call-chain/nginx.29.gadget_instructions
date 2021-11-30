@@ -1,0 +1,33 @@
+0x00000000000e25e7 : adc al, ch ; ret
+0x00000000000e25ae : add dword ptr [rax], eax ; add byte ptr [rax], al ; syscall
+0x00000000000e25b5 : cmp eax, 0xfffff000 ; ja 0xe25c7 ; ret
+0x00000000000e25b4 : cmp rax, -0x1000 ; ja 0xe25c8 ; ret
+0x00000000000e25e6 : in al, dx ; adc al, ch ; ret
+0x00000000000e25ba : ja 0xe25c2 ; ret
+0x00000000000e25ad : mov eax, 1 ; syscall
+0x00000000000e25f7 : movsxd rdi, ebx ; mov eax, 1 ; syscall
+0x00000000000e25ab : movsxd rdi, edi ; mov eax, 1 ; syscall
+0x00000000000e25f5 : out dx, al ; movsxd rdi, ebx ; mov eax, 1 ; syscall
+0x00000000000e25f8 : sti ; mov eax, 1 ; syscall
+0x0000000000010498 : adc byte ptr [rax + 1], bh ; syscall
+0x00000000000104b4 : add al, 0x24 ; mov eax, 1 ; syscall
+0x0000000000010495 : add byte ptr [rax], al ; jne 0x104b2 ; mov eax, 1 ; syscall
+0x0000000000010496 : add byte ptr [rbp + 0x10], dh ; mov eax, 1 ; syscall
+0x000000000001049a : add dword ptr [rax], eax ; add byte ptr [rax], al ; syscall
+0x00000000000104b5 : and al, 0xb8 ; add dword ptr [rax], eax ; add byte ptr [rax], al ; syscall
+0x00000000000104a1 : cmp eax, 0xfffff001 ; jae 0x104e0 ; ret
+0x00000000000104a0 : cmp rax, -0xfff ; jae 0x104e1 ; ret
+0x00000000000104e1 : fsub dword ptr [rcx + rcx*4 + 1] ; or rax, 0xffffffffffffffff ; ret
+0x00000000000104a6 : jae 0x104db ; ret
+0x0000000000010497 : jne 0x104b0 ; mov eax, 1 ; syscall
+0x00000000000104e3 : mov dword ptr [rcx], eax ; or rax, 0xffffffffffffffff ; ret
+0x00000000000104b3 : mov dword ptr [rsp], eax ; mov eax, 1 ; syscall
+0x00000000000104e2 : mov dword ptr fs:[rcx], eax ; or rax, 0xffffffffffffffff ; ret
+0x0000000000010499 : mov eax, 1 ; syscall
+0x00000000000104b2 : mov qword ptr [rsp], rax ; mov eax, 1 ; syscall
+0x00000000000104e0 : neg eax ; mov dword ptr fs:[rcx], eax ; or rax, 0xffffffffffffffff ; ret
+0x00000000000104e6 : or eax, 0xffffffff ; ret
+0x00000000000104e5 : or rax, 0xffffffffffffffff ; ret
+0x00000000000104a5 : push qword ptr [rbx + 0x31] ; ret
+0x00000000000104d5 : push qword ptr [rbx + 1] ; ret
+0x00000000000104c3 : ret 0xf7e8

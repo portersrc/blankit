@@ -1,0 +1,7 @@
+0x0000000000034ae6 : add cl, 0xe9 ; add esi, ebx ; stosq qword ptr [rdi], rax ; ret
+0x0000000000034ae9 : add esi, ebx ; stosq qword ptr [rdi], rax ; ret
+0x0000000000034aea : rep stosq qword ptr [rdi], rax ; ret
+0x0000000000034ae7 : shr ecx, 3 ; rep stosq qword ptr [rdi], rax ; ret
+0x0000000000034aec : stosd dword ptr [rdi], eax ; ret
+0x0000000000034aeb : stosq qword ptr [rdi], rax ; ret
+0x0000000000034ae4 : sub ecx, -0x80 ; shr ecx, 3 ; rep stosq qword ptr [rdi], rax ; ret

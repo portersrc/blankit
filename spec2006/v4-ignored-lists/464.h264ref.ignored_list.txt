@@ -1,0 +1,5 @@
+__libc_start_main
+_IO_fgets
+_IO_padn
+_IO_puts
+bzero

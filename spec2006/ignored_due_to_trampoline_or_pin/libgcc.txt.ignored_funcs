@@ -1,0 +1,4 @@
+.text
+__absvdi2
+__absvsi2
+__deregister_frame_info

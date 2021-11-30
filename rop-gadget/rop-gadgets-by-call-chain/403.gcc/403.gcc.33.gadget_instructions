@@ -1,0 +1,4 @@
+0x00000000000743d7 : adc eax, 0x8900004e ; ret 0xceeb
+0x00000000000743b0 : add byte ptr [rax], 0 ; je 0x743e8 ; mov eax, edx ; pop rbx ; ret
+0x00000000000743b1 : add byte ptr [rax], al ; je 0x743e7 ; mov eax, edx ; pop rbx ; ret
+0x00000000000743b3 : je 0x743e5 ; mov eax, edx ; pop rbx ; ret

@@ -1,0 +1,3 @@
+0x00000000000e7502 : cmp eax, 0xfffff000 ; ja 0xe7518 ; ret
+0x00000000000e7501 : cmp rax, -0x1000 ; ja 0xe7519 ; ret
+0x00000000000e7507 : ja 0xe7513 ; ret

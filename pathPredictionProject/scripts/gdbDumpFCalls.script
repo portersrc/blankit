@@ -1,0 +1,17 @@
+set logging file gdbLog
+set logging on 
+set logging overwrite on
+set logging redirect on
+set backtrace limit 2
+break pbarua_custom_instr_fun
+break main
+r
+rbreak .
+clear printf
+c 
+set $first = 1 
+while 1
+       bt
+       c
+end
+~      

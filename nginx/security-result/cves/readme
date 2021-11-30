@@ -1,0 +1,2 @@
+cves_report.py was copied from the root of the project's cves/ folder
+and then modified to work with nginx results.

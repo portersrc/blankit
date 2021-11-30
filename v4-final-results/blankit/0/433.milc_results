@@ -1,0 +1,192 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/433.milc
+benchmark:        433.milc_embedpin
+benchmark args:   su3imp.in
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/433.milc ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/433.milc/433.milc_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/433.milc/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/433.milc/approved_list_libm.txt
+BLANKIT_APPROVED_LIST_LIBGCC: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/433.milc/approved_list_libgcc.txt
+BLANKIT_APPROVED_LIST_LIBSTDCPP: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/433.milc/approved_list_libstdcpp.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/433.milc/string2id_map.csv
+BLANKIT_LAZY: 1
+pin main time (us): 18350
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/433.milc/433.milc_embedpin (us): 1
+load time for /lib64/ld-linux-x86-64.so.2 (us): 1
+load time for [vdso] (us): 1
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 159
+load time for /lib/x86_64-linux-gnu/libm.so.6 (us): 489372
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1865108
+SU3 with improved KS action
+Microcanonical simulation with refreshing
+MIMD version 6
+Machine = Scalar processor, with 1 nodes
+R algorithm
+type 0 for no prompts  or 1 for prompts
+nflavors 2
+nx 20
+ny 20
+nz 20
+nt 20
+iseed 1234
+LAYOUT = Hypercubes, options = EVENFIRST,
+Made lattice
+Made nn gathers
+Made 3nn gathers
+Finished setup
+
+
+warms 0
+trajecs 1
+traj_between_meas 1
+beta 5.6
+mass 0.125
+u0 1
+microcanonical_time_step 0.2
+steps_per_trajectory 2
+max_cg_iterations 100
+error_per_site 0.125
+error_for_propagator 0.125
+fresh 
+forget 
+unit gauge configuration loaded
+CHECK PLAQ: 3.000000e+00 3.000000e+00
+Unitarity checked.  Max deviation 0.00e+00
+Symanzik 1x1 + 1x2 + 1x1x1 action
+loop coefficients: nloop rep loop_coeff  multiplicity
+                    0 0      1.000000e+00     6
+                    1 0      -5.000000e-02     12
+                    2 0      0.000000e+00     16
+"O(a^2): couplings(pi)=0, Naik term, No O(a^2) errors, tadpole weights"
+path coefficients: npath  path_coeff  multiplicity
+                    0      6.250000e-01     8
+                    1      -4.166667e-02     8
+                    2      -6.250000e-02     48
+                    3      1.562500e-02     192
+                    4      -2.604167e-03     384
+                    5      -6.250000e-02     48
+WARMUPS COMPLETED
+PLAQ:	2.101693	2.100619
+P_LOOP:	1.771832e-01	-6.393470e-04
+G_LOOP:  0  0  4   	2.102903e+00	( 0 1 7 6  )
+G_LOOP:  0  1  4   	2.100900e+00	( 0 2 7 5  )
+G_LOOP:  0  2  4   	2.101352e+00	( 0 3 7 4  )
+G_LOOP:  0  3  4   	2.101276e+00	( 1 2 6 5  )
+G_LOOP:  0  4  4   	2.100653e+00	( 1 3 6 4  )
+G_LOOP:  0  5  4   	2.099851e+00	( 2 3 5 4  )
+G_LOOP:  1  0  6   	1.592097e+00	( 0 0 1 7 7 6  )
+G_LOOP:  1  1  6   	1.588551e+00	( 0 0 2 7 7 5  )
+G_LOOP:  1  2  6   	1.589865e+00	( 0 0 3 7 7 4  )
+G_LOOP:  1  3  6   	1.593019e+00	( 1 1 0 6 6 7  )
+G_LOOP:  1  4  6   	1.588602e+00	( 1 1 2 6 6 5  )
+G_LOOP:  1  5  6   	1.587790e+00	( 1 1 3 6 6 4  )
+G_LOOP:  1  6  6   	1.587422e+00	( 2 2 0 5 5 7  )
+G_LOOP:  1  7  6   	1.589230e+00	( 2 2 1 5 5 6  )
+G_LOOP:  1  8  6   	1.587074e+00	( 2 2 3 5 5 4  )
+G_LOOP:  1  9  6   	1.587290e+00	( 3 3 0 4 4 7  )
+G_LOOP:  1  10  6   	1.588893e+00	( 3 3 1 4 4 6  )
+G_LOOP:  1  11  6   	1.588172e+00	( 3 3 2 4 4 5  )
+G_LOOP:  2  0  6   	1.622015e+00	( 0 1 2 7 6 5  )
+G_LOOP:  2  1  6   	1.621806e+00	( 0 1 5 7 6 2  )
+G_LOOP:  2  2  6   	1.622237e+00	( 0 6 2 7 1 5  )
+G_LOOP:  2  3  6   	1.621107e+00	( 0 6 5 7 1 2  )
+G_LOOP:  2  4  6   	1.621481e+00	( 0 1 3 7 6 4  )
+G_LOOP:  2  5  6   	1.622493e+00	( 0 1 4 7 6 3  )
+G_LOOP:  2  6  6   	1.622431e+00	( 0 6 3 7 1 4  )
+G_LOOP:  2  7  6   	1.621591e+00	( 0 6 4 7 1 3  )
+G_LOOP:  2  8  6   	1.620925e+00	( 0 2 3 7 5 4  )
+G_LOOP:  2  9  6   	1.621545e+00	( 0 2 4 7 5 3  )
+G_LOOP:  2  10  6   	1.618733e+00	( 0 5 3 7 2 4  )
+G_LOOP:  2  11  6   	1.619899e+00	( 0 5 4 7 2 3  )
+G_LOOP:  2  12  6   	1.622860e+00	( 1 2 3 6 5 4  )
+G_LOOP:  2  13  6   	1.620750e+00	( 1 2 4 6 5 3  )
+G_LOOP:  2  14  6   	1.622639e+00	( 1 5 3 6 2 4  )
+G_LOOP:  2  15  6   	1.621973e+00	( 1 5 4 6 2 3  )
+GACTION: 4.546465e+00
+PBP: mass 1.250000e-01     1.295402e-01  2.935885e-01 ( 1 of 1 )
+FACTION: mass = 1.250000e-01,  1.476869e+00 ( 1 of 1 )
+RUNNING COMPLETED
+average cg iters for step= 4.000000e+00
+total_iters = 13
+
+
+warms 0
+trajecs 1
+traj_between_meas 1
+beta 5.6
+mass 0.0125
+u0 1
+microcanonical_time_step 0.01
+steps_per_trajectory 2
+max_cg_iterations 300
+error_per_site 1e-05
+error_for_propagator 1e-05
+continue 
+forget 
+CHECK PLAQ: 2.101693e+00 2.100619e+00
+Unitarity checked.  Max deviation 6.66e-16
+Symanzik 1x1 + 1x2 + 1x1x1 action
+loop coefficients: nloop rep loop_coeff  multiplicity
+                    0 0      1.000000e+00     6
+                    1 0      -5.000000e-02     12
+                    2 0      0.000000e+00     16
+"O(a^2): couplings(pi)=0, Naik term, No O(a^2) errors, tadpole weights"
+path coefficients: npath  path_coeff  multiplicity
+                    0      6.250000e-01     8
+                    1      -4.166667e-02     8
+                    2      -6.250000e-02     48
+                    3      1.562500e-02     192
+                    4      -2.604167e-03     384
+                    5      -6.250000e-02     48
+WARMUPS COMPLETED
+PLAQ:	2.100287	2.099152
+P_LOOP:	1.746923e-01	-7.549596e-04
+G_LOOP:  0  0  4   	2.101415e+00	( 0 1 7 6  )
+G_LOOP:  0  1  4   	2.099526e+00	( 0 2 7 5  )
+G_LOOP:  0  2  4   	2.099913e+00	( 0 3 7 4  )
+G_LOOP:  0  3  4   	2.099921e+00	( 1 2 6 5  )
+G_LOOP:  0  4  4   	2.099104e+00	( 1 3 6 4  )
+G_LOOP:  0  5  4   	2.098438e+00	( 2 3 5 4  )
+G_LOOP:  1  0  6   	1.590472e+00	( 0 0 1 7 7 6  )
+G_LOOP:  1  1  6   	1.587024e+00	( 0 0 2 7 7 5  )
+G_LOOP:  1  2  6   	1.588085e+00	( 0 0 3 7 7 4  )
+G_LOOP:  1  3  6   	1.591415e+00	( 1 1 0 6 6 7  )
+G_LOOP:  1  4  6   	1.587162e+00	( 1 1 2 6 6 5  )
+G_LOOP:  1  5  6   	1.586169e+00	( 1 1 3 6 6 4  )
+G_LOOP:  1  6  6   	1.585728e+00	( 2 2 0 5 5 7  )
+G_LOOP:  1  7  6   	1.587577e+00	( 2 2 1 5 5 6  )
+G_LOOP:  1  8  6   	1.585290e+00	( 2 2 3 5 5 4  )
+G_LOOP:  1  9  6   	1.585799e+00	( 3 3 0 4 4 7  )
+G_LOOP:  1  10  6   	1.587330e+00	( 3 3 1 4 4 6  )
+G_LOOP:  1  11  6   	1.586701e+00	( 3 3 2 4 4 5  )
+G_LOOP:  2  0  6   	1.620662e+00	( 0 1 2 7 6 5  )
+G_LOOP:  2  1  6   	1.620168e+00	( 0 1 5 7 6 2  )
+G_LOOP:  2  2  6   	1.620520e+00	( 0 6 2 7 1 5  )
+G_LOOP:  2  3  6   	1.619319e+00	( 0 6 5 7 1 2  )
+G_LOOP:  2  4  6   	1.619979e+00	( 0 1 3 7 6 4  )
+G_LOOP:  2  5  6   	1.620995e+00	( 0 1 4 7 6 3  )
+G_LOOP:  2  6  6   	1.620596e+00	( 0 6 3 7 1 4  )
+G_LOOP:  2  7  6   	1.619897e+00	( 0 6 4 7 1 3  )
+G_LOOP:  2  8  6   	1.619302e+00	( 0 2 3 7 5 4  )
+G_LOOP:  2  9  6   	1.619546e+00	( 0 2 4 7 5 3  )
+G_LOOP:  2  10  6   	1.617112e+00	( 0 5 3 7 2 4  )
+G_LOOP:  2  11  6   	1.618168e+00	( 0 5 4 7 2 3  )
+G_LOOP:  2  12  6   	1.621082e+00	( 1 2 3 6 5 4  )
+G_LOOP:  2  13  6   	1.619223e+00	( 1 2 4 6 5 3  )
+G_LOOP:  2  14  6   	1.620875e+00	( 1 5 3 6 2 4  )
+G_LOOP:  2  15  6   	1.620179e+00	( 1 5 4 6 2 3  )
+GACTION: 4.554121e+00
+PBP: mass 1.250000e-02     1.224028e-02  1.771812e-02 ( 1 of 1 )
+FACTION: mass = 1.250000e-02,  1.497509e+00 ( 1 of 1 )
+RUNNING COMPLETED
+average cg iters for step= 6.200000e+01
+total_iters = 199
+
+
+get_i: EOF on STDIN while expecting warms.
+
+real	6m46.759s
+user	6m14.626s
+sys	0m26.260s
+~/debloat/pin_probe_debloat_experiments

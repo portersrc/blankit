@@ -1,0 +1,81 @@
+Image name is: /lib/x86_64-linux-gnu/libcrypt.so.1
+image_load()
+RTN name: .text  not adding probe. failed checks.
+RTN name: crypt_r
+  copy address: 0x7f37ad0ca280
+  addr_base:    0x7f37abba1d70
+  size_cp:      423
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abba1000
+  aligned_addr_end:  0x7f37abba1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abba1000
+  aligned_addr_end:  0x7f37abba1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: crypt
+  copy address: 0x7f37ad0ff010
+  addr_base:    0x7f37abba1f30
+  size_cp:      9316
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abba1000
+  aligned_addr_end:  0x7f37abba4000
+  size_to_remap:     16384
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abba1000
+  aligned_addr_end:  0x7f37abba4000
+  size_to_remap:     16384
+  mprotect succeeded
+RTN name: encrypt_r
+  copy address: 0x7f37ad0a9600
+  addr_base:    0x7f37abba5800
+  size_cp:      622
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abba5000
+  aligned_addr_end:  0x7f37abba5000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abba5000
+  aligned_addr_end:  0x7f37abba5000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: encrypt
+  not adding probe. copy size is too small
+RTN name: setkey_r
+  copy address: 0x7f37ad0fe060
+  addr_base:    0x7f37abba5a90
+  size_cp:      386
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abba5000
+  aligned_addr_end:  0x7f37abba5000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abba5000
+  aligned_addr_end:  0x7f37abba5000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: setkey
+  not adding probe. copy size is too small
+done image_load()
+load time for /lib/x86_64-linux-gnu/libcrypt.so.1 (us): 36947

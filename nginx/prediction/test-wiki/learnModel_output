@@ -1,0 +1,21 @@
+Working with csv file::../train/train.csv
+Working with csv file::test.csv
+
+ Accuracy = 0.9999598889369231
+
+ Depth = 18
+
+ decision tree path::
+  (0, 0)	1
+  (0, 24)	1
+  (0, 25)	1
+  (0, 29)	1
+  (0, 30)	1
+  (0, 31)	1
+  (0, 32)	1
+  (0, 34)	1
+
+ decision tree ::
+66
+
+ Done Decision Tree

@@ -1,0 +1,4393 @@
+Image name is: /lib/x86_64-linux-gnu/libpthread.so.0
+image_load()
+RTN name: deregister_tm_clones
+  copy address: 0x7f37ad0d2008
+  addr_base:    0x7f37abddea30
+  size_cp:      50
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: register_tm_clones
+  copy address: 0x7f37c0ae9160
+  addr_base:    0x7f37abddea70
+  size_cp:      66
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __do_global_dtors_aux
+  copy address: 0x7f37c0ae3100
+  addr_base:    0x7f37abddeac0
+  size_cp:      36
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: frame_dummy
+  copy address: 0x7f37c0ae3128
+  addr_base:    0x7f37abddeb00
+  size_cp:      34
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __nptl_set_robust
+  copy address: 0x7f37ad5cf010
+  addr_base:    0x7f37abddeb30
+  size_cp:      6
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sigcancel_handler
+  copy address: 0x7f37ad0d1010
+  addr_base:    0x7f37abddeb50
+  size_cp:      130
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sighandler_setxid
+  copy address: 0x7f37ad0d0040
+  addr_base:    0x7f37abddebe0
+  size_cp:      274
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abdde000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_initialize_minimal
+  copy address: 0x7f37ad0cf200
+  addr_base:    0x7f37abdded00
+  size_cp:      866
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdde000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: __pthread_get_minstack
+  copy address: 0x7f37ad5d0028
+  addr_base:    0x7f37abddf070
+  size_cp:      17
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __nptl_create_event
+  not adding probe. copy size is too small
+RTN name: __GI___nptl_death_event
+  not adding probe. copy size is too small
+RTN name: __nptl_main
+  copy address: 0x7f37c0ae3150
+  addr_base:    0x7f37abddf0b0
+  size_cp:      34
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: create_thread
+  copy address: 0x7f37ad0ce180
+  addr_base:    0x7f37abddf0e0
+  size_cp:      450
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: setxid_mark_thread.isra.1
+  copy address: 0x7f37ad0cd010
+  addr_base:    0x7f37abddf2b0
+  size_cp:      234
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __nptl_deallocate_tsd.part.4
+  copy address: 0x7f37ad0cc100
+  addr_base:    0x7f37abddf3b0
+  size_cp:      308
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __free_stacks
+  copy address: 0x7f37ad0cb030
+  addr_base:    0x7f37abddf500
+  size_cp:      178
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __deallocate_stack
+  copy address: 0x7f37ad0ca0d0
+  addr_base:    0x7f37abddf5c0
+  size_cp:      418
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __make_stacks_executable
+  copy address: 0x7f37ad0c9010
+  addr_base:    0x7f37abddf770
+  size_cp:      267
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __reclaim_stacks
+  copy address: 0x7f37ad0c8100
+  addr_base:    0x7f37abddf890
+  size_cp:      754
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __find_thread_by_id
+  copy address: 0x7f37ad0c7040
+  addr_base:    0x7f37abddfb90
+  size_cp:      165
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __nptl_setxid_error
+  copy address: 0x7f37ad5d0040
+  addr_base:    0x7f37abddfc50
+  size_cp:      18
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abddf000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __nptl_setxid
+  copy address: 0x7f37ad0bf180
+  addr_base:    0x7f37abddfc70
+  size_cp:      913
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abddf000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: __pthread_init_static_tls
+  copy address: 0x7f37ad0c9120
+  addr_base:    0x7f37abde0010
+  size_cp:      270
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __wait_lookup_done
+  copy address: 0x7f37ad0be100
+  addr_base:    0x7f37abde0130
+  size_cp:      466
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __find_in_stack_list
+  copy address: 0x7f37ad0cb0e8
+  addr_base:    0x7f37abde0310
+  size_cp:      179
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __nptl_deallocate_tsd
+  copy address: 0x7f37ad5d1030
+  addr_base:    0x7f37abde03e0
+  size_cp:      12
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __free_tcb
+  copy address: 0x7f37ad0bd080
+  addr_base:    0x7f37abde0400
+  size_cp:      482
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: start_thread
+  copy address: 0x7f37ad0bf520
+  addr_base:    0x7f37abde05f0
+  size_cp:      914
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde0000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_create
+  copy address: 0x7f37ad0bc010
+  addr_base:    0x7f37abde0990
+  size_cp:      3706
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde0000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: pthread_exit
+  copy address: 0x7f37c0ae3178
+  addr_base:    0x7f37abde1820
+  size_cp:      34
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_detach
+  copy address: 0x7f37c0ae91a8
+  addr_base:    0x7f37abde1850
+  size_cp:      71
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: cleanup
+  copy address: 0x7f37ad5cf018
+  addr_base:    0x7f37abde18b0
+  size_cp:      3
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_join
+  copy address: 0x7f37ad0b8030
+  addr_base:    0x7f37abde18d0
+  size_cp:      353
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_tryjoin_np
+  copy address: 0x7f37ad0b7040
+  addr_base:    0x7f37abde1a40
+  size_cp:      94
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: cleanup
+  copy address: 0x7f37ad5cf020
+  addr_base:    0x7f37abde18b0
+  size_cp:      3
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_timedjoin_np
+  copy address: 0x7f37ad0cc240
+  addr_base:    0x7f37abde1ac0
+  size_cp:      320
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_self
+  not adding probe. copy size is too small
+RTN name: pthread_equal
+  not adding probe. copy size is too small
+RTN name: pthread_yield  not adding probe. failed checks.
+RTN name: pthread_getconcurrency
+  not adding probe. copy size is too small
+RTN name: pthread_setconcurrency
+  copy address: 0x7f37ad5cf028
+  addr_base:    0x7f37abde1c50
+  size_cp:      5
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_getschedparam
+  copy address: 0x7f37ad0d0160
+  addr_base:    0x7f37abde1c70
+  size_cp:      284
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_setschedparam
+  copy address: 0x7f37ad0b6040
+  addr_base:    0x7f37abde1da0
+  size_cp:      222
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_setschedprio
+  copy address: 0x7f37ad0b5090
+  addr_base:    0x7f37abde1e90
+  size_cp:      206
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_init
+  copy address: 0x7f37ad0b4010
+  addr_base:    0x7f37abde1f70
+  size_cp:      45
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_destroy
+  copy address: 0x7f37ad5cf030
+  addr_base:    0x7f37abde1fb0
+  size_cp:      6
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde1000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_getdetachstate
+  not adding probe. copy size is too small
+RTN name: pthread_attr_setdetachstate
+  copy address: 0x7f37ad5d0058
+  addr_base:    0x7f37abde1fe0
+  size_cp:      24
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde1000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: pthread_attr_getguardsize
+  not adding probe. copy size is too small
+RTN name: pthread_attr_setguardsize
+  not adding probe. copy size is too small
+RTN name: pthread_attr_getschedparam
+  not adding probe. copy size is too small
+RTN name: pthread_attr_setschedparam
+  copy address: 0x7f37ad0b3030
+  addr_base:    0x7f37abde2040
+  size_cp:      81
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_getschedpolicy
+  not adding probe. copy size is too small
+RTN name: pthread_attr_setschedpolicy
+  copy address: 0x7f37ad5d1040
+  addr_base:    0x7f37abde20b0
+  size_cp:      12
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_getinheritsched
+  not adding probe. copy size is too small
+RTN name: pthread_attr_setinheritsched
+  copy address: 0x7f37c0aea180
+  addr_base:    0x7f37abde20e0
+  size_cp:      25
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_getscope
+  not adding probe. copy size is too small
+RTN name: pthread_attr_setscope
+  copy address: 0x7f37ad5d0070
+  addr_base:    0x7f37abde2120
+  size_cp:      17
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_getstackaddr
+  not adding probe. copy size is too small
+RTN name: pthread_attr_setstackaddr
+  not adding probe. copy size is too small
+RTN name: pthread_attr_getstacksize
+  copy address: 0x7f37ad0b70a0
+  addr_base:    0x7f37abde2160
+  size_cp:      89
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_setstacksize
+  copy address: 0x7f37ad5d1050
+  addr_base:    0x7f37abde21d0
+  size_cp:      9
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_getstack
+  copy address: 0x7f37ad5cf038
+  addr_base:    0x7f37abde21f0
+  size_cp:      6
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_setstack
+  copy address: 0x7f37ad5d0088
+  addr_base:    0x7f37abde2210
+  size_cp:      20
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_getattr_np
+  copy address: 0x7f37ad0b2280
+  addr_base:    0x7f37abde2240
+  size_cp:      846
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutex_init
+  copy address: 0x7f37ad0c9230
+  addr_base:    0x7f37abde25a0
+  size_cp:      258
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutex_destroy
+  copy address: 0x7f37ad5d00a0
+  addr_base:    0x7f37abde26b0
+  size_cp:      20
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_mutex_lock_full
+  copy address: 0x7f37ad0b1300
+  addr_base:    0x7f37abde26e0
+  size_cp:      1608
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutex_lock
+  copy address: 0x7f37ad0b0040
+  addr_base:    0x7f37abde2d40
+  size_cp:      658
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde2000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutex_trylock
+  copy address: 0x7f37ad0b1980
+  addr_base:    0x7f37abde2fe0
+  size_cp:      1634
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde3000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde2000
+  aligned_addr_end:  0x7f37abde3000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: pthread_mutex_timedlock
+  copy address: 0x7f37ad0af010
+  addr_base:    0x7f37abde3650
+  size_cp:      2482
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde3000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde3000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: __pthread_mutex_unlock_full
+  copy address: 0x7f37ad0bf8c0
+  addr_base:    0x7f37abde4010
+  size_cp:      920
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_mutex_unlock_usercnt
+  copy address: 0x7f37ad0ad080
+  addr_base:    0x7f37abde43c0
+  size_cp:      242
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutex_unlock
+  copy address: 0x7f37ad0ac0d0
+  addr_base:    0x7f37abde44c0
+  size_cp:      210
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_mutex_cond_lock_full
+  copy address: 0x7f37ad0ab300
+  addr_base:    0x7f37abde45a0
+  size_cp:      1625
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_mutex_cond_lock
+  copy address: 0x7f37ad0a9100
+  addr_base:    0x7f37abde4c10
+  size_cp:      626
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_mutex_cond_lock_adjust
+  copy address: 0x7f37ad0d1098
+  addr_base:    0x7f37abde4e90
+  size_cp:      130
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_mutexattr_init
+  not adding probe. copy size is too small
+RTN name: __pthread_mutexattr_destroy
+  not adding probe. copy size is too small
+RTN name: pthread_mutexattr_getpshared
+  not adding probe. copy size is too small
+RTN name: pthread_mutexattr_setpshared
+  copy address: 0x7f37c0aea1a0
+  addr_base:    0x7f37abde4f50
+  size_cp:      27
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutexattr_gettype
+  not adding probe. copy size is too small
+RTN name: pthread_mutexattr_setkind_np
+  copy address: 0x7f37c0aea1c0
+  addr_base:    0x7f37abde4f90
+  size_cp:      26
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde4000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_rwlock_init
+  copy address: 0x7f37c0ad4060
+  addr_base:    0x7f37abde4fc0
+  size_cp:      73
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde4000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: __pthread_rwlock_destroy
+  not adding probe. copy size is too small
+RTN name: __pthread_rwlock_rdlock_slow
+  copy address: 0x7f37ad0a8200
+  addr_base:    0x7f37abde5030
+  size_cp:      502
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_rwlock_rdlock
+  copy address: 0x7f37ad0be2e0
+  addr_base:    0x7f37abde5240
+  size_cp:      477
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_rwlock_timedrdlock
+  copy address: 0x7f37ad0a9380
+  addr_base:    0x7f37abde5430
+  size_cp:      615
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_rwlock_wrlock_slow
+  copy address: 0x7f37ad0a6040
+  addr_base:    0x7f37abde56b0
+  size_cp:      330
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_rwlock_wrlock
+  copy address: 0x7f37ad0a5100
+  addr_base:    0x7f37abde5810
+  size_cp:      250
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_rwlock_timedwrlock
+  copy address: 0x7f37ad0a41c0
+  addr_base:    0x7f37abde5920
+  size_cp:      589
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_rwlock_tryrdlock
+  copy address: 0x7f37ad0a8400
+  addr_base:    0x7f37abde5b80
+  size_cp:      498
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_rwlock_trywrlock
+  copy address: 0x7f37ad0d0280
+  addr_base:    0x7f37abde5d80
+  size_cp:      277
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde5000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_rwlock_unlock
+  copy address: 0x7f37ad0a2100
+  addr_base:    0x7f37abde5eb0
+  size_cp:      381
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde5000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: pthread_rwlockattr_init
+  copy address: 0x7f37ad5cf040
+  addr_base:    0x7f37abde6040
+  size_cp:      2
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_rwlockattr_destroy
+  not adding probe. copy size is too small
+RTN name: pthread_rwlockattr_getpshared
+  not adding probe. copy size is too small
+RTN name: pthread_rwlockattr_setpshared
+  copy address: 0x7f37ad5cf048
+  addr_base:    0x7f37abde6070
+  size_cp:      8
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_rwlockattr_getkind_np
+  not adding probe. copy size is too small
+RTN name: pthread_rwlockattr_setkind_np
+  copy address: 0x7f37ad5cf050
+  addr_base:    0x7f37abde60a0
+  size_cp:      8
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_init
+  copy address: 0x7f37ad5d2090
+  addr_base:    0x7f37abde60c0
+  size_cp:      101
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_destroy
+  copy address: 0x7f37ad0a6190
+  addr_base:    0x7f37abde6140
+  size_cp:      329
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_wait
+  copy address: 0x7f37ad0a1120
+  addr_base:    0x7f37abde62a0
+  size_cp:      532
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __condvar_cleanup1
+  copy address: 0x7f37ad0ad178
+  addr_base:    0x7f37abde64d0
+  size_cp:      248
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_timedwait
+  copy address: 0x7f37ad0a0240
+  addr_base:    0x7f37abde65e0
+  size_cp:      681
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __condvar_cleanup2
+  copy address: 0x7f37ad0c9340
+  addr_base:    0x7f37abde68a0
+  size_cp:      271
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_signal
+  copy address: 0x7f37ad0b5160
+  addr_base:    0x7f37abde69c0
+  size_cp:      208
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_broadcast
+  copy address: 0x7f37ad09f090
+  addr_base:    0x7f37abde6aa0
+  size_cp:      297
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_init
+  copy address: 0x7f37c0ad7100
+  addr_base:    0x7f37abde60c0
+  size_cp:      114
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_destroy
+  copy address: 0x7f37ad0a62e0
+  addr_base:    0x7f37abde6140
+  size_cp:      329
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_wait
+  copy address: 0x7f37c0ad5280
+  addr_base:    0x7f37abde62a0
+  size_cp:      546
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_timedwait
+  copy address: 0x7f37ad0a0500
+  addr_base:    0x7f37abde65e0
+  size_cp:      681
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_signal
+  copy address: 0x7f37ad0b5230
+  addr_base:    0x7f37abde69c0
+  size_cp:      208
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cond_broadcast
+  copy address: 0x7f37ad09f1c0
+  addr_base:    0x7f37abde6aa0
+  size_cp:      297
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_condattr_init
+  not adding probe. copy size is too small
+RTN name: pthread_condattr_destroy
+  not adding probe. copy size is too small
+RTN name: pthread_condattr_getpshared
+  not adding probe. copy size is too small
+RTN name: pthread_condattr_setpshared
+  copy address: 0x7f37ad5d1060
+  addr_base:    0x7f37abde6e10
+  size_cp:      14
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_condattr_getclock
+  not adding probe. copy size is too small
+RTN name: pthread_condattr_setclock
+  copy address: 0x7f37ad5d1070
+  addr_base:    0x7f37abde6e40
+  size_cp:      16
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_spin_destroy
+  not adding probe. copy size is too small
+RTN name: pthread_spin_lock
+  copy address: 0x7f37ad5d1080
+  addr_base:    0x7f37abde6e70
+  size_cp:      11
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_spin_trylock
+  copy address: 0x7f37ad5cf058
+  addr_base:    0x7f37abde6e90
+  size_cp:      6
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_spin_unlock
+  not adding probe. copy size is too small
+RTN name: pthread_barrier_init
+  copy address: 0x7f37ad0b3088
+  addr_base:    0x7f37abde6ec0
+  size_cp:      88
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_barrier_destroy
+  copy address: 0x7f37ad09c080
+  addr_base:    0x7f37abde6f30
+  size_cp:      121
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde6000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_barrier_wait
+  copy address: 0x7f37ad0a1340
+  addr_base:    0x7f37abde6fc0
+  size_cp:      521
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde6000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: pthread_barrierattr_init
+  not adding probe. copy size is too small
+RTN name: pthread_barrierattr_destroy
+  not adding probe. copy size is too small
+RTN name: pthread_barrierattr_getpshared
+  not adding probe. copy size is too small
+RTN name: pthread_barrierattr_setpshared
+  copy address: 0x7f37ad5cf060
+  addr_base:    0x7f37abde7210
+  size_cp:      7
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_key_create
+  copy address: 0x7f37c0ae91f0
+  addr_base:    0x7f37abde7230
+  size_cp:      72
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_key_delete
+  copy address: 0x7f37c0ae31a0
+  addr_base:    0x7f37abde7290
+  size_cp:      38
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_getspecific
+  copy address: 0x7f37c0ad7178
+  addr_base:    0x7f37abde72d0
+  size_cp:      115
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_setspecific
+  copy address: 0x7f37ad0a5200
+  addr_base:    0x7f37abde7360
+  size_cp:      255
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_sigmask
+  copy address: 0x7f37ad0cd100
+  addr_base:    0x7f37abde7470
+  size_cp:      233
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_kill
+  copy address: 0x7f37c0ae9238
+  addr_base:    0x7f37abde7570
+  size_cp:      65
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_sigqueue
+  copy address: 0x7f37ad0c70e8
+  addr_base:    0x7f37abde75c0
+  size_cp:      165
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cancel
+  copy address: 0x7f37ad0c7190
+  addr_base:    0x7f37abde7680
+  size_cp:      168
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_testcancel
+  copy address: 0x7f37ad0d2040
+  addr_base:    0x7f37abde7740
+  size_cp:      50
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_setcancelstate
+  copy address: 0x7f37ad0cc380
+  addr_base:    0x7f37abde7780
+  size_cp:      306
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_setcanceltype
+  copy address: 0x7f37ad09f2f0
+  addr_base:    0x7f37abde78c0
+  size_cp:      290
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_once_slow
+  copy address: 0x7f37ad09b098
+  addr_base:    0x7f37abde79f0
+  size_cp:      226
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: clear_once_control
+  copy address: 0x7f37ad0d2078
+  addr_base:    0x7f37abde7ae0
+  size_cp:      50
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_once
+  copy address: 0x7f37ad5cf068
+  addr_base:    0x7f37abde7b20
+  size_cp:      7
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_atfork
+  copy address: 0x7f37ad5d00b8
+  addr_base:    0x7f37abde7b40
+  size_cp:      17
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_getcpuclockid
+  copy address: 0x7f37ad5d00d0
+  addr_base:    0x7f37abde7b60
+  size_cp:      24
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_clock_gettime
+  copy address: 0x7f37ad0d1120
+  addr_base:    0x7f37abde7b90
+  size_cp:      136
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_clock_settime
+  copy address: 0x7f37c0ae9280
+  addr_base:    0x7f37abde7c30
+  size_cp:      67
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: where_is_shmfs
+  copy address: 0x7f37ad09a160
+  addr_base:    0x7f37abde7c90
+  size_cp:      406
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __shm_directory
+  copy address: 0x7f37ad0d20b0
+  addr_base:    0x7f37abde7e40
+  size_cp:      52
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sem_init
+  copy address: 0x7f37c0ae31c8
+  addr_base:    0x7f37abde7e90
+  size_cp:      38
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde7000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sem_destroy
+  not adding probe. copy size is too small
+RTN name: check_add_mapping
+  copy address: 0x7f37ad0a1560
+  addr_base:    0x7f37abde7ee0
+  size_cp:      521
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde7000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: __sem_search
+  copy address: 0x7f37ad5d00e8
+  addr_base:    0x7f37abde8100
+  size_cp:      23
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sem_open
+  copy address: 0x7f37ad096280
+  addr_base:    0x7f37abde8130
+  size_cp:      1102
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: walker
+  copy address: 0x7f37ad5d0100
+  addr_base:    0x7f37abde8590
+  size_cp:      18
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sem_close
+  copy address: 0x7f37ad0b6120
+  addr_base:    0x7f37abde85b0
+  size_cp:      223
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sem_unlink
+  copy address: 0x7f37ad09f420
+  addr_base:    0x7f37abde86a0
+  size_cp:      290
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sem_getvalue
+  not adding probe. copy size is too small
+RTN name: __sem_wait_cleanup
+  copy address: 0x7f37ad5cf070
+  addr_base:    0x7f37abde87e0
+  size_cp:      1
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: do_futex_wait.constprop.3
+  copy address: 0x7f37ad09c100
+  addr_base:    0x7f37abde87f0
+  size_cp:      126
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __new_sem_wait_slow.constprop.0
+  copy address: 0x7f37ad0cb1a0
+  addr_base:    0x7f37abde8880
+  size_cp:      177
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sem_wait
+  copy address: 0x7f37ad0d20e8
+  addr_base:    0x7f37abde8940
+  size_cp:      49
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sem_trywait
+  copy address: 0x7f37ad0b4040
+  addr_base:    0x7f37abde8980
+  size_cp:      46
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __sem_wait_cleanup
+  copy address: 0x7f37ad5cf078
+  addr_base:    0x7f37abde87e0
+  size_cp:      1
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: do_futex_wait
+  copy address: 0x7f37ad095060
+  addr_base:    0x7f37abde89d0
+  size_cp:      158
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __new_sem_wait_slow
+  copy address: 0x7f37ad094060
+  addr_base:    0x7f37abde8a80
+  size_cp:      193
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sem_timedwait
+  copy address: 0x7f37ad0b30e0
+  addr_base:    0x7f37abde8b50
+  size_cp:      86
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sem_post
+  copy address: 0x7f37ad0d11a8
+  addr_base:    0x7f37abde8bc0
+  size_cp:      130
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_register_cancel
+  copy address: 0x7f37ad5d0118
+  addr_base:    0x7f37abde8c50
+  size_cp:      22
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_unregister_cancel
+  not adding probe. copy size is too small
+RTN name: __pthread_register_cancel_defer
+  copy address: 0x7f37ad0b3138
+  addr_base:    0x7f37abde8c90
+  size_cp:      86
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_unregister_cancel_restore
+  copy address: 0x7f37c0ad71f0
+  addr_base:    0x7f37abde8d00
+  size_cp:      118
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: _pthread_cleanup_push
+  copy address: 0x7f37ad5d1090
+  addr_base:    0x7f37abde8d90
+  size_cp:      16
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: _pthread_cleanup_pop
+  copy address: 0x7f37ad5d0130
+  addr_base:    0x7f37abde8db0
+  size_cp:      22
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: _pthread_cleanup_push_defer
+  copy address: 0x7f37ad0b3190
+  addr_base:    0x7f37abde8de0
+  size_cp:      86
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: _pthread_cleanup_pop_restore
+  copy address: 0x7f37ad0d1230
+  addr_base:    0x7f37abde8e50
+  size_cp:      134
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde8000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: unwind_stop
+  copy address: 0x7f37ad09f550
+  addr_base:    0x7f37abde8ef0
+  size_cp:      289
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde8000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: unwind_cleanup
+  copy address: 0x7f37ad5cf080
+  addr_base:    0x7f37abde9020
+  size_cp:      2
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_unwind
+  copy address: 0x7f37c0ae92c8
+  addr_base:    0x7f37abde9030
+  size_cp:      66
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_unwind_next
+  copy address: 0x7f37ad5cf088
+  addr_base:    0x7f37abde9080
+  size_cp:      2
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: longjmp_resolve
+  not adding probe. copy size is too small
+RTN name: __GI___pthread_cleanup_upto
+  copy address: 0x7f37ad0c7238
+  addr_base:    0x7f37abde90a0
+  size_cp:      166
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_enable_asynccancel
+  copy address: 0x7f37c0ae9310
+  addr_base:    0x7f37abde9160
+  size_cp:      72
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_disable_asynccancel
+  copy address: 0x7f37c0ad40b0
+  addr_base:    0x7f37abde91c0
+  size_cp:      75
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_lock_wait_private
+  copy address: 0x7f37c0aea1e0
+  addr_base:    0x7f37abde9220
+  size_cp:      26
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_lock_wait
+  copy address: 0x7f37c0aea200
+  addr_base:    0x7f37abde9250
+  size_cp:      27
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_timedlock_wait
+  copy address: 0x7f37ad08f040
+  addr_base:    0x7f37abde9280
+  size_cp:      61
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_unlock_wake_private
+  copy address: 0x7f37ad5d10a0
+  addr_base:    0x7f37abde92d0
+  size_cp:      14
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_unlock_wake
+  copy address: 0x7f37ad5d10b0
+  addr_base:    0x7f37abde92f0
+  size_cp:      15
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_timedwait_tid
+  copy address: 0x7f37c0ad7268
+  addr_base:    0x7f37abde9310
+  size_cp:      116
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_robust_lock_wait
+  copy address: 0x7f37ad08f080
+  addr_base:    0x7f37abde93a0
+  size_cp:      60
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_robust_timedlock_wait
+  copy address: 0x7f37ad5d20f8
+  addr_base:    0x7f37abde93f0
+  size_cp:      101
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __fork  not adding probe. failed checks.
+RTN name: vfork_resolve
+  not adding probe. copy size is too small
+RTN name: __read
+  copy address: 0x7f37c0ad4100
+  addr_base:    0x7f37abde94f0
+  size_cp:      76
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __read_nocancel
+  copy address: 0x7f37c0ad4150
+  addr_base:    0x7f37abde94f9
+  size_cp:      73
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: close  not adding probe. failed checks.
+RTN name: __close_nocancel
+  copy address: 0x7f37c0ae9358
+  addr_base:    0x7f37abde9559
+  size_cp:      67
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __fcntl_nocancel
+  copy address: 0x7f37c0ad72e0
+  addr_base:    0x7f37abde95b0
+  size_cp:      116
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __fcntl
+  copy address: 0x7f37ad0cd1f0
+  addr_base:    0x7f37abde9640
+  size_cp:      237
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: accept
+  copy address: 0x7f37c0ad41a0
+  addr_base:    0x7f37abde9740
+  size_cp:      76
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __accept_nocancel
+  copy address: 0x7f37c0ad41f0
+  addr_base:    0x7f37abde9749
+  size_cp:      73
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: connect
+  copy address: 0x7f37c0ad4240
+  addr_base:    0x7f37abde97a0
+  size_cp:      76
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __connect_nocancel
+  copy address: 0x7f37c0ad4290
+  addr_base:    0x7f37abde97a9
+  size_cp:      73
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: recv
+  copy address: 0x7f37ad08d030
+  addr_base:    0x7f37abde9800
+  size_cp:      172
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: recvfrom
+  copy address: 0x7f37ad0b31e8
+  addr_base:    0x7f37abde98c0
+  size_cp:      82
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __recvfrom_nocancel
+  copy address: 0x7f37c0ae93a0
+  addr_base:    0x7f37abde98c9
+  size_cp:      72
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: recvmsg
+  copy address: 0x7f37c0ad42e0
+  addr_base:    0x7f37abde9920
+  size_cp:      76
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __recvmsg_nocancel
+  copy address: 0x7f37c0ad4330
+  addr_base:    0x7f37abde9929
+  size_cp:      73
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: send
+  copy address: 0x7f37ad08d0e0
+  addr_base:    0x7f37abde9980
+  size_cp:      172
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sendmsg
+  copy address: 0x7f37c0ad4380
+  addr_base:    0x7f37abde9a40
+  size_cp:      76
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __sendmsg_nocancel
+  copy address: 0x7f37c0ad43d0
+  addr_base:    0x7f37abde9a49
+  size_cp:      73
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sendto
+  copy address: 0x7f37ad0b3240
+  addr_base:    0x7f37abde9aa0
+  size_cp:      82
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __sendto_nocancel
+  copy address: 0x7f37c0ae93e8
+  addr_base:    0x7f37abde9aa9
+  size_cp:      72
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: fsync
+  copy address: 0x7f37c0ad4420
+  addr_base:    0x7f37abde9b00
+  size_cp:      76
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __fsync_nocancel
+  copy address: 0x7f37c0ad4470
+  addr_base:    0x7f37abde9b09
+  size_cp:      73
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lseek
+  copy address: 0x7f37ad5d0148
+  addr_base:    0x7f37abde9b60
+  size_cp:      19
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: msync
+  copy address: 0x7f37c0ad44c0
+  addr_base:    0x7f37abde9b90
+  size_cp:      76
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __msync_nocancel
+  copy address: 0x7f37c0ad4510
+  addr_base:    0x7f37abde9b99
+  size_cp:      73
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __nanosleep
+  copy address: 0x7f37c0ad4560
+  addr_base:    0x7f37abde9bf0
+  size_cp:      76
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __nanosleep_nocancel
+  copy address: 0x7f37c0ad45b0
+  addr_base:    0x7f37abde9bf9
+  size_cp:      73
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __open
+  copy address: 0x7f37c0ad4600
+  addr_base:    0x7f37abde9c50
+  size_cp:      76
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pause
+  copy address: 0x7f37c0ad4650
+  addr_base:    0x7f37abde9cb0
+  size_cp:      76
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pause_nocancel
+  copy address: 0x7f37c0ad46a0
+  addr_base:    0x7f37abde9cb9
+  size_cp:      73
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pread
+  copy address: 0x7f37ad0b3298
+  addr_base:    0x7f37abde9d10
+  size_cp:      82
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pwrite64
+  copy address: 0x7f37ad0b32f0
+  addr_base:    0x7f37abde9d70
+  size_cp:      82
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: tcdrain
+  copy address: 0x7f37ad08a040
+  addr_base:    0x7f37abde9dd0
+  size_cp:      142
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: wait
+  copy address: 0x7f37ad089090
+  addr_base:    0x7f37abde9e70
+  size_cp:      145
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: waitpid
+  copy address: 0x7f37ad089128
+  addr_base:    0x7f37abde9f10
+  size_cp:      145
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abde9000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: msgrcv
+  copy address: 0x7f37ad0b3348
+  addr_base:    0x7f37abde9fb0
+  size_cp:      82
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: __msgrcv_nocancel
+  copy address: 0x7f37c0ae9430
+  addr_base:    0x7f37abde9fb9
+  size_cp:      72
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abde9000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: __GI_msgsnd
+  copy address: 0x7f37ad0b33a0
+  addr_base:    0x7f37abdea010
+  size_cp:      82
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __msgsnd_nocancel
+  copy address: 0x7f37c0ae9478
+  addr_base:    0x7f37abdea019
+  size_cp:      72
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sigwait
+  copy address: 0x7f37ad09f680
+  addr_base:    0x7f37abdea070
+  size_cp:      291
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: sigsuspend
+  copy address: 0x7f37c0ad7358
+  addr_base:    0x7f37abdea1b0
+  size_cp:      120
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: raise
+  copy address: 0x7f37ad08f0c0
+  addr_base:    0x7f37abdea240
+  size_cp:      60
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: system_resolve
+  not adding probe. copy size is too small
+RTN name: _IO_flockfile
+  copy address: 0x7f37ad08f100
+  addr_base:    0x7f37abdea2a0
+  size_cp:      62
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: _IO_ftrylockfile
+  copy address: 0x7f37c0ae94c0
+  addr_base:    0x7f37abdea2f0
+  size_cp:      65
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: funlockfile
+  copy address: 0x7f37c0ae31f0
+  addr_base:    0x7f37abdea340
+  size_cp:      36
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __restore_rt
+  copy address: 0x7f37ad5cf090
+  addr_base:    0x7f37abdea390
+  size_cp:      2
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __libc_sigaction
+  copy address: 0x7f37c0ad54c0
+  addr_base:    0x7f37abdea3a0
+  size_cp:      546
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __sigaction
+  copy address: 0x7f37ad5d0160
+  addr_base:    0x7f37abdea5d0
+  size_cp:      22
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __h_errno_location
+  copy address: 0x7f37ad5cf098
+  addr_base:    0x7f37abdea600
+  size_cp:      3
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __res_state
+  not adding probe. copy size is too small
+RTN name: __libc_current_sigrtmin  not adding probe. failed checks.
+RTN name: __libc_current_sigrtmax  not adding probe. failed checks.
+RTN name: __libc_allocate_rtsig  not adding probe. failed checks.
+RTN name: pthread_kill_other_threads_np
+  not adding probe. copy size is too small
+RTN name: pthread_getaffinity_np
+  copy address: 0x7f37ad08f140
+  addr_base:    0x7f37abdea670
+  size_cp:      64
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_getaffinity_np
+  copy address: 0x7f37ad08f180
+  addr_base:    0x7f37abdea670
+  size_cp:      64
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_setaffinity_np
+  copy address: 0x7f37ad0b4070
+  addr_base:    0x7f37abdea6d0
+  size_cp:      43
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_setaffinity_np
+  copy address: 0x7f37ad0b40a0
+  addr_base:    0x7f37abdea6d0
+  size_cp:      43
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_getaffinity_np
+  copy address: 0x7f37ad095100
+  addr_base:    0x7f37abdea720
+  size_cp:      156
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_getaffinity_np
+  copy address: 0x7f37ad0951a0
+  addr_base:    0x7f37abdea720
+  size_cp:      156
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_setaffinity_np
+  copy address: 0x7f37ad5d2160
+  addr_base:    0x7f37abdea7e0
+  size_cp:      98
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_attr_setaffinity_np
+  copy address: 0x7f37ad5d21c8
+  addr_base:    0x7f37abdea7e0
+  size_cp:      98
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutexattr_getrobust_np
+  not adding probe. copy size is too small
+RTN name: pthread_mutexattr_setrobust
+  copy address: 0x7f37ad5d0178
+  addr_base:    0x7f37abdea870
+  size_cp:      24
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutex_consistent
+  copy address: 0x7f37c0aea220
+  addr_base:    0x7f37abdea8a0
+  size_cp:      25
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_cleanup_routine
+  copy address: 0x7f37ad5d10c0
+  addr_base:    0x7f37abdea8d0
+  size_cp:      14
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_cancel_init
+  copy address: 0x7f37ad0c9450
+  addr_base:    0x7f37abdea8f0
+  size_cp:      258
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: _Unwind_Resume
+  copy address: 0x7f37ad0d2120
+  addr_base:    0x7f37abdeaa00
+  size_cp:      51
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __gcc_personality_v0
+  copy address: 0x7f37ad0b33f8
+  addr_base:    0x7f37abdeaa50
+  size_cp:      85
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: _Unwind_ForcedUnwind
+  copy address: 0x7f37c0ae9508
+  addr_base:    0x7f37abdeaac0
+  size_cp:      71
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: _Unwind_GetCFA
+  copy address: 0x7f37ad0d2158
+  addr_base:    0x7f37abdeab20
+  size_cp:      51
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutexattr_getprotocol
+  copy address: 0x7f37ad5cf0a0
+  addr_base:    0x7f37abdeab70
+  size_cp:      1
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutexattr_setprotocol
+  copy address: 0x7f37ad5d0190
+  addr_base:    0x7f37abdeab80
+  size_cp:      24
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutexattr_getprioceiling
+  copy address: 0x7f37c0ad46f0
+  addr_base:    0x7f37abdeabb0
+  size_cp:      75
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutexattr_setprioceiling
+  copy address: 0x7f37ad084040
+  addr_base:    0x7f37abdeac10
+  size_cp:      109
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __init_sched_fifo_prio
+  copy address: 0x7f37c0aea240
+  addr_base:    0x7f37abdeac90
+  size_cp:      27
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdea000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __pthread_tpp_change_priority
+  copy address: 0x7f37ad0bfc60
+  addr_base:    0x7f37abdeacc0
+  size_cp:      898
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     8192
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdea000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     8192
+  mprotect succeeded
+RTN name: __pthread_current_priority
+  copy address: 0x7f37ad0d03a0
+  addr_base:    0x7f37abdeb050
+  size_cp:      274
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutex_getprioceiling
+  copy address: 0x7f37ad5cf0a8
+  addr_base:    0x7f37abdeb170
+  size_cp:      8
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_mutex_setprioceiling
+  copy address: 0x7f37ad09a300
+  addr_base:    0x7f37abdeb190
+  size_cp:      405
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_setname_np
+  copy address: 0x7f37ad0d04c0
+  addr_base:    0x7f37abdeb340
+  size_cp:      287
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_getname_np
+  copy address: 0x7f37ad0c9560
+  addr_base:    0x7f37abdeb470
+  size_cp:      268
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_setattr_default_np
+  copy address: 0x7f37ad09a4a0
+  addr_base:    0x7f37abdeb590
+  size_cp:      413
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: pthread_getattr_default_np
+  copy address: 0x7f37ad0891c0
+  addr_base:    0x7f37abdeb740
+  size_cp:      146
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: elision_init
+  copy address: 0x7f37c0aea260
+  addr_base:    0x7f37abdeb7e0
+  size_cp:      29
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_lock_elision
+  copy address: 0x7f37ad08d190
+  addr_base:    0x7f37abdeb810
+  size_cp:      172
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_unlock_elision
+  copy address: 0x7f37c0ae3218
+  addr_base:    0x7f37abdeb8d0
+  size_cp:      40
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_timedlock_elision
+  copy address: 0x7f37ad0cb258
+  addr_base:    0x7f37abdeb910
+  size_cp:      180
+copy_func():
+  memcpy succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+blank_func()
+  memset succeeded
+remap_permissions():
+  aligned_addr_base: 0x7f37abdeb000
+  aligned_addr_end:  0x7f37abdeb000
+  size_to_remap:     4096
+  mprotect succeeded
+RTN name: __lll_trylock_elision  not adding probe. failed checks.
+done image_load()
+load time for /lib/x86_64-linux-gnu/libpthread.so.0 (us): 172448

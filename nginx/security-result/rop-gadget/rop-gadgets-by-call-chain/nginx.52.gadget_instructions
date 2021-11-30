@@ -1,0 +1,8 @@
+0x00000000000e6cfb : cmp eax, 0xfffff001 ; jae 0xe6d0a ; ret
+0x00000000000e6cfa : cmp rax, -0xfff ; jae 0xe6d0b ; ret
+0x00000000000e6d00 : jae 0xe6d05 ; ret
+0x00000000000e6cf3 : mov eax, 0x28 ; syscall
+0x00000000000e6cf1 : mov edx, ecx ; mov eax, 0x28 ; syscall
+0x00000000000e6cf0 : mov r10, rcx ; mov eax, 0x28 ; syscall
+0x00000000000e6cf2 : retf 0x28b8
+0x00000000000e6cf4 : sub byte ptr [rax], al ; add byte ptr [rax], al ; syscall

@@ -1,0 +1,1 @@
+0x00000000000c0670 : mov eax, 0x27 ; syscall

@@ -1,0 +1,389 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/445.gobmk
+benchmark:        445.gobmk_embedpin
+benchmark args:   --quiet --mode gtp
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/445.gobmk ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/445.gobmk/445.gobmk_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/445.gobmk/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/445.gobmk/approved_list_libm.txt
+BLANKIT_APPROVED_LIST_LIBGCC: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/445.gobmk/approved_list_libgcc.txt
+BLANKIT_APPROVED_LIST_LIBSTDCPP: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/445.gobmk/approved_list_libstdcpp.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/445.gobmk/string2id_map.csv
+BLANKIT_LAZY: 1
+pin main time (us): 15052
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/445.gobmk/445.gobmk_embedpin (us): 1
+load time for /lib64/ld-linux-x86-64.so.2 (us): 1
+load time for [vdso] (us): 0
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 146
+load time for /lib/x86_64-linux-gnu/libm.so.6 (us): 1
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1544474
+= white
+
+=1 J2
+
+= white
+
+=2 E10
+
+= white
+
+=3 E5
+
+= white
+
+=4 M4
+
+= white
+
+=5 N9
+
+= white
+
+=6 M8
+
+= white
+
+=7 M1
+
+= white
+
+=8 H8
+
+= white
+
+=9 B6
+
+= white
+
+=10 E3
+
+= white
+
+=11 G6
+
+= white
+
+=12 G7
+
+= white
+
+=13 G7
+
+= white
+
+=14 E8
+
+= white
+
+=15 C7
+
+= white
+
+=16 C6
+
+= white
+
+=17 L5
+
+= white
+
+=18 0
+
+= white
+
+=19 C10
+
+= white
+
+=20 M8
+
+= white
+
+=21 N8
+
+= white
+
+=22 C9
+
+= white
+
+=23 E12
+
+= white
+
+=24 H6
+
+= white
+
+=25 J5
+
+= white
+
+=26 J5
+
+= white
+
+=27 E3
+
+= white
+
+=28 E3
+
+= white
+
+=29 C8
+
+= white
+
+=30 B7
+
+= white
+
+=31 M4
+
+= white
+
+=33 E7
+
+= white
+
+=34 K13
+
+= white
+
+=35 B13
+
+= white
+
+=36 B2
+
+= white
+
+=37 E10
+
+= white
+
+=38 G10
+
+= white
+
+=39 H4
+
+= white
+
+=40 L11
+
+= white
+
+=41 H10
+
+= white
+
+=42 C7
+
+= black
+
+=43 D6
+
+= black
+
+=44 B6
+
+= black
+
+=45 B4
+
+= black
+
+=46 L3
+
+= black
+
+=47 K9
+
+= black
+
+=48 K7
+
+= black
+
+=49 K7
+
+= black
+
+=149 H12
+
+= black
+
+=50 H12
+
+= black
+
+=51 N9
+
+= black
+
+=52 H10
+
+= black
+
+=53 C6
+
+= black
+
+=54 H11
+
+= black
+
+=55 H6
+
+= black
+
+=56 H4
+
+= black
+
+=57 N7
+
+= black
+
+=58 0
+
+= black
+
+=59 K5
+
+= black
+
+=60 G3
+
+= black
+
+=61 K8
+
+= black
+
+=62 C12
+
+= black
+
+=63 K4
+
+= black
+
+=64 M3
+
+= black
+
+=65 L2
+
+= black
+
+=66 M5
+
+= black
+
+=67 B9
+
+= black
+
+=68 A8
+
+= black
+
+=69 D5
+
+= black
+
+=70 L10
+
+= black
+
+=71 J11
+
+= black
+
+=72 J10
+
+= black
+
+=73 H4
+
+= black
+
+=74 G7
+
+= black
+
+=75 E6
+
+= black
+
+=76 J3
+
+= black
+
+=77 C8
+
+= black
+
+=78 L4
+
+= black
+
+=79 M5
+
+= black
+
+=80 M2
+
+= black
+
+=81 M8
+
+= black
+
+=82 K4
+
+= black
+
+=83 L12
+
+= black
+
+=84 H13
+
+= black
+
+=85 D2
+
+= black
+
+=86 1 H5
+
+= black
+
+=87 F6
+
+= black
+
+=88 D6
+
+= black
+
+=89 0
+
+= black
+
+=90 A5
+
+= black
+
+=91 F5
+
+
+real	1m2.528s
+user	1m2.272s
+sys	0m0.242s
+~/debloat/pin_probe_debloat_experiments

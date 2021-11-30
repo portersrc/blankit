@@ -1,0 +1,3 @@
+BN_mod_exp_simple
+BN_dup
+EVP_VerifyFinal

@@ -1,0 +1,8 @@
+Running 3s test @ http://127.0.0.1:8080/wikipedia_main_page.html
+  12 threads and 400 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    45.74ms   97.09ms   1.23s    86.21%
+    Req/Sec     3.81k     3.23k   13.06k    63.12%
+  107696 requests in 3.07s, 8.19GB read
+Requests/sec:  35089.66
+Transfer/sec:      2.67GB

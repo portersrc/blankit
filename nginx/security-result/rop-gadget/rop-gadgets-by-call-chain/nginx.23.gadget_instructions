@@ -1,0 +1,37 @@
+0x00000000000ec6da : fstp qword ptr [rbx + 0x31] ; rcr byte ptr [rbp + 0x41], 0x5c ; ret
+0x00000000000ec6d9 : jne 0xec6c0 ; pop rbx ; xor eax, eax ; pop rbp ; pop r12 ; ret
+0x0000000000083d72 : je 0x83d86 ; pop rbx ; pop rbp ; pop r12 ; ret
+0x0000000000083d73 : or al, 0x5b ; pop rbp ; pop r12 ; ret
+0x0000000000083d71 : sal byte ptr [rsp + rcx + 0x5b], 0x5d ; pop r12 ; ret
+0x0000000000083d70 : test eax, eax ; je 0x83d88 ; pop rbx ; pop rbp ; pop r12 ; ret
+0x0000000000083d6f : test rax, rax ; je 0x83d89 ; pop rbx ; pop rbp ; pop r12 ; ret
+0x0000000000083f39 : dec byte ptr [rax - 0x77] ; ret
+0x0000000000083f93 : add byte ptr [rax + 0xf], cl ; ret 0x48c3
+0x0000000000083f92 : add byte ptr [rax], al ; cmove rax, rdx ; ret
+0x0000000000083f8f : add eax, 0xfb7c ; cmove rax, rdx ; ret
+0x0000000000083f90 : jl 0x83f95 ; add byte ptr [rax], al ; cmove rax, rdx ; ret
+0x0000000000083f97 : ret 0x48c3
+0x0000000000083f91 : sti ; add byte ptr [rax], al ; cmove rax, rdx ; ret
+0x000000000000c31e : add byte ptr [rax], al ; pop rbx ; ret
+0x000000000000c3d1 : cmp edx, -0x16 ; jne 0xc404 ; mov eax, ebx ; pop rbx ; ret
+0x000000000000c319 : dec dword ptr [rdi] ; xchg dword ptr [rcx + 0x5b000000], esi ; ret
+0x000000000000c3d0 : inc dword ptr [rbx + 0x2675eafa] ; mov eax, ebx ; pop rbx ; ret
+0x000000000000c31a : ja 0xc3d8 ; pop rbx ; ret
+0x000000000000c3d4 : jne 0xc401 ; mov eax, ebx ; pop rbx ; ret
+0x000000000000c308 : js 0xc316 ; mov eax, ecx ; syscall
+0x000000000000c307 : lea edi, dword ptr [rax + 8] ; mov eax, ecx ; syscall
+0x000000000000c306 : lea rdi, qword ptr [r8 + 8] ; mov eax, ecx ; syscall
+0x000000000000c31c : mov cl, 0 ; add byte ptr [rax], al ; pop rbx ; ret
+0x000000000000c304 : mov esi, ecx ; lea rdi, qword ptr [r8 + 8] ; mov eax, ecx ; syscall
+0x000000000000c303 : mov rsi, r9 ; lea rdi, qword ptr [r8 + 8] ; mov eax, ecx ; syscall
+0x000000000000c31b : xchg dword ptr [rcx + 0x5b000000], esi ; ret
+0x000000000000cfde : add byte ptr [rax], al ; xor eax, eax ; add rsp, 8 ; ret
+0x000000000000cedd : add ebp, edx ; xor eax, eax ; add rsp, 8 ; ret
+0x000000000000cf73 : jns 0xcf84 ; mov eax, 0xca ; syscall
+0x000000000000d01f : jns 0xd034 ; mov eax, 0xca ; syscall
+0x000000000000d01e : lea edi, dword ptr [rcx + 0xc] ; mov eax, 0xca ; syscall
+0x000000000000cf72 : lea edi, dword ptr [rcx + 8] ; mov eax, 0xca ; syscall
+0x000000000000d01d : lea rdi, qword ptr [r9 + 0xc] ; mov eax, 0xca ; syscall
+0x000000000000cf71 : lea rdi, qword ptr [r9 + 8] ; mov eax, 0xca ; syscall
+0x000000000000d020 : or al, 0xb8 ; retf 0
+0x000000000000cedc : xend ; xor eax, eax ; add rsp, 8 ; ret

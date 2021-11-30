@@ -1,0 +1,51 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/473.astar
+benchmark:        473.astar_wopin
+benchmark args:   BigLakes2048.cfg
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/473.astar ~/debloat/pin_probe_debloat_experiments
+Small Path Finding Library
+Read configuration file
+Create ways
+BigLakes2048.bin
+Create regional map time : 0
+
+Create ways time : 0
+Ways quantity : 468
+Total way length : 761939
+
+Create reg ways time : 0
+Reg ways quantity : 4603
+Total reg way length : 1417263
+
+Create river ways time : 0
+River ways quantity : 100
+Total river way length : 173223
+Create land ways time : 0
+Land ways quantity : 100
+Total land way length : 148092
+
+Create ways
+Random map
+Create regional map time : 0
+
+Create ways time : 0
+Ways quantity : 236
+Total way length : 252563
+
+Create reg ways time : 0
+Reg ways quantity : 15899
+Total reg way length : 1970873
+
+Create river ways time : 0
+River ways quantity : 0
+Total river way length : 0
+Create land ways time : 0
+Land ways quantity : 0
+Total land way length : 0
+
+
+real	2m16.332s
+user	2m16.070s
+sys	0m0.196s
+~/debloat/pin_probe_debloat_experiments

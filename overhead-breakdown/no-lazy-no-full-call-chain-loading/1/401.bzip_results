@@ -1,0 +1,45 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/401.bzip2
+benchmark:        401.bzip2_embedpin
+benchmark args:   input.source 280
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/401.bzip2 ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/401.bzip2/401.bzip2_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/401.bzip2/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/401.bzip2/approved_list_libm.txt
+BLANKIT_APPROVED_LIST_LIBGCC: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/401.bzip2/approved_list_libgcc.txt
+BLANKIT_APPROVED_LIST_LIBSTDCPP: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/401.bzip2/approved_list_libstdcpp.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/401.bzip2/string2id_map.csv
+pin main time (us): 17474
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/401.bzip2/401.bzip2_embedpin (us): 1
+load time for /lib64/ld-linux-x86-64.so.2 (us): 1
+load time for [vdso] (us): 1
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 143
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1742920
+spec_init
+Loading Input Data
+Duplicating 51763200 bytes
+Duplicating 103526400 bytes
+Duplicating 86548480 bytes
+Input data 293601280 bytes in length
+Compressing Input Data, level 5
+Compressed data 54403299 bytes in length
+Uncompressing Data
+Uncompressed data 293601280 bytes in length
+Uncompressed data compared correctly
+Compressing Input Data, level 7
+Compressed data 53599136 bytes in length
+Uncompressing Data
+Uncompressed data 293601280 bytes in length
+Uncompressed data compared correctly
+Compressing Input Data, level 9
+Compressed data 52960821 bytes in length
+Uncompressing Data
+Uncompressed data 293601280 bytes in length
+Uncompressed data compared correctly
+Tested 280MB buffer: OK!
+
+real	1m21.661s
+user	1m21.240s
+sys	0m0.403s
+~/debloat/pin_probe_debloat_experiments

@@ -1,0 +1,7 @@
+0x00000000000f0b1b : cmp eax, 0xfffff001 ; jae 0xf0b2a ; ret
+0x00000000000f0b1a : cmp rax, -0xfff ; jae 0xf0b2b ; ret
+0x00000000000f0b20 : jae 0xf0b25 ; ret
+0x00000000000f0b13 : mov eax, 0x9d ; syscall
+0x00000000000f0b11 : mov edx, ecx ; mov eax, 0x9d ; syscall
+0x00000000000f0b10 : mov r10, rcx ; mov eax, 0x9d ; syscall
+0x00000000000f0b12 : retf -0x6248

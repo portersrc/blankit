@@ -1,0 +1,20 @@
+0x00000000000f101e : cmp eax, 0xfffff000 ; ja 0xf1037 ; ret
+0x00000000000f101d : cmp rax, -0x1000 ; ja 0xf1038 ; ret
+0x00000000000f1023 : ja 0xf1032 ; ret
+0x00000000000f1016 : mov eax, 0x2d ; syscall
+0x00000000000f1076 : movsxd rdi, ebx ; mov eax, 0x2d ; syscall
+0x00000000000f1014 : movsxd rdi, edi ; mov eax, 0x2d ; syscall
+0x00000000000f1074 : out 0x48, al ; movsxd rdi, ebx ; mov eax, 0x2d ; syscall
+0x00000000000f1077 : sti ; mov eax, 0x2d ; syscall
+0x000000000001089b : adc byte ptr [rbx + 0x5d], bl ; pop r12 ; pop r13 ; pop r14 ; ret
+0x000000000001081e : cmp eax, 0xfffff000 ; ja 0x10837 ; ret
+0x000000000001081d : cmp rax, -0x1000 ; ja 0x10838 ; ret
+0x0000000000010823 : ja 0x10832 ; ret
+0x000000000001083a : mov dword ptr [rdx], eax ; mov rax, -1 ; ret
+0x0000000000010816 : mov eax, 0x2d ; syscall
+0x000000000001083c : mov rax, -1 ; ret
+0x0000000000010876 : movsxd rdi, ebx ; mov eax, 0x2d ; syscall
+0x0000000000010814 : movsxd rdi, edi ; mov eax, 0x2d ; syscall
+0x0000000000010874 : out 0x48, al ; movsxd rdi, ebx ; mov eax, 0x2d ; syscall
+0x0000000000010822 : push qword ptr [rdi + 0xb] ; ret
+0x0000000000010877 : sti ; mov eax, 0x2d ; syscall

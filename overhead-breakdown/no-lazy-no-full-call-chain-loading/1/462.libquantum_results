@@ -1,0 +1,30 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/462.libquantum
+benchmark:        462.libquantum_embedpin
+benchmark args:   1397 8
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/462.libquantum ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/462.libquantum/462.libquantum_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/462.libquantum/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/462.libquantum/approved_list_libm.txt
+BLANKIT_APPROVED_LIST_LIBGCC: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/462.libquantum/approved_list_libgcc.txt
+BLANKIT_APPROVED_LIST_LIBSTDCPP: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/462.libquantum/approved_list_libstdcpp.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/462.libquantum/string2id_map.csv
+pin main time (us): 17227
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/462.libquantum/462.libquantum_embedpin (us): 1
+load time for /lib64/ld-linux-x86-64.so.2 (us): 1
+load time for [vdso] (us): 0
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 146
+load time for /lib/x86_64-linux-gnu/libm.so.6 (us): 468848
+load time for /lib/x86_64-linux-gnu/libgcc_s.so.1 (us): 140376
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1707736
+N = 1397, 56 qubits required
+Random seed: 8
+Measured 1468006 (0.700000), fractional approximation is 7/10.
+Possible period is 10.
+1397 = 11 * 127
+
+real	6m17.993s
+user	6m17.232s
+sys	0m0.476s
+~/debloat/pin_probe_debloat_experiments

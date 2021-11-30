@@ -1,0 +1,13 @@
+0x00000000000e2512 : cmp eax, 0xfffff000 ; ja 0xe2527 ; ret
+0x00000000000e2511 : cmp rax, -0x1000 ; ja 0xe2528 ; ret
+0x00000000000e2517 : ja 0xe2522 ; ret
+0x00000000000e2508 : jne 0xe253f ; movsxd rdi, edi ; xor eax, eax ; syscall
+0x00000000000e2554 : mov esi, ebp ; movsxd rdi, ebx ; xor eax, eax ; syscall
+0x00000000000e2553 : mov rsi, rbp ; movsxd rdi, ebx ; xor eax, eax ; syscall
+0x00000000000e2557 : movsxd rdi, ebx ; xor eax, eax ; syscall
+0x00000000000e250b : movsxd rdi, edi ; xor eax, eax ; syscall
+0x00000000000e2555 : out dx, al ; movsxd rdi, ebx ; xor eax, eax ; syscall
+0x00000000000e2552 : ror byte ptr [rax - 0x77], 0xee ; movsxd rdi, ebx ; xor eax, eax ; syscall
+0x00000000000e2507 : sal byte ptr [rbp + 0x2e], 0x48 ; movsxd rdi, edi ; xor eax, eax ; syscall
+0x00000000000e2558 : sti ; xor eax, eax ; syscall
+0x00000000000e2506 : test eax, eax ; jne 0xe2541 ; movsxd rdi, edi ; xor eax, eax ; syscall

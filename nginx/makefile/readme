@@ -1,0 +1,18 @@
+
+cporter 2019.05.30
+
+
+Makefile
+"original" (not exactly) Makefile that I modified on sloppyjoe in order
+to get a default nginx binary running for us.
+
+
+Makefile.blankit
+supplied by girish. modified to work on sloppyjoe. This is for the
+instrumentation step.
+
+
+Makefile.blankit.embed
+supplied by girish. Makefile seems OK, in the sense that it fires off
+the build. But the embed pass fails for nginx.
+

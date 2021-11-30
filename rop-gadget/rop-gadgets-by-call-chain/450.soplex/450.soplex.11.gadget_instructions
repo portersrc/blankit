@@ -1,0 +1,28 @@
+0x00000000000c149a : add byte ptr [rax + 0x63], cl ; adc al, 0x98 ; add rax, rdx ; jmp rax
+0x00000000000c14ce : add byte ptr [rax + 0xe5], bh ; syscall
+0x00000000000c1443 : add byte ptr [rax - 0x77], cl ; ret 0x894c
+0x00000000000c14cc : add byte ptr [rax], al ; add byte ptr [rax + 0xe5], bh ; syscall
+0x00000000000c1441 : add byte ptr [rax], al ; add byte ptr [rax - 0x77], cl ; ret 0x894c
+0x00000000000c14cd : add byte ptr [rax], al ; mov eax, 0xe5 ; syscall
+0x00000000000c13fc : add byte ptr [rax], al ; xor esi, esi ; mov eax, 2 ; syscall
+0x00000000000c13fd : add byte ptr [rcx], dh ; idiv byte ptr [rax + 2] ; syscall
+0x00000000000c14cb : add dword ptr [rax], eax ; add byte ptr [rax], al ; mov eax, 0xe5 ; syscall
+0x00000000000c14e8 : add esp, 0x38 ; pop rbx ; pop rbp ; ret
+0x00000000000c14e7 : add rsp, 0x38 ; pop rbx ; pop rbp ; ret
+0x00000000000c1908 : call 0xedb22
+0x00000000000c14ea : cmp byte ptr [rbx + 0x5d], bl ; ret
+0x00000000000c143d : dec dword ptr [rdi] ; xchg esp, esi ; add byte ptr [rax], al ; add byte ptr [rax - 0x77], cl ; ret 0x894c
+0x00000000000c1440 : hlt ; add byte ptr [rax], al ; add byte ptr [rax - 0x77], cl ; ret 0x894c
+0x00000000000c13ff : idiv byte ptr [rax + 2] ; syscall
+0x00000000000c14d0 : in eax, 0 ; add byte ptr [rax], al ; syscall
+0x00000000000c1a14 : jg 0xc1a1a ; add cl, ch ; retf
+0x00000000000c14cf : mov eax, 0xe5 ; syscall
+0x00000000000c1448 : mov edi, eax ; mov eax, 3 ; syscall
+0x00000000000c142e : mov esi, ebp ; mov rdi, r8 ; mov eax, r9d ; syscall
+0x00000000000c1447 : mov rdi, r8 ; mov eax, 3 ; syscall
+0x00000000000c142d : mov rsi, rbp ; mov rdi, r8 ; mov eax, r9d ; syscall
+0x00000000000c1499 : or al, byte ptr [rax] ; movsxd rdx, dword ptr [rax + rbx*4] ; add rax, rdx ; jmp rax
+0x00000000000c142f : out dx, al ; mov rdi, r8 ; mov eax, r9d ; syscall
+0x00000000000c14e4 : sub eax, 1 ; add rsp, 0x38 ; pop rbx ; pop rbp ; ret
+0x00000000000c143f : xchg esp, esi ; add byte ptr [rax], al ; add byte ptr [rax - 0x77], cl ; ret 0x894c
+0x00000000000c13fe : xor esi, esi ; mov eax, 2 ; syscall

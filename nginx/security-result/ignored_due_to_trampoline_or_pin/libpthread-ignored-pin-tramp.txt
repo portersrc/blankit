@@ -1,0 +1,7 @@
+pthread_yield
+__fork
+close
+__libc_current_sigrtmin
+__libc_current_sigrtmax
+__libc_allocate_rtsig
+__lll_trylock_elision

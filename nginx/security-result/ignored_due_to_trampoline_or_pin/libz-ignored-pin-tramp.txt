@@ -1,0 +1,7 @@
+.text
+crc32_combine
+crc32_combine64
+gzseek
+gztell
+gzoffset
+gzgetc_

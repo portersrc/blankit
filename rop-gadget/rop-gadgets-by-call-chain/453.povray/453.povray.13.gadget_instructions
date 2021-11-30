@@ -1,0 +1,34 @@
+0x0000000000078388 : dec dword ptr [rax + 0x39] ; ret
+0x0000000000078373 : jne 0x78384 ; xor eax, eax ; ret
+0x0000000000078386 : loop 0x7838c ; dec dword ptr [rax + 0x39] ; ret
+0x0000000000078372 : sal byte ptr [rbp + 0xb], cl ; xor eax, eax ; ret
+0x0000000000078371 : test edx, edx ; jne 0x78386 ; xor eax, eax ; ret
+0x0000000000078370 : test rdx, rdx ; jne 0x78387 ; xor eax, eax ; ret
+0x000000000006b72d : add esp, 8 ; mov eax, edx ; pop rbx ; pop rbp ; ret
+0x000000000006b72c : add rsp, 8 ; mov eax, edx ; pop rbx ; pop rbp ; ret
+0x000000000006b72b : je 0x6b77e ; add esp, 8 ; mov eax, edx ; pop rbx ; pop rbp ; ret
+0x000000000006b730 : mov eax, edx ; pop rbx ; pop rbp ; ret
+0x000000000006b731 : rcr byte ptr [rbx + 0x5d], 1 ; ret
+0x000000000006b71e : ror byte ptr [rdi], 0x95 ; ret 0xdaf7
+0x000000000006b720 : xchg eax, ebp ; ret 0xdaf7
+0x0000000000076450 : sbb byte ptr [rax - 1], bh ; pop rbx ; pop rbp ; ret
+0x00000000000772c4 : fimul dword ptr [rax - 0x77] ; out dx, al ; mov eax, r13d ; syscall
+0x00000000000772c9 : mov eax, ebp ; syscall
+0x00000000000772c8 : mov eax, r13d ; syscall
+0x00000000000772c3 : mov edx, ebx ; mov rsi, rbp ; mov eax, r13d ; syscall
+0x00000000000772c6 : mov esi, ebp ; mov eax, r13d ; syscall
+0x00000000000772c2 : mov rdx, rbx ; mov rsi, rbp ; mov eax, r13d ; syscall
+0x00000000000772c5 : mov rsi, rbp ; mov eax, r13d ; syscall
+0x00000000000772f6 : or cl, byte ptr [rax + 1] ; ret 0x8949
+0x00000000000772c7 : out dx, al ; mov eax, r13d ; syscall
+0x00000000000e25e7 : adc al, ch ; ret
+0x00000000000e25ae : add dword ptr [rax], eax ; add byte ptr [rax], al ; syscall
+0x00000000000e25b5 : cmp eax, 0xfffff000 ; ja 0xe25c7 ; ret
+0x00000000000e25b4 : cmp rax, -0x1000 ; ja 0xe25c8 ; ret
+0x00000000000e25e6 : in al, dx ; adc al, ch ; ret
+0x00000000000e25ba : ja 0xe25c2 ; ret
+0x00000000000e25ad : mov eax, 1 ; syscall
+0x00000000000e25f7 : movsxd rdi, ebx ; mov eax, 1 ; syscall
+0x00000000000e25ab : movsxd rdi, edi ; mov eax, 1 ; syscall
+0x00000000000e25f5 : out dx, al ; movsxd rdi, ebx ; mov eax, 1 ; syscall
+0x00000000000e25f8 : sti ; mov eax, 1 ; syscall

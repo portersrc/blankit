@@ -1,0 +1,5 @@
+0x00000000000e2cd1 : and dword ptr [rax], eax ; add byte ptr [rax], al ; syscall
+0x00000000000e2cd8 : cmp eax, 0xfffff001 ; jae 0xe2ce7 ; ret
+0x00000000000e2cd7 : cmp rax, -0xfff ; jae 0xe2ce8 ; ret
+0x00000000000e2cdd : jae 0xe2ce2 ; ret
+0x00000000000e2cd0 : mov eax, 0x21 ; syscall

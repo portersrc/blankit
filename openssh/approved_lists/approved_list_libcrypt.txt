@@ -1,0 +1,7 @@
+.text
+crypt_r
+crypt
+encrypt_r
+encrypt
+setkey_r
+setkey

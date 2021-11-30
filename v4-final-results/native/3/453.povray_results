@@ -1,0 +1,11 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/453.povray
+benchmark:        453.povray_wopin
+benchmark args:   SPEC-benchmark-ref.ini
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/453.povray ~/debloat/pin_probe_debloat_experiments
+
+real	2m3.437s
+user	2m3.385s
+sys	0m0.016s
+~/debloat/pin_probe_debloat_experiments

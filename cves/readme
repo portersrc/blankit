@@ -1,0 +1,8 @@
+This list.txt was manually procured by reading all 95 CVEs for glibc,
+recording which functions are mentioned, and then checking which of these
+functions are in the glibc routine list. There must be an exact match in the
+dynamic list for it to be considered. For example, "alloca" is not found and so
+is discarded, even though there are multiple allocation functions. Duplicates
+also play no part in the final results. We are only interested in a unique set
+of functions that are both known to have vulnerabilities and known to be
+executed in glibc.

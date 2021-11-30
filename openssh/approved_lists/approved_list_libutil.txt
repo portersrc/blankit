@@ -1,0 +1,7 @@
+.text
+login
+login_tty
+logout
+logwtmp
+openpty
+forkpty

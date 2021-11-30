@@ -1,0 +1,8 @@
+0x0000000000080cc3 : and al, 0x18 ; add rsp, 0x10 ; pop rbx ; jmp rax
+0x0000000000080cc1 : mov esi, dword ptr [rsp + 0x18] ; add rsp, 0x10 ; pop rbx ; jmp rax
+0x0000000000080ccc : nop dword ptr [rax] ; add rsp, 0x10 ; pop rbx ; ret
+0x00000000000eb208 : cmp eax, 0xfffff001 ; jae 0xeb217 ; ret
+0x00000000000eb207 : cmp rax, -0xfff ; jae 0xeb218 ; ret
+0x00000000000eb20d : jae 0xeb212 ; ret
+0x00000000000eb200 : mov eax, 0xb ; syscall
+0x00000000000eb201 : or eax, dword ptr [rax] ; add byte ptr [rax], al ; syscall

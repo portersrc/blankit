@@ -1,0 +1,257 @@
+run()
+benchmarks root:  /home/rudy/debloat/pin_probe_debloat_experiments
+benchmark folder: spec2006/Wopin_ref/444.namd
+benchmark:        444.namd_embedpin
+benchmark args:   --input namd.input --iterations 38
+~/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/444.namd ~/debloat/pin_probe_debloat_experiments
+BLANKIT_APP_NAME: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/444.namd/444.namd_embedpin
+BLANKIT_APPROVED_LIST: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/444.namd/approved_list.txt
+BLANKIT_APPROVED_LIST_LIBM: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/444.namd/approved_list_libm.txt
+BLANKIT_APPROVED_LIST_LIBGCC: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/444.namd/approved_list_libgcc.txt
+BLANKIT_PREDICT_SETS: /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/444.namd/string2id_map.csv
+BLANKIT_LAZY: 1
+pin main time (us): 15853
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/spec2006/Wopin_ref/444.namd/444.namd_embedpin (us): 1
+load time for /lib64/ld-linux-x86-64.so.2 (us): 1
+load time for [vdso] (us): 0
+load time for /home/rudy/debloat/pin_probe_debloat_experiments/blankit/libblankit.so (us): 146
+load time for /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (us): 1
+load time for /lib/x86_64-linux-gnu/libm.so.6 (us): 432028
+load time for /lib/x86_64-linux-gnu/libgcc_s.so.1 (us): 143596
+load time for /lib/x86_64-linux-gnu/libc.so.6 (us): 1563894
+*** TEST RUN - 38 ITERATIONS ***
+iteration 0: 1 0 0
+iteration 0: 1 1 0
+iteration 0: 1 1 1
+iteration 0: 0 0 0
+iteration 0: 0 1 0
+iteration 0: 0 1 1
+iteration 1: 1 0 0
+iteration 1: 1 1 0
+iteration 1: 1 1 1
+iteration 1: 0 0 0
+iteration 1: 0 1 0
+iteration 1: 0 1 1
+iteration 2: 1 0 0
+iteration 2: 1 1 0
+iteration 2: 1 1 1
+iteration 2: 0 0 0
+iteration 2: 0 1 0
+iteration 2: 0 1 1
+iteration 3: 1 0 0
+iteration 3: 1 1 0
+iteration 3: 1 1 1
+iteration 3: 0 0 0
+iteration 3: 0 1 0
+iteration 3: 0 1 1
+iteration 4: 1 0 0
+iteration 4: 1 1 0
+iteration 4: 1 1 1
+iteration 4: 0 0 0
+iteration 4: 0 1 0
+iteration 4: 0 1 1
+iteration 5: 1 0 0
+iteration 5: 1 1 0
+iteration 5: 1 1 1
+iteration 5: 0 0 0
+iteration 5: 0 1 0
+iteration 5: 0 1 1
+iteration 6: 1 0 0
+iteration 6: 1 1 0
+iteration 6: 1 1 1
+iteration 6: 0 0 0
+iteration 6: 0 1 0
+iteration 6: 0 1 1
+iteration 7: 1 0 0
+iteration 7: 1 1 0
+iteration 7: 1 1 1
+iteration 7: 0 0 0
+iteration 7: 0 1 0
+iteration 7: 0 1 1
+iteration 8: 1 0 0
+iteration 8: 1 1 0
+iteration 8: 1 1 1
+iteration 8: 0 0 0
+iteration 8: 0 1 0
+iteration 8: 0 1 1
+iteration 9: 1 0 0
+iteration 9: 1 1 0
+iteration 9: 1 1 1
+iteration 9: 0 0 0
+iteration 9: 0 1 0
+iteration 9: 0 1 1
+iteration 10: 1 0 0
+iteration 10: 1 1 0
+iteration 10: 1 1 1
+iteration 10: 0 0 0
+iteration 10: 0 1 0
+iteration 10: 0 1 1
+iteration 11: 1 0 0
+iteration 11: 1 1 0
+iteration 11: 1 1 1
+iteration 11: 0 0 0
+iteration 11: 0 1 0
+iteration 11: 0 1 1
+iteration 12: 1 0 0
+iteration 12: 1 1 0
+iteration 12: 1 1 1
+iteration 12: 0 0 0
+iteration 12: 0 1 0
+iteration 12: 0 1 1
+iteration 13: 1 0 0
+iteration 13: 1 1 0
+iteration 13: 1 1 1
+iteration 13: 0 0 0
+iteration 13: 0 1 0
+iteration 13: 0 1 1
+iteration 14: 1 0 0
+iteration 14: 1 1 0
+iteration 14: 1 1 1
+iteration 14: 0 0 0
+iteration 14: 0 1 0
+iteration 14: 0 1 1
+iteration 15: 1 0 0
+iteration 15: 1 1 0
+iteration 15: 1 1 1
+iteration 15: 0 0 0
+iteration 15: 0 1 0
+iteration 15: 0 1 1
+iteration 16: 1 0 0
+iteration 16: 1 1 0
+iteration 16: 1 1 1
+iteration 16: 0 0 0
+iteration 16: 0 1 0
+iteration 16: 0 1 1
+iteration 17: 1 0 0
+iteration 17: 1 1 0
+iteration 17: 1 1 1
+iteration 17: 0 0 0
+iteration 17: 0 1 0
+iteration 17: 0 1 1
+iteration 18: 1 0 0
+iteration 18: 1 1 0
+iteration 18: 1 1 1
+iteration 18: 0 0 0
+iteration 18: 0 1 0
+iteration 18: 0 1 1
+iteration 19: 1 0 0
+iteration 19: 1 1 0
+iteration 19: 1 1 1
+iteration 19: 0 0 0
+iteration 19: 0 1 0
+iteration 19: 0 1 1
+iteration 20: 1 0 0
+iteration 20: 1 1 0
+iteration 20: 1 1 1
+iteration 20: 0 0 0
+iteration 20: 0 1 0
+iteration 20: 0 1 1
+iteration 21: 1 0 0
+iteration 21: 1 1 0
+iteration 21: 1 1 1
+iteration 21: 0 0 0
+iteration 21: 0 1 0
+iteration 21: 0 1 1
+iteration 22: 1 0 0
+iteration 22: 1 1 0
+iteration 22: 1 1 1
+iteration 22: 0 0 0
+iteration 22: 0 1 0
+iteration 22: 0 1 1
+iteration 23: 1 0 0
+iteration 23: 1 1 0
+iteration 23: 1 1 1
+iteration 23: 0 0 0
+iteration 23: 0 1 0
+iteration 23: 0 1 1
+iteration 24: 1 0 0
+iteration 24: 1 1 0
+iteration 24: 1 1 1
+iteration 24: 0 0 0
+iteration 24: 0 1 0
+iteration 24: 0 1 1
+iteration 25: 1 0 0
+iteration 25: 1 1 0
+iteration 25: 1 1 1
+iteration 25: 0 0 0
+iteration 25: 0 1 0
+iteration 25: 0 1 1
+iteration 26: 1 0 0
+iteration 26: 1 1 0
+iteration 26: 1 1 1
+iteration 26: 0 0 0
+iteration 26: 0 1 0
+iteration 26: 0 1 1
+iteration 27: 1 0 0
+iteration 27: 1 1 0
+iteration 27: 1 1 1
+iteration 27: 0 0 0
+iteration 27: 0 1 0
+iteration 27: 0 1 1
+iteration 28: 1 0 0
+iteration 28: 1 1 0
+iteration 28: 1 1 1
+iteration 28: 0 0 0
+iteration 28: 0 1 0
+iteration 28: 0 1 1
+iteration 29: 1 0 0
+iteration 29: 1 1 0
+iteration 29: 1 1 1
+iteration 29: 0 0 0
+iteration 29: 0 1 0
+iteration 29: 0 1 1
+iteration 30: 1 0 0
+iteration 30: 1 1 0
+iteration 30: 1 1 1
+iteration 30: 0 0 0
+iteration 30: 0 1 0
+iteration 30: 0 1 1
+iteration 31: 1 0 0
+iteration 31: 1 1 0
+iteration 31: 1 1 1
+iteration 31: 0 0 0
+iteration 31: 0 1 0
+iteration 31: 0 1 1
+iteration 32: 1 0 0
+iteration 32: 1 1 0
+iteration 32: 1 1 1
+iteration 32: 0 0 0
+iteration 32: 0 1 0
+iteration 32: 0 1 1
+iteration 33: 1 0 0
+iteration 33: 1 1 0
+iteration 33: 1 1 1
+iteration 33: 0 0 0
+iteration 33: 0 1 0
+iteration 33: 0 1 1
+iteration 34: 1 0 0
+iteration 34: 1 1 0
+iteration 34: 1 1 1
+iteration 34: 0 0 0
+iteration 34: 0 1 0
+iteration 34: 0 1 1
+iteration 35: 1 0 0
+iteration 35: 1 1 0
+iteration 35: 1 1 1
+iteration 35: 0 0 0
+iteration 35: 0 1 0
+iteration 35: 0 1 1
+iteration 36: 1 0 0
+iteration 36: 1 1 0
+iteration 36: 1 1 1
+iteration 36: 0 0 0
+iteration 36: 0 1 0
+iteration 36: 0 1 1
+iteration 37: 1 0 0
+iteration 37: 1 1 0
+iteration 37: 1 1 1
+iteration 37: 0 0 0
+iteration 37: 0 1 0
+iteration 37: 0 1 1
+*** TEST RUN - 38 ITERATIONS ***
+SUCCESSFUL COMPLETION
+
+real	4m18.694s
+user	4m18.318s
+sys	0m0.331s
+~/debloat/pin_probe_debloat_experiments

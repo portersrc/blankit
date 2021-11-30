@@ -1,0 +1,9 @@
+0x00000000000f1731 : and byte ptr [rcx], al ; add byte ptr [rax], al ; syscall
+0x00000000000f1738 : cmp eax, 0xfffff000 ; ja 0xf1747 ; ret
+0x00000000000f1737 : cmp rax, -0x1000 ; ja 0xf1748 ; ret
+0x00000000000f173d : ja 0xf1742 ; ret
+0x00000000000f1730 : mov eax, 0x120 ; syscall
+0x00000000000f177f : movsxd rdi, ebx ; mov eax, 0x120 ; syscall
+0x00000000000f172e : movsxd rdi, edi ; mov eax, 0x120 ; syscall
+0x00000000000f177d : out dx, al ; movsxd rdi, ebx ; mov eax, 0x120 ; syscall
+0x00000000000f1780 : sti ; mov eax, 0x120 ; syscall
